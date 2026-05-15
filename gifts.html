@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>禮物 ❤️</title>
+
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:Arial,"Microsoft JhengHei";
+
+background:
+linear-gradient(rgba(20,0,10,.45),rgba(20,0,10,.45)),
+url('img/bg.png');
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+color:white;
+min-height:100vh;
+overflow-x:hidden;
+padding:24px 18px 120px;
+}
+
+.container{
+max-width:520px;
+margin:auto;
+}
+
+.logo{
+font-size:30px;
+font-weight:900;
+margin-bottom:24px;
+text-shadow:none;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,120,160,.18);
+border-radius:30px;
+padding:28px;
+backdrop-filter:blur(18px);
+margin-bottom:18px;
+box-shadow:0 0 28px rgba(255,40,90,.12);
+}
+
+.bottom-nav{
+position:fixed;
+left:50%;
+bottom:18px;
+transform:translateX(-50%);
+width:min(92%,520px);
+height:76px;
+background:rgba(20,10,18,.76);
+border:1px solid rgba(255,120,160,.18);
+border-radius:30px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+backdrop-filter:blur(20px);
+z-index:99999;
+}
+
+.nav-item{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:4px;
+color:#ffdce7;
+font-size:12px;
+text-decoration:none;
+}
+
+.nav-item.active{
+color:#ff6f9f;
+}
+
+.nav-icon{
+font-size:24px;
+}
+
+
+.title{
+font-size:32px;
+margin-bottom:20px;
+color:#ff9cbc;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:16px;
+}
+
+.gift-card{
+position:relative;
+background:
+linear-gradient(
+180deg,
+rgba(255,245,248,.96),
+rgba(255,236,242,.92)
+);
+
+border-radius:28px;
+padding:14px;
+text-align:center;
+overflow:hidden;
+
+border:1px solid rgba(255,190,210,.7);
+
+transition:.25s;
+}
+
+.gift-card:hover{
+transform:translateY(-4px);
+}
+
+.gift-card::before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+right:0;
+height:5px;
+
+background:
+linear-gradient(
+90deg,
+#ff8fb1,
+#ffbfd0,
+#ff8fb1
+);
+}
+
+.gift-photo{
+width:100%;
+height:170px;
+object-fit:cover;
+border-radius:20px;
+margin-bottom:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="title">🎁 我們的禮物</div>
+
+<div class="grid">
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/1.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>Marc Jacobs耳環💎</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/2.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>24K玫瑰🌹</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/3.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>Olivia手錶⌚</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/4.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>18K手環📿</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/5.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>18K耳環風水紅寶💎</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/6.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>24K紀念💎</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/7.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>18K戒指💍</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/8.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>18K項鍊📿</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/9.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>史迪奇🧸</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/10.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>Dyson吹風機🪻</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/11.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>蛋塔、裝飾花🌹</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/12.jpeg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>生日禮物🎂</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/13.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>情人節花🌹</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/14.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>38婦女節花🌹</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/15.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>DW天蠍座吊飾♏</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/16.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>DW迷你手錶⌚</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/17.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>24K紀念💎</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/18.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>24K紀念💎</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/19.jpeg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>蠟花熊🧸</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/20.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>玩偶🧸</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/21.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>玩偶🧸</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/22.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>玩偶🧸</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/23.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>24K紀念💎</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/24.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>三種顏色玫瑰🌹</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/25.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>美人配美花🌹</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/26.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>藍玫瑰🪻</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/27.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>一對手鍊銀📿</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/28.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>100朵玫瑰🌹</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/29.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>14K耳環玫瑰金💎</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/30.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>9K戒指💍</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/31.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>情人節🌹</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/32.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>香水💎</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/33.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>Fossil手錶⌚</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/34.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>銀項鍊📿</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/35.jpg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>第一次送花🌹</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/36.jpeg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>寶寶送我手錶⌚</div>
+</div>
+
+<div class="gift-card">
+<img class="gift-photo" src="gift/37.jpeg">
+<div style='font-size:18px;font-weight:800;color:#ff5f8f;'>寶寶送我生日禮物🎂</div>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="bottom-nav">
+
+<a class="nav-item " href="index.html">
+<div class="nav-icon">🏠</div>
+<div>首頁</div>
+</a>
+
+<a class="nav-item " href="timeline.html">
+<div class="nav-icon">💗</div>
+<div>回憶</div>
+</a>
+
+<a class="nav-item " href="letter.html">
+<div class="nav-icon">💌</div>
+<div>情書</div>
+</a>
+
+<a class="nav-item active" href="gifts.html">
+<div class="nav-icon">🎁</div>
+<div>禮物</div>
+</a>
+
+</div>
+
+
+</body>
+</html>

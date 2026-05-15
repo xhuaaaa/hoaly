@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>回憶 ❤️</title>
+
+<style>
+
+
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:Arial,"Microsoft JhengHei";
+
+background:
+linear-gradient(rgba(12,0,6,.62),rgba(12,0,6,.62)),
+url('img/bg.png');
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+color:white;
+min-height:100vh;
+overflow-x:hidden;
+padding:24px 18px 120px;
+}
+
+.container{
+max-width:520px;
+margin:auto;
+}
+
+.logo{
+text-align:center;
+font-size:35px !important;
+letter-spacing:2px;
+
+color:#fff5f8;
+
+text-shadow:
+0 0 18px rgba(255,160,190,1),
+0 0 40px rgba(255,80,130,.95),
+0 0 80px rgba(255,30,90,.55);
+
+font-weight:900;
+margin-bottom:24px;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,120,160,.18);
+border-radius:30px;
+padding:28px;
+backdrop-filter:blur(18px);
+margin-bottom:18px;
+box-shadow:0 0 28px rgba(255,40,90,.12);
+}
+
+.bottom-nav{
+position:fixed;
+left:50%;
+bottom:18px;
+transform:translateX(-50%);
+width:min(92%,520px);
+height:76px;
+background:rgba(20,10,18,.76);
+border:1px solid rgba(255,120,160,.18);
+border-radius:30px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+backdrop-filter:blur(20px);
+z-index:99999;
+}
+
+.nav-item{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:4px;
+color:#ffdce7;
+font-size:12px;
+text-decoration:none;
+}
+
+.nav-item.active{
+color:#ff6f9f;
+}
+
+.nav-icon{
+font-size:24px;
+}
+
+
+.timeline-title{
+text-align:center;
+margin-bottom:26px;
+}
+
+.timeline-title h2{
+font-size:30px;
+margin-bottom:8px;
+}
+
+.timeline{
+position:relative;
+padding-left:26px;
+}
+
+.timeline::before{
+content:'';
+position:absolute;
+
+left:8px;
+top:0;
+
+width:5px;
+height:100%;
+
+background:
+linear-gradient(
+to bottom,
+rgba(255,255,255,1),
+rgba(255,90,90,1),
+rgba(255,20,20,.95),
+rgba(180,0,0,.72),
+transparent
+);
+
+border-radius:999px;
+
+/* 強霓虹 */
+box-shadow:
+0 0 6px rgba(255,255,255,.95),
+0 0 14px rgba(255,100,100,1),
+0 0 28px rgba(255,40,40,.98),
+0 0 52px rgba(255,0,0,.82),
+0 0 90px rgba(255,0,0,.42),
+0 0 140px rgba(255,0,0,.22);
+}
+
+.memory-item{
+position:relative;
+display:flex;
+align-items:center;
+gap:20px;
+
+background:
+linear-gradient(
+135deg,
+rgba(140,35,35,.34),
+rgba(70,10,10,.30)
+);
+
+border:2px solid rgba(255,70,70,.95);
+
+border-radius:34px;
+
+padding:22px;
+
+margin-bottom:28px;
+
+backdrop-filter:blur(20px);
+
+box-shadow:
+0 0 12px rgba(255,70,70,.95),
+0 0 28px rgba(255,30,30,.58),
+0 0 60px rgba(180,0,0,.22);
+
+overflow:visible;
+transition:.35s ease;
+}
+
+
+.memory-item::after{
+content:none;
+}
+
+.memory-item::before{
+content:'';
+position:absolute;
+
+left:-29px;
+top:50%;
+
+transform:translateY(-50%);
+
+width:14px;
+height:14px;
+
+border-radius:50%;
+
+background:#fff5f5;
+
+border:3px solid #ff2d2d;
+
+box-shadow:
+0 0 10px rgba(255,70,70,1),
+0 0 20px rgba(255,30,30,.85),
+0 0 40px rgba(220,0,0,.55);
+
+z-index:9;
+}
+
+/* 外圈 */
+.memory-item .timeline-ring{
+position:absolute;
+
+left:-32px;
+top:50%;
+
+transform:translateY(-50%);
+
+width:25px;
+height:25px;
+
+border-radius:50%;
+
+border:1.5px solid rgba(255,80,80,.92);
+
+box-shadow:
+0 0 10px rgba(255,60,60,.75),
+0 0 24px rgba(255,20,20,.42);
+
+z-index:8;
+
+pointer-events:none;
+
+background:transparent;
+}
+
+.memory-content{flex:1;}
+
+.memory-date{font-size:14px;margin-bottom:6px;}
+
+.memory-title{font-size:18px;font-weight:bold;margin-bottom:6px;}
+
+.memory-text{line-height:1.6;font-size:14px;color:#ffdfe9;}
+
+.memory-photo{
+width:145px;
+height:112px;
+
+border-radius:28px;
+
+object-fit:cover;
+
+border:2px solid rgba(255,90,90,.28);
+
+box-shadow:
+0 0 20px rgba(255,40,40,.22);
+}
+
+/* romantic particles */
+body::before{
+content:'';
+position:fixed;
+inset:0;
+pointer-events:none;
+background:
+radial-gradient(circle at 20% 30%, rgba(255,120,170,.18), transparent 120px),
+radial-gradient(circle at 80% 20%, rgba(255,80,140,.14), transparent 140px),
+radial-gradient(circle at 40% 80%, rgba(255,140,190,.12), transparent 160px);
+z-index:0;
+}
+
+.container{
+position:relative;
+z-index:2;
+}
+
+
+/* ===== 回憶詳細視窗 ===== */
+.memory-modal{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.78);
+display:none;
+justify-content:center;
+align-items:center;
+padding:22px;
+z-index:999999;
+backdrop-filter:blur(10px);
+}
+
+.memory-modal-box{
+width:min(100%,540px);
+max-height:88vh;
+overflow-y:auto;
+border-radius:36px;
+
+background:
+linear-gradient(
+180deg,
+rgba(35,0,10,.98),
+rgba(10,0,5,.98)
+);
+
+border:2px solid rgba(255,80,120,.92);
+
+box-shadow:
+0 0 24px rgba(255,70,120,.92),
+0 0 70px rgba(255,20,90,.35);
+
+animation:memoryPopup .35s ease;
+}
+
+@keyframes memoryPopup{
+from{
+transform:translateY(30px) scale(.92);
+opacity:0;
+}
+to{
+transform:translateY(0) scale(1);
+opacity:1;
+}
+}
+
+.memory-cover{
+position:relative;
+height:300px;
+overflow:hidden;
+}
+
+.memory-cover img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.memory-cover::after{
+content:'';
+position:absolute;
+inset:0;
+background:linear-gradient(transparent,rgba(0,0,0,.88));
+}
+
+.memory-cover-text{
+position:absolute;
+left:26px;
+bottom:24px;
+z-index:2;
+}
+
+.memory-cover-title{
+font-size:40px;
+font-weight:900;
+}
+
+.memory-cover-date{
+margin-top:8px;
+font-size:18px;
+color:#ffdbe7;
+}
+
+.memory-detail-content{
+padding:28px;
+}
+
+.story-box{
+background:
+linear-gradient(
+135deg,
+rgba(255,70,120,.12),
+rgba(80,0,20,.12)
+);
+
+border:1px solid rgba(255,120,160,.22);
+
+border-radius:28px;
+
+padding:22px;
+
+line-height:2.1;
+font-size:17px;
+color:#fff0f5;
+
+white-space:pre-wrap;
+
+margin-bottom:24px;
+}
+
+.detail-title{
+font-size:24px;
+font-weight:900;
+margin-bottom:16px;
+color:#fff3f7;
+}
+
+.photo-scroll{
+display:flex;
+gap:14px;
+overflow-x:auto;
+padding-bottom:8px;
+margin-bottom:24px;
+}
+
+.photo-scroll img{
+width:230px;
+height:300px;
+object-fit:cover;
+border-radius:28px;
+border:2px solid rgba(255,100,140,.88);
+flex-shrink:0;
+}
+
+.typing-text{
+line-height:2.1;
+font-size:17px;
+color:#fff2f6;
+min-height:120px;
+white-space:pre-wrap;
+}
+
+.close-memory{
+width:100%;
+height:72px;
+border:none;
+border-radius:999px;
+
+background:
+linear-gradient(
+135deg,
+#ff6f9f,
+#ff2d55
+);
+
+color:white;
+font-size:22px;
+font-weight:900;
+margin-top:20px;
+cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">🤍 Ký ức đôi ta</div>
+
+<div class="timeline-title">
+<h2 style="
+font-size:28px;
+color:#fff7fa;
+text-shadow:
+0 0 18px rgba(255,170,200,1),
+0 0 42px rgba(255,80,130,.92),
+0 0 80px rgba(255,30,90,.45);
+">Hành trình của chúng ta ✨</h2>
+<p style="
+font-size:20px;
+color:#fff4f7;
+text-shadow:
+0 0 12px rgba(255,90,140,.45);
+margin-top:8px;
+">Every memory with you ❤️</p>
+<div style="
+width:90px;
+height:4px;
+margin:18px auto 0;
+border-radius:999px;
+background:linear-gradient(to right,#ffb0cb,#ff4f8c);
+box-shadow:
+0 0 12px rgba(255,80,130,.8),
+0 0 24px rgba(255,40,100,.45);
+"></div>
+
+</div>
+
+<div class="timeline">
+
+<div class="memory-item" onclick="openmomvn()"><div class="timeline-ring"></div>
+<div class="memory-content">
+<div class="memory-date">2026.04.30 ~ 2026.05.02</div>
+<div class="memory-title">和媽媽去找寶寶 💕</div>
+<div class="memory-text">帶媽媽去老婆家...</div>
+</div>
+<img class="memory-photo" src="img\mom.jpg">
+</div>
+
+<div class="memory-item" onclick="openwifetw2()"><div class="timeline-ring"></div>
+<div class="memory-content">
+<div class="memory-date">2026.03.18 ~ 2026.03.28</div>
+<div class="memory-title">老婆第二次來臺灣 🇹🇼</div>
+<div class="memory-text">老婆來見我家人...</div>
+</div>
+<img class="memory-photo" src="img\twfm.jpg">
+</div>
+
+<div class="memory-item" onclick="openBirthdayMemory()"><div class="timeline-ring"></div>
+<div class="memory-content">
+<div class="memory-date">2025.11.15 ~ 2025.11.24</div>
+<div class="memory-title">去河內慶生 🎂</div>
+<div class="memory-text">體驗郵輪...</div>
+</div>
+<img class="memory-photo" src="img\38.jpeg">
+</div>
+
+<div class="memory-item" onclick="opendalat()"><div class="timeline-ring"></div>
+<div class="memory-content">
+<div class="memory-date">2025.09.11 ~ 2025.09.16</div>
+<div class="memory-title">大叻旅遊 🎂</div>
+<div class="memory-text">最特別的生日...</div>
+</div>
+<img class="memory-photo" src="img\34.jpeg">
+</div>
+
+<div class="memory-item" onclick="openwifetw()"><div class="timeline-ring"></div>
+<div class="memory-content">
+<div class="memory-date">2025.06.12 ~ 2025.06.22</div>
+<div class="memory-title">老婆第一次來臺灣 🛩️</div>
+<div class="memory-text">第一次坐飛機...</div>
+</div>
+<img class="memory-photo" src="img\27.jpg">
+</div>
+
+<div class="memory-item" onclick="opendating()"><div class="timeline-ring"></div>
+<div class="memory-content">
+<div class="memory-date">2025.05.29 ~ 2025.06.02</div>
+<div class="memory-title">交往 💞</div>
+<div class="memory-text">和老婆去好多地方...</div>
+</div>
+<img class="memory-photo" src="img\dat.jpeg">
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="memory-modal" id="memoryModal">
+
+<div class="memory-modal-box">
+
+<div class="memory-cover">
+<img src="img/lyhcm.jpeg">
+
+<div class="memory-cover-text">
+<div class="memory-cover-title">❤️</div>
+<div class="memory-cover-date">2026.04.30</div>
+</div>
+
+</div>
+
+<div class="memory-detail-content">
+
+<div class="detail-title">💌 那天的小故事</div>
+
+<div class="story-box typing-text" id="typingText"></div>
+
+<div class="detail-title">📸 照片</div>
+
+<div class="photo-scroll">
+<img src="img/hoaly2h.jpeg">
+<img src="img/57.jpeg">
+<img src="img/19.jpg">
+<img src="img/22.jpg">
+</div>
+
+<div class="detail-title">✨ 那天的回憶</div>
+
+<div class="story-box">
+第一和媽媽去越南。
+
+和兩位美女一起吃飯，慶祝節日。
+
+看到妳看卡片的時候，我覺得一切都值得了 ❤️
+</div>
+
+<button class="close-memory" onclick="closeMemory()">
+關閉回憶 ❤️
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="bottom-nav">
+
+<a class="nav-item " href="index.html">
+<div class="nav-icon">🏠</div>
+<div>首頁</div>
+</a>
+
+<a class="nav-item active" href="timeline.html">
+<div class="nav-icon">💗</div>
+<div>回憶</div>
+</a>
+
+<a class="nav-item " href="letter.html">
+<div class="nav-icon">💌</div>
+<div>情書</div>
+</a>
+
+<a class="nav-item " href="gifts.html">
+<div class="nav-icon">🎁</div>
+<div>禮物</div>
+</a>
+
+</div>
+
+
+
+<script>
+
+const storyText = `老婆：
+
+長大後第一次和媽媽出國。
+
+這次主要是帶媽媽去越南旅遊慶祝母親節，但是我們的節日我也記得。
+
+花、禮物、還有想對妳說的話。
+
+看到妳開心的樣子，我覺得一切都值得了 ❤️`;
+
+function openmomvn(){
+
+document.getElementById('memoryModal').style.display='flex';
+
+const typing = document.getElementById('typingText');
+
+typing.innerHTML='';
+
+let i = 0;
+
+const timer = setInterval(()=>{
+
+typing.innerHTML += storyText.charAt(i);
+
+i++;
+
+if(i >= storyText.length){
+clearInterval(timer);
+}
+
+},28);
+
+}
+
+function closeMemory(){
+document.getElementById('memoryModal').style.display='none';
+}
+
+document.getElementById('memoryModal').addEventListener('click',function(e){
+
+if(e.target.id === 'memoryModal'){
+closeMemory();
+}
+
+});
+
+
+
+function setMemory(title,date,cover,story,photos,memoryText){
+
+const modal = document.getElementById('memoryModal');
+
+modal.querySelector('.memory-cover img').src = cover;
+modal.querySelector('.memory-cover-title').innerHTML = title;
+modal.querySelector('.memory-cover-date').innerHTML = date;
+
+const typing = document.getElementById('typingText');
+typing.innerHTML = '';
+
+let i = 0;
+
+const timer = setInterval(()=>{
+
+typing.innerHTML += story.charAt(i);
+
+i++;
+
+if(i >= story.length){
+clearInterval(timer);
+}
+
+},28);
+
+const photoScroll = modal.querySelector('.photo-scroll');
+
+photoScroll.innerHTML = '';
+
+photos.forEach(photo=>{
+
+photoScroll.innerHTML += `
+<img src="${photo}">
+`;
+
+});
+
+const storyBoxes = modal.querySelectorAll('.story-box');
+
+storyBoxes[1].innerHTML = memoryText;
+
+modal.style.display='flex';
+
+/* 每次點開回到最上面 */
+const modalBox = modal.querySelector('.memory-modal-box');
+modalBox.scrollTop = 0;
+
+}
+
+function openwifetw2(){
+
+setMemory(
+'老婆第二次來臺灣 🇻🇳',
+'2025.05.01',
+'img/twfm.jpg',
+
+`這次很期待，妳和我家人見面，心中真的很開心。
+
+這幾天見我的家人，結果我腸胃炎啦，太嚴重了。
+
+但是我們一起去了很多地方，也一起吃了很多好吃的東西，這次也是很特別的旅遊。`,
+
+[
+'img/twbad.jpeg',
+'img/twly.jpeg',
+'img/twmary.jpeg',
+'img/twfd.jpeg'
+],
+
+`看到家人都很喜歡寶寶，我很開心。
+
+也讓我更確定，以後想和妳一起生活 ❤️`
+);
+
+}
+
+function openBirthdayMemory(){
+
+setMemory(
+'河內慶生、旅遊 🎂',
+'2025.11.22',
+'img/hnbg.jpeg',
+
+`那天一起吃蛋糕、拍照片。
+
+也是我覺得最幸福的生日回憶之一。`,
+
+[
+'img/hnaq.jpeg',
+'img/hnbd.jpeg',
+'img/hnly.jpeg',
+'img/43.jpeg'
+],
+
+`以後每一年生日，我都陪妳慶祝。
+
+陪妳吹蠟燭、吃蛋糕、拍很多很多照片、禮物 ❤️`
+);
+
+}
+
+function opendalat(){
+
+setMemory(
+'大叻 🎂',
+'2025.09.11',
+'img/dlcat.jpeg',
+
+`沒想到妳給我一個大驚喜，幫我慶祝生日，那天看到妳用心準備，太感動了。
+
+這次是我感覺最特別的一次，最特別的生日，和最重要的人一起慶祝。`,
+
+[
+'img/dlbg.jpeg',
+'img/dlbth.jpeg',
+'img/dlcof.jpeg',
+'img/dlhm.jpeg'
+],
+
+`以後每一年生日，我們都一起慶祝。
+
+一起創造更多美好的回憶 ❤️`
+);
+
+}
+
+function openwifetw(){
+
+setMemory(
+'第一次坐飛機 ✈️',
+'2025.06.12',
+'img/twnt.jpeg',
+
+`寶寶第一次來臺灣，看著妳很期待，那樣子真可愛。
+
+這段時間，看妳吃臺灣食物不習慣，很心疼。`,
+
+[
+'img/twcks.jpeg',
+'img/twwe.jpeg',
+'img/twm.jpeg',
+'img/twsh.jpeg'
+],
+
+`看著妳平安回國，我就放心了。
+
+我們第一次一起出國旅遊 ❤️`
+);
+
+}
+
+function opendating(){
+
+setMemory(
+'交往 💞',
+'2025.05.29',
+'img/fdonut.jpeg',
+
+`那天和妳告白的時候，緊張的忘記要說甚麼了。
+
+謝謝妳帶我去見妳的家人，他們帶給我的溫暖，讓我沒有那麼緊張了，看到他們喜歡我，我也很開心`,
+
+[
+'img/23.jpg',
+'img/fhot.jpeg',
+'img/fwe.jpeg',
+'img/fmyb.jpeg'
+],
+
+`今天是我們故事的開始！
+
+每一年的今天，都是重要的節日 ❤️`
+);
+
+}
+</script>
+
+</body>
+</html>
