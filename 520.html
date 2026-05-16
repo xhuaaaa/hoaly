@@ -562,6 +562,85 @@
   }
 }
 
+
+#love520 #backHomeBtn{
+  margin-top:16px !important;
+
+  padding:16px 36px !important;
+  border-radius:999px !important;
+  border:none !important;
+
+  background:linear-gradient(
+    180deg,
+    #5aa9ff 0%,
+    #2563eb 55%,
+    #123caa 100%
+  ) !important;
+
+  color:#fff !important;
+  font-size:20px !important;
+  font-weight:900 !important;
+  letter-spacing:1px !important;
+
+  cursor:pointer !important;
+
+  box-shadow:
+    0 0 14px rgba(90,169,255,.55),
+    0 8px 20px rgba(20,40,120,.24) !important;
+
+  text-shadow:
+    0 0 6px rgba(255,255,255,.75),
+    0 0 14px rgba(120,190,255,.65) !important;
+
+  transition:all .25s ease !important;
+}
+
+#love520 #backHomeBtn:hover{
+  transform:scale(1.04);
+}
+
+
+#love520 #nextBtn,
+#love520 #backHomeBtn{
+  display:inline-block !important;
+  margin:26px 10px 0 !important;
+  vertical-align:middle !important;
+}
+
+#love520 #backHomeBtn{
+  padding:16px 36px !important;
+  border-radius:999px !important;
+  border:none !important;
+
+  background:linear-gradient(
+    180deg,
+    #5aa9ff 0%,
+    #2563eb 55%,
+    #123caa 100%
+  ) !important;
+
+  color:#fff !important;
+  font-size:20px !important;
+  font-weight:900 !important;
+  letter-spacing:1px !important;
+
+  cursor:pointer !important;
+
+  box-shadow:
+    0 0 14px rgba(90,169,255,.55),
+    0 8px 20px rgba(20,40,120,.24) !important;
+
+  text-shadow:
+    0 0 6px rgba(255,255,255,.75),
+    0 0 14px rgba(120,190,255,.65) !important;
+
+  transition:all .25s ease !important;
+}
+
+#love520 #backHomeBtn:hover{
+  transform:scale(1.04);
+}
+
 </style>
 
 <div id="diamondIntro">
@@ -3101,7 +3180,8 @@ body::before{
 		Vợ ơi, anh yêu em<br>
 		❤️❤️❤️❤️❤️❤️❤️❤️❤️
       </p>
-      <button class="enter-btn" type="button" onclick="showLoveMessage()">點我 ❤️</button>
+      <button class="enter-btn" type="button" onclick="showLoveMessage()">點我 ❤️</button><br>
+      <button onclick="window.location.href='index.html'" id="backHomeBtn">返回首頁</button>
     </div>
   </section>
 
@@ -4035,3 +4115,5 @@ document.addEventListener('DOMContentLoaded', function(){
   background: transparent !important;
 }
 </style>
+
+
