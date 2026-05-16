@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" href="icon.png">
+<title>LyHoa Life ❤️</title>
+
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:Arial,"Microsoft JhengHei";
+
+background:
+linear-gradient(rgba(10,0,4,.62),rgba(10,0,4,.62)),
+url('img/bg6.jpg');
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+color:white;
+min-height:100vh;
+overflow-x:hidden;
+
+padding:24px 18px 120px;
+
+display:flex;
+justify-content:center;
+}
+
+/* 【核心修正】3D 特效舞台：只包裹主網頁內容，不包裹密碼層，防止隱形 Bug */
+.perspective-stage {
+width: 100%;
+max-width: 520px;
+perspective: 1600px;
+transform-style: preserve-3d;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* 主網頁內容的超時空隧道初始狀態 */
+.container{
+width:100%;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+margin:0 auto;
+
+/* 初始藏在深處，透明模糊，等待被喚醒 */
+transform: translateZ(-800px) scale(0.5) rotateY(180deg) rotateZ(-10deg);
+opacity: 0;
+filter: blur(30px);
+transition: transform 1.8s cubic-bezier(0.25, 1, 0.3, 1), 
+            opacity 1.5s cubic-bezier(0.25, 1, 0.3, 1), 
+            filter 1.4s ease;
+}
+
+/* 解鎖成功或已驗證過：主網頁華麗飛入 */
+.container.main-show {
+transform: translateZ(0) scale(1) rotateY(0deg) rotateZ(0deg) !important;
+opacity: 1 !important;
+filter: blur(0px) !important;
+}
+
+.logo{
+font-size:34px;
+font-weight:900;
+margin-bottom:26px;
+
+color:#fff4f4;
+
+text-shadow:
+0 0 18px rgba(255,100,100,1),
+0 0 40px rgba(255,30,30,.95),
+0 0 80px rgba(180,0,0,.42);
+}
+
+.card{
+width:100%;
+
+background:
+linear-gradient(
+135deg,
+rgba(130,25,35,.30),
+rgba(40,0,0,.26)
+);
+
+border:2px solid rgba(255,90,90,.88);
+
+border-radius:34px;
+
+padding:32px;
+
+backdrop-filter:blur(20px);
+
+margin-bottom:20px;
+
+box-shadow:
+0 0 16px rgba(255,60,60,.95),
+0 0 36px rgba(255,20,20,.52),
+0 0 80px rgba(180,0,0,.22);
+}
+
+/* 導覽列：確保滾動時固定在最下方 */
+.bottom-nav{
+position:fixed;
+left:50%;
+bottom:18px;
+transform:translateX(-50%);
+width:min(92%,520px);
+height:76px;
+background:rgba(20,10,18,.76);
+border:1px solid rgba(255,120,160,.18);
+border-radius:30px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+backdrop-filter:blur(20px);
+z-index: 99999;
+
+opacity: 0;
+transform: translateX(-50%) translateY(50px) scale(0.9);
+transition: all 1.4s cubic-bezier(0.25, 1, 0.3, 1) 0.4s;
+}
+
+.bottom-nav.nav-show {
+opacity: 1 !important;
+transform: translateX(-50%) translateY(0) scale(1) !important;
+}
+
+.nav-item{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:4px;
+color:#ffdce7;
+font-size:12px;
+text-decoration:none;
+}
+
+.nav-item.active{
+color:#ff6f9f;
+}
+
+.nav-icon{
+font-size:24px;
+}
+
+.days-title{
+text-align:center;
+font-size:18px;
+opacity:.9;
+}
+
+.days{
+text-align:center;
+font-size:78px;
+font-weight:900;
+margin:12px 0;
+color:#ffffff;
+text-shadow:
+0 0 12px rgba(255,80,80,1),
+0 0 28px rgba(255,40,40,.95),
+0 0 60px rgba(255,0,0,.75),
+0 0 100px rgba(180,0,0,.45);
+}
+
+.sub{
+text-align:center;
+font-size:22px;
+}
+
+.grid{
+width:100%;
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:14px;
+}
+
+.small-card{
+position:relative;
+
+background:
+linear-gradient(
+135deg,
+rgba(120,20,20,.28),
+rgba(45,0,0,.22)
+);
+
+border:2px solid rgba(255,90,90,.92);
+
+border-radius:28px;
+
+padding:22px;
+
+overflow:hidden;
+
+backdrop-filter:blur(18px);
+
+box-shadow:
+0 0 14px rgba(255,60,60,.92),
+0 0 32px rgba(255,20,20,.45),
+0 0 70px rgba(180,0,0,.18);
+
+transition:.35s ease;
+}
+
+.small-card:hover{
+transform:
+translateY(-4px)
+scale(1.01);
+
+box-shadow:
+0 0 18px rgba(255,70,70,1),
+0 0 40px rgba(255,30,30,.65),
+0 0 90px rgba(180,0,0,.28);
+}
+
+.small-card h3{
+margin-bottom:10px;
+color:#ffffff;
+font-weight:900;
+text-shadow:
+0 0 8px rgba(120,190,255,1),
+0 0 18px rgba(80,160,255,.95),
+0 0 38px rgba(0,120,255,.75);
+-webkit-text-stroke: 0.6px rgba(180,220,255,.9);
+letter-spacing:0.5px;
+}
+
+.small-card p{
+line-height:1.8;
+color:#ffe2ea;
+}
+
+/* romantic glow particles */
+body::before{
+content:'';
+position:fixed;
+inset:0;
+pointer-events:none;
+
+background:
+radial-gradient(circle at 20% 30%, rgba(255,60,60,.16), transparent 140px),
+radial-gradient(circle at 80% 20%, rgba(255,0,0,.12), transparent 160px),
+radial-gradient(circle at 50% 80%, rgba(255,100,100,.10), transparent 180px);
+
+z-index:0;
+}
+
+.music-card{
+cursor:pointer;
+}
+
+.music-controls{
+display:flex;
+justify-content:center;
+gap:18px;
+margin-top:14px;
+font-size:24px;
+
+color:#ff8a8a;
+
+text-shadow:
+0 0 10px rgba(255,60,60,.95),
+0 0 22px rgba(255,20,20,.45);
+}
+
+.vinyl-wrap{
+display:flex;
+justify-content:center;
+margin:10px 0 18px;
+}
+
+.vinyl{
+width:90px;
+height:90px;
+border-radius:50%;
+
+background:
+radial-gradient(circle,#111 20%,#000 45%,#151515 60%,#000 100%);
+
+border:3px solid rgba(255,80,80,.85);
+
+box-shadow:
+0 0 18px rgba(255,60,60,.95),
+0 0 38px rgba(255,20,20,.45);
+
+position:relative;
+
+animation:spin 4s linear infinite;
+animation-play-state:paused;
+}
+
+.vinyl.playing{
+animation-play-state:running;
+}
+
+.vinyl::before{
+content:'';
+position:absolute;
+inset:10px;
+border-radius:50%;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.vinyl-center{
+position:absolute;
+left:50%;
+top:50%;
+
+transform:translate(-50%,-50%);
+
+width:18px;
+height:18px;
+
+border-radius:50%;
+
+background:#ff4d4d;
+
+box-shadow:
+0 0 12px rgba(255,60,60,.9);
+}
+
+@keyframes spin{
+from{
+transform:rotate(0deg);
+}
+to{
+transform:rotate(360deg);
+}
+}
+
+.music-controls{
+display:flex;
+justify-content:center;
+gap:14px;
+margin-top:14px;
+}
+
+.music-controls button{
+width:44px;
+height:44px;
+
+border:none;
+border-radius:50%;
+
+background:
+linear-gradient(
+135deg,
+rgba(255,60,60,.35),
+rgba(120,0,0,.28)
+);
+
+color:#fff;
+font-size:22px;
+
+cursor:pointer;
+
+backdrop-filter:blur(12px);
+
+box-shadow:
+0 0 12px rgba(255,50,50,.75),
+0 0 26px rgba(255,20,20,.35);
+
+transition:.25s ease;
+}
+
+.music-controls button:hover{
+transform:scale(1.08);
+}
+
+.long-link-btn{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:14px;
+
+width:100%;
+max-width:480px;
+
+height:92px;
+
+margin:28px auto 0 auto;
+
+border-radius:36px;
+
+text-decoration:none;
+
+background:
+linear-gradient(
+135deg,
+rgba(20,110,220,.55),
+rgba(0,60,180,.38),
+rgba(0,110,255,.42)
+);
+
+border:2px solid rgba(90,190,255,.95);
+
+color:#f7fbff;
+
+font-size:26px;
+font-weight:900;
+letter-spacing:1px;
+
+backdrop-filter:blur(24px);
+
+box-shadow:
+0 0 22px rgba(60,170,255,.95),
+0 0 52px rgba(0,110,255,.55),
+0 0 110px rgba(0,60,220,.35);
+
+transition:.35s ease;
+}
+
+.long-link-btn:hover{
+transform:translateY(-4px);
+}
+
+.long-link-btn .spark{
+font-size:32px;
+}
+
+.button-wrap{
+width:100%;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+margin-top:26px;
+}
+
+
+/* ===== 520 密碼倒數頁 (獨立分層樣式) ===== */
+
+#love520Gate{
+position:fixed;
+inset:0;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+padding:24px;
+
+background:
+linear-gradient(rgba(10,0,4,.72),rgba(10,0,4,.82)),
+url('img/bg4.png');
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+z-index:999999;
+backdrop-filter:blur(15px);
+/* 確保密碼頁一開始 100% 看得見 */
+opacity: 1;
+transition: opacity 1.6s cubic-bezier(0.25, 1, 0.3, 1), 
+            backdrop-filter 1.6s cubic-bezier(0.25, 1, 0.3, 1);
+}
+
+/* 遮罩大背景融化消散 */
+#love520Gate.gate-fade-out {
+opacity: 0 !important;
+backdrop-filter: blur(0px) !important;
+pointer-events: none;
+}
+
+.gate-box{
+width:min(100%,520px);
+
+background:
+linear-gradient(
+135deg,
+rgba(130,25,35,.30),
+rgba(40,0,0,.26)
+);
+
+backdrop-filter:blur(20px);
+
+border:2px solid rgba(255,220,120,.92);
+
+border-radius:38px;
+
+padding:38px 28px;
+
+text-align:center;
+
+box-shadow:
+0 0 24px rgba(255,220,120,.78),
+0 0 60px rgba(255,190,80,.35),
+0 0 120px rgba(255,170,40,.18);
+
+/* 3D 特效基礎 */
+perspective: 1000px;
+transform-style: preserve-3d;
+opacity: 1;
+transition: transform 1.3s cubic-bezier(0.25, 1, 0.3, 1), 
+            opacity 1.2s cubic-bezier(0.25, 1, 0.3, 1),
+            filter 1.2s ease;
+}
+
+/* 卡片瞬間產生劇烈震動，隨後向後翻轉湮滅 */
+.gate-box.box-disassemble {
+  animation: gatePowerShake 0.4s ease-in-out infinite;
+  transform: translateZ(-600px) rotateY(-45deg) scale(0.3) !important;
+  opacity: 0 !important;
+  filter: blur(15px) !important;
+}
+
+@keyframes gatePowerShake {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(-3px, 2px) rotate(-1deg); }
+  40% { transform: translate(3px, -1px) rotate(1deg); }
+  60% { transform: translate(-2px, -2px) rotate(-0.5deg); }
+  80% { transform: translate(2px, 1px) rotate(0.5deg); }
+}
+
+.gate-title{
+font-size:42px;
+font-weight:900;
+margin-bottom:16px;
+color:#fff0f5;
+text-shadow: 0 0 18px rgba(255,80,120,.92);
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
+}
+
+.gate-sub{
+font-size:18px;
+line-height:1.9;
+color:#ffe7ee;
+margin-bottom:30px;
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
+}
+
+/* 密碼卡片內元素星雲發散 */
+.explode-up {
+transform: translateY(-150px) translateZ(300px) rotateX(-45deg) scale(0.1) !important;
+opacity: 0 !important;
+filter: blur(8px) !important;
+}
+
+.explode-down {
+transform: translateY(150px) translateZ(300px) rotateX(45deg) scale(0.1) !important;
+opacity: 0 !important;
+filter: blur(8px) !important;
+}
+
+.countdown{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:12px;
+margin-bottom:30px;
+perspective: 800px;
+}
+
+.time-box{
+background:transparent !important;
+border:2px solid transparent;
+background-image:
+linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),
+linear-gradient(
+135deg,
+#ffb7c9,
+#ffe3ea,
+#ffd2df,
+#ffb7c9
+);
+background-origin:border-box;
+background-clip:padding-box,border-box;
+background-size:300% 300%;
+animation:rainbowBorder 6s linear infinite;
+border-radius:22px;
+padding:16px 10px;
+transition: transform 1.4s cubic-bezier(0.25, 1, 0.3, 1), 
+            opacity 1s ease, 
+            box-shadow 1s ease,
+            filter 1.2s ease;
+}
+
+/* 時空碎裂特效 */
+.time-box:nth-child(1).scatter { transform: translate3d(-250px, -180px, 400px) rotateX(120deg) rotateY(-90deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff2455;}
+.time-box:nth-child(2).scatter { transform: translate3d(-80px, -250px, 500px) rotateX(-120deg) rotateY(60deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff6f9f;}
+.time-box:nth-child(3).scatter { transform: translate3d(80px, -250px, 500px) rotateX(-120deg) rotateY(-60deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff6f9f;}
+.time-box:nth-child(4).scatter { transform: translate3d(250px, -180px, 400px) rotateX(120deg) rotateY(90deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff2455;}
+
+.time-number{
+font-size:34px;
+font-weight:900;
+color:#fff8fb;
+}
+
+.time-label{
+margin-top:6px;
+font-size:12px;
+letter-spacing:1px;
+color:#ffe7ee;
+}
+
+.gate-password-input{
+width:100%;
+height:58px;
+border:none;
+border-radius:999px;
+padding:0 20px;
+background:rgba(255,255,255,.12);
+color:white;
+font-size:18px;
+text-align:center;
+outline:none;
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
+}
+
+.gate-password-input::placeholder{
+color:rgba(255,255,255,.55);
+}
+
+
+.enter-btn{
+width:100%;
+height:60px;
+margin-top:18px;
+border:2px solid rgba(255,220,220,.95);
+border-radius:999px;
+background:linear-gradient(180deg,#ff5c66 0%, #ce102d 55%, #8f0718 100%);
+color:white;
+font-size:24px;
+font-weight:900;
+letter-spacing:2px;
+cursor:pointer;
+box-shadow:
+0 0 12px rgba(255,85,100,.55),
+0 8px 20px rgba(75,0,15,.24);
+text-shadow:
+0 0 6px rgba(255,255,255,.75),
+0 0 14px rgba(255,90,120,.65);
+transition:all .25s ease;
+}
+
+.enter-btn:hover{
+transform:translateY(-2px) scale(1.03);
+filter:brightness(1.08);
+}
+
+
+.gate-password-error{
+display:none;
+margin-top:12px;
+font-size:14px;
+color:#ffb8ca;
+}
+
+/* 全屏魔幻光芒粒子層 */
+.magic-particle {
+  position: fixed;
+  pointer-events: none;
+  width: 6px;
+  height: 6px;
+  background: #ff6f9f;
+  border-radius: 50%;
+  z-index: 1000000;
+  mix-blend-mode: screen;
+  box-shadow: 0 0 12px #ff2455, 0 0 24px #ff7ea9;
+}
+
+@keyframes rainbowBorder{
+0%{ background-position:0% 50%; }
+100%{ background-position:100% 50%; }
+}
+</style>
+</head>
+
+<body>
+
+<div id="love520Gate">
+  <div class="gate-box" id="gateBox">
+    <div class="gate-title" id="gateTitle">Cẩm Ly ❤️</div>
+    <div class="gate-sub" id="gateSub">這次的 520 很特別<br>一起倒數進入我們的回憶吧</div>
+    <div class="countdown">
+      <div class="time-box"><div class="time-number" id="gateDays">00</div><div class="time-label">DAYS</div></div>
+      <div class="time-box"><div class="time-number" id="gateHours">00</div><div class="time-label">HOURS</div></div>
+      <div class="time-box"><div class="time-number" id="gateMinutes">00</div><div class="time-label">MIN</div></div>
+      <div class="time-box"><div class="time-number" id="gateSeconds">00</div><div class="time-label">SEC</div></div>
+    </div>
+    <input id="gatePasswordInput" class="gate-password-input" type="password" placeholder="請輸入密碼">
+    <div id="gatePasswordError" class="gate-password-error">密碼錯誤 ❤️</div>
+    <button class="enter-btn" id="enterBtn" onclick="checkGatePassword()"> 🇻🇳進入🇻🇳 </button>
+  </div>
+</div>
+
+<div class="perspective-stage">
+
+  <div class="container" id="mainContainer">
+    <div class="logo">❤️ HoaLy Story</div>
+    <div class="card">
+      <div class="days-title">我們已經在一起</div>
+      <div class="days" id="loveDays">0</div>
+      <div class="sub">Days ❤️</div>
+    </div>
+
+    <div class="grid">
+      <div class="small-card">
+        <h3>📸 今日回憶</h3>
+        <p id="randomMemory"></p>
+      </div>
+      <div class="small-card music-card">
+        <h3>🎵 妳喜歡的音樂</h3>
+        <div class="vinyl-wrap"><div class="vinyl" id="vinylRecord"><div class="vinyl-center"></div></div></div>
+        <p id="musicTitle">點一下播放音樂 ❤️</p>
+        <div class="music-controls">
+          <button onclick="prevSong(event)">⏮</button>
+          <button onclick="toggleMusic(event)" id="musicStatus">▶️</button>
+          <button onclick="nextSong(event)">⏭</button>
+        </div>
+        <audio id="bgMusic"></audio>
+      </div>
+      <div class="small-card">
+        <h3>🏆 我們經歷</h3>
+        <p>✈️ 坐飛機 3 次<br>🇻🇳 去過大叻、河內、臺灣🇹🇼<br></p>
+      </div>
+      <div class="small-card">
+        <h3>💌 每日一句</h3>
+        <p id="loveQuote"></p>
+      </div>
+    </div>
+
+    <div class="button-wrap">
+      <a class="long-link-btn" href="520.html"><span class="spark">✨</span> 進入秘密空間 💙</a>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="bottom-nav" id="bottomNav">
+  <a class="nav-item active" href="index.html"><div class="nav-icon">🏠</div><div>首頁</div></a>
+  <a class="nav-item " href="timeline.html"><div class="nav-icon">💗</div><div>回憶</div></a>
+  <a class="nav-item " href="letter.html"><div class="nav-icon">💌</div><div>情書</div></a>
+  <a class="nav-item " href="gifts.html"><div class="nav-icon">🎁</div><div>禮物</div></a>
+</div>
+
+
+<script>
+const loveStartDate = new Date("2025-05-29");
+const today = new Date();
+const diffTime = today - loveStartDate;
+const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+document.getElementById("loveDays").innerText = diffDays;
+
+
+const memories = [
+`「第一次一起吃火鍋 ❤️」<br>📍 台北 · 2025/05/20<br>一起拍了好多照片`,
+
+`「第一次見面 💕」<br>📍 越南 · 2025/03/02<br>那天真的很緊張`,
+
+`「一起去大叻旅行 ✨」<br>📍 大叻 · 2025/09/11<br>留下很多漂亮照片`,
+
+`「妳第一次來臺灣 🇹🇼」<br>📍 台北 · 2025/06/12<br>坐飛機、帶妳去臺灣很多地方`,
+
+`「交往 ❤️」<br>📍 越南 · 2025/05/29<br>很開心也很感動`,
+
+`「一起過生日 🎂」<br>📍 河內 · 2025/11/22<br>幫妳準備很多驚喜`
+];
+
+const randomMemory =
+memories[Math.floor(Math.random() * memories.length)];
+
+document.getElementById("randomMemory").innerHTML = randomMemory;
+
+const loveQuotes = [
+"「愛是在妳看不見的地方，依然忠誠於妳 ❤️」",
+"「幸福是兩雙眼睛看同一個未來 💕」",
+"「距離遠不遠，我都會想辦法去見妳 ✈️」",
+"「妳是我最珍惜的禮物 🎁」",
+"「每一天醒來第一個想到的人都是妳 ❤️」",
+"「謝謝妳出現在我的生命裡 ✨」",
+"「就算世界改變，我還是會一直愛妳 💖」",
+"「如果心已經愛了，那眼前的人，就是最好的人。<br>如果內心不安定，那麼永遠都會覺得有更好的人出現。」",
+"「妳是我親手摘下的玫瑰，<br>即使帶著刺，我依然會緊緊抱著妳……」",
+"「有妳的地方，才像家 🏠」"
+];
+
+const randomQuote = loveQuotes[Math.floor(Math.random() * loveQuotes.length)];
+document.getElementById("loveQuote").innerHTML = randomQuote;
+
+const playlist = [
+{ title:"青衣 ❤️", src:"music/CR3.mp3" },
+{ title:"Summertime Sadness 💕", src:"music/sums.mp3" },
+{ title:"MÃI LÀ CÔ DÂU CỦA ANH ✨", src:"music/maila.mp3" },
+{ title:"Ải Hồng Nhan ❄️", src:"music/aihong.mp3" }
+];
+
+let currentSong = 0;
+const music = document.getElementById("bgMusic");
+const musicTitle = document.getElementById("musicTitle");
+const musicStatus = document.getElementById("musicStatus");
+const vinyl = document.getElementById("vinylRecord");
+
+function loadSong(index){
+music.src = playlist[index].src;
+musicTitle.innerHTML = "正在播放：<br>" + playlist[index].title;
+}
+
+function toggleMusic(event){
+event.stopPropagation();
+if(!music.src){ loadSong(currentSong); }
+if(music.paused){
+music.play();
+musicStatus.innerHTML = "⏸";
+vinyl.classList.add("playing");
+}else{
+music.pause();
+musicStatus.innerHTML = "▶️";
+vinyl.classList.remove("playing");
+}
+}
+
+function nextSong(event){
+event.stopPropagation();
+currentSong++;
+if(currentSong >= playlist.length){ currentSong = 0; }
+loadSong(currentSong);
+music.play();
+musicStatus.innerHTML = "⏸";
+vinyl.classList.add("playing");
+}
+
+function prevSong(event){
+event.stopPropagation();
+currentSong--;
+if(currentSong < 0){ currentSong = playlist.length - 1; }
+loadSong(currentSong);
+music.play();
+musicStatus.innerHTML = "⏸";
+vinyl.classList.add("playing");
+}
+
+music.addEventListener("ended",()=>{
+currentSong++;
+if(currentSong >= playlist.length){ currentSong = 0; }
+loadSong(currentSong);
+music.play();
+});
+</script>
+
+
+
+<script>
+async function sha256(text){
+const data = new TextEncoder().encode(text);
+const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+return Array.from(new Uint8Array(hashBuffer))
+.map(b => b.toString(16).padStart(2,"0"))
+.join("");
+}
+
+const PASSWORD_HASH = "110c83688539c2a30b98ac57ea20e5f0662126f3786bcd51c5bbd43955f99db7";
+
+function updateGateCountdown(){
+const targetDate = new Date("2026-05-20T00:00:00");
+const now = new Date();
+const diff = targetDate - now;
+const days = Math.floor(diff / (1000*60*60*24));
+const hours = Math.floor((diff / (1000*60*60)) % 24);
+const minutes = Math.floor((diff / (1000*60)) % 60);
+const seconds = Math.floor((diff / 1000) % 60);
+
+const d = days < 0 ? 0 : days;
+const h = hours < 0 ? 0 : hours;
+const m = minutes < 0 ? 0 : minutes;
+const s = seconds < 0 ? 0 : seconds;
+
+document.getElementById("gateDays").innerText = String(d).padStart(2,"0");
+document.getElementById("gateHours").innerText = String(h).padStart(2,"0");
+document.getElementById("gateMinutes").innerText = String(m).padStart(2,"0");
+document.getElementById("gateSeconds").innerText = String(s).padStart(2,"0");
+}
+
+function createMagicParticles() {
+  const container = document.body;
+  for (let i = 0; i < 60; i++) {
+    const particle = document.createElement("div");
+    particle.className = "magic-particle";
+    particle.style.left = "50vw";
+    particle.style.top = "45vh";
+    
+    const angle = Math.random() * Math.PI * 2;
+    const velocity = 5 + Math.random() * 15;
+    const destX = Math.cos(angle) * velocity * 25;
+    const destY = Math.sin(angle) * velocity * 25;
+    
+    const colors = ["#ff6f9f", "#ff2455", "#ffd2df", "#6fe2ff", "#ffdf79"];
+    particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+    
+    container.appendChild(particle);
+    
+    particle.animate([
+      { transform: 'translate(0, 0) scale(1)', opacity: 1, filter: 'blur(0px)' },
+      { transform: `translate(${destX}px, ${destY}px) scale(0)`, opacity: 0, filter: 'blur(5px)' }
+    ], {
+      duration: 1000 + Math.random() * 800,
+      easing: 'cubic-bezier(0.1, 0.8, 0.3, 1)',
+      fill: 'forwards'
+    });
+    
+    setTimeout(() => particle.remove(), 1800);
+  }
+}
+
+// 直接解鎖免密碼顯示
+function showMainPageDirectly() {
+  document.getElementById("love520Gate").style.display = "none";
+  document.getElementById("mainContainer").classList.add("main-show");
+  document.getElementById("bottomNav").classList.add("nav-show");
+}
+
+async function checkGatePassword(){
+const input = document.getElementById("gatePasswordInput");
+const error = document.getElementById("gatePasswordError");
+const value = input.value.trim();
+const hash = await sha256(value);
+
+if(hash === PASSWORD_HASH){
+error.style.display = "none";
+
+// 紀錄免登入狀態
+sessionStorage.setItem("love_gate_passed", "true");
+
+// 炸開魔法流星
+createMagicParticles();
+
+// 卡片文字方塊飛散
+document.getElementById("gateTitle").classList.add("explode-up");
+document.getElementById("gateSub").classList.add("explode-up");
+document.getElementById("gatePasswordInput").classList.add("explode-down");
+document.getElementById("enterBtn").classList.add("explode-down");
+
+const timeBoxes = document.querySelectorAll(".time-box");
+timeBoxes.forEach(box => box.classList.add("scatter"));
+
+// 卡片震動坍塌消散
+document.getElementById("gateBox").classList.add("box-disassemble");
+
+// 大大遮罩層淡出
+const gate = document.getElementById("love520Gate");
+gate.classList.add("gate-fade-out");
+
+// 迎接主頁從遠處飛過來
+setTimeout(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant"
+    });
+
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
+    document.getElementById("mainContainer").classList.add("main-show");
+    document.getElementById("bottomNav").classList.add("nav-show");
+}, 250);
+
+setTimeout(() => {
+gate.style.display = "none";
+}, 1600);
+
+}else{
+error.style.display = "block";
+}
+}
+
+window.addEventListener("load",()=>{
+// 優先綁定 Enter 鍵監聽
+const input = document.getElementById("gatePasswordInput");
+if(input){
+  input.addEventListener("keydown", function(e){
+    if(e.key === "Enter"){
+      e.preventDefault();
+      checkGatePassword();
+    }
+  });
+}
+
+// 驗證免密碼狀態
+if (sessionStorage.getItem("love_gate_passed") === "true") {
+  showMainPageDirectly();
+} else {
+  updateGateCountdown();
+  setInterval(updateGateCountdown, 1000);
+}
+});
+</script>
+
+</body>
+</html>
