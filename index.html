@@ -29,9 +29,19 @@ padding:24px 18px 120px;
 display:flex;
 justify-content:center;
 }
-}ng:24px 18px 120px;
+
+/* 【核心修正】3D 特效舞台：只包裹主網頁內容，不包裹密碼層，防止隱形 Bug */
+.perspective-stage {
+width: 100%;
+max-width: 520px;
+perspective: 1600px;
+transform-style: preserve-3d;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
+/* 主網頁內容的超時空隧道初始狀態 */
 .container{
 width:100%;
 
@@ -40,6 +50,21 @@ flex-direction:column;
 align-items:center;
 
 margin:0 auto;
+
+/* 初始藏在深處，透明模糊，等待被喚醒 */
+transform: translateZ(-800px) scale(0.5) rotateY(180deg) rotateZ(-10deg);
+opacity: 0;
+filter: blur(30px);
+transition: transform 1.8s cubic-bezier(0.25, 1, 0.3, 1), 
+            opacity 1.5s cubic-bezier(0.25, 1, 0.3, 1), 
+            filter 1.4s ease;
+}
+
+/* 解鎖成功或已驗證過：主網頁華麗飛入 */
+.container.main-show {
+transform: translateZ(0) scale(1) rotateY(0deg) rotateZ(0deg) !important;
+opacity: 1 !important;
+filter: blur(0px) !important;
 }
 
 .logo{
@@ -81,6 +106,7 @@ box-shadow:
 0 0 80px rgba(180,0,0,.22);
 }
 
+/* 導覽列：確保滾動時固定在最下方 */
 .bottom-nav{
 position:fixed;
 left:50%;
@@ -95,7 +121,16 @@ display:flex;
 justify-content:space-around;
 align-items:center;
 backdrop-filter:blur(20px);
-z-index:99999;
+z-index: 99999;
+
+opacity: 0;
+transform: translateX(-50%) translateY(50px) scale(0.9);
+transition: all 1.4s cubic-bezier(0.25, 1, 0.3, 1) 0.4s;
+}
+
+.bottom-nav.nav-show {
+opacity: 1 !important;
+transform: translateX(-50%) translateY(0) scale(1) !important;
 }
 
 .nav-item{
@@ -115,7 +150,6 @@ color:#ff6f9f;
 .nav-icon{
 font-size:24px;
 }
-
 
 .days-title{
 text-align:center;
@@ -175,7 +209,6 @@ box-shadow:
 transition:.35s ease;
 }
 
-
 .small-card:hover{
 transform:
 translateY(-4px)
@@ -212,17 +245,6 @@ radial-gradient(circle at 50% 80%, rgba(255,100,100,.10), transparent 180px);
 z-index:0;
 }
 
-.container{
-width:100%;
-
-display:flex;
-flex-direction:column;
-align-items:center;
-
-margin:0 auto;
-}
-
-
 .music-card{
 cursor:pointer;
 }
@@ -240,7 +262,6 @@ text-shadow:
 0 0 10px rgba(255,60,60,.95),
 0 0 22px rgba(255,20,20,.45);
 }
-
 
 .vinyl-wrap{
 display:flex;
@@ -346,10 +367,6 @@ transition:.25s ease;
 transform:scale(1.08);
 }
 
-
-
-
-
 .long-link-btn{
 display:flex;
 justify-content:center;
@@ -401,10 +418,6 @@ transform:translateY(-4px);
 font-size:32px;
 }
 
-
-
-
-
 .button-wrap{
 width:100%;
 
@@ -416,7 +429,7 @@ margin-top:26px;
 }
 
 
-/* ===== 520 密碼倒數頁 ===== */
+/* ===== 520 密碼倒數頁 (獨立分層樣式) ===== */
 
 #love520Gate{
 position:fixed;
@@ -437,7 +450,18 @@ background-position:center;
 background-attachment:fixed;
 
 z-index:999999;
-backdrop-filter:blur(12px);
+backdrop-filter:blur(15px);
+/* 確保密碼頁一開始 100% 看得見 */
+opacity: 1;
+transition: opacity 1.6s cubic-bezier(0.25, 1, 0.3, 1), 
+            backdrop-filter 1.6s cubic-bezier(0.25, 1, 0.3, 1);
+}
+
+/* 遮罩大背景融化消散 */
+#love520Gate.gate-fade-out {
+opacity: 0 !important;
+backdrop-filter: blur(0px) !important;
+pointer-events: none;
 }
 
 .gate-box{
@@ -464,17 +488,39 @@ box-shadow:
 0 0 24px rgba(255,220,120,.78),
 0 0 60px rgba(255,190,80,.35),
 0 0 120px rgba(255,170,40,.18);
+
+/* 3D 特效基礎 */
+perspective: 1000px;
+transform-style: preserve-3d;
+opacity: 1;
+transition: transform 1.3s cubic-bezier(0.25, 1, 0.3, 1), 
+            opacity 1.2s cubic-bezier(0.25, 1, 0.3, 1),
+            filter 1.2s ease;
+}
+
+/* 卡片瞬間產生劇烈震動，隨後向後翻轉湮滅 */
+.gate-box.box-disassemble {
+  animation: gatePowerShake 0.4s ease-in-out infinite;
+  transform: translateZ(-600px) rotateY(-45deg) scale(0.3) !important;
+  opacity: 0 !important;
+  filter: blur(15px) !important;
+}
+
+@keyframes gatePowerShake {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(-3px, 2px) rotate(-1deg); }
+  40% { transform: translate(3px, -1px) rotate(1deg); }
+  60% { transform: translate(-2px, -2px) rotate(-0.5deg); }
+  80% { transform: translate(2px, 1px) rotate(0.5deg); }
 }
 
 .gate-title{
 font-size:42px;
 font-weight:900;
 margin-bottom:16px;
-
 color:#fff0f5;
-
-text-shadow:
-0 0 18px rgba(255,80,120,.92);
+text-shadow: 0 0 18px rgba(255,80,120,.92);
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
 }
 
 .gate-sub{
@@ -482,6 +528,20 @@ font-size:18px;
 line-height:1.9;
 color:#ffe7ee;
 margin-bottom:30px;
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
+}
+
+/* 密碼卡片內元素星雲發散 */
+.explode-up {
+transform: translateY(-150px) translateZ(300px) rotateX(-45deg) scale(0.1) !important;
+opacity: 0 !important;
+filter: blur(8px) !important;
+}
+
+.explode-down {
+transform: translateY(150px) translateZ(300px) rotateX(45deg) scale(0.1) !important;
+opacity: 0 !important;
+filter: blur(8px) !important;
 }
 
 .countdown{
@@ -489,14 +549,12 @@ display:grid;
 grid-template-columns:repeat(4,1fr);
 gap:12px;
 margin-bottom:30px;
+perspective: 800px;
 }
 
 .time-box{
-
 background:transparent !important;
-
 border:2px solid transparent;
-
 background-image:
 linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),
 linear-gradient(
@@ -506,23 +564,23 @@ linear-gradient(
 #ffd2df,
 #ffb7c9
 );
-
 background-origin:border-box;
 background-clip:padding-box,border-box;
-
 background-size:300% 300%;
-
 animation:rainbowBorder 6s linear infinite;
-
 border-radius:22px;
-
 padding:16px 10px;
-
-backdrop-filter:none;
-
-box-shadow:none;
-
+transition: transform 1.4s cubic-bezier(0.25, 1, 0.3, 1), 
+            opacity 1s ease, 
+            box-shadow 1s ease,
+            filter 1.2s ease;
 }
+
+/* 時空碎裂特效 */
+.time-box:nth-child(1).scatter { transform: translate3d(-250px, -180px, 400px) rotateX(120deg) rotateY(-90deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff2455;}
+.time-box:nth-child(2).scatter { transform: translate3d(-80px, -250px, 500px) rotateX(-120deg) rotateY(60deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff6f9f;}
+.time-box:nth-child(3).scatter { transform: translate3d(80px, -250px, 500px) rotateX(-120deg) rotateY(-60deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff6f9f;}
+.time-box:nth-child(4).scatter { transform: translate3d(250px, -180px, 400px) rotateX(120deg) rotateY(90deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff2455;}
 
 .time-number{
 font-size:34px;
@@ -540,19 +598,15 @@ color:#ffe7ee;
 .gate-password-input{
 width:100%;
 height:58px;
-
 border:none;
 border-radius:999px;
-
 padding:0 20px;
-
 background:rgba(255,255,255,.12);
-
 color:white;
 font-size:18px;
 text-align:center;
-
 outline:none;
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
 }
 
 .gate-password-input::placeholder{
@@ -562,27 +616,16 @@ color:rgba(255,255,255,.55);
 .enter-btn{
 width:100%;
 height:60px;
-
 margin-top:18px;
-
 border:none;
 border-radius:999px;
-
-background:
-linear-gradient(
-135deg,
-#ff5f87,
-#ff2455
-);
-
+background: linear-gradient(135deg, #ff5f87, #ff2455);
 color:white;
 font-size:22px;
 font-weight:900;
-
 cursor:pointer;
-
-box-shadow:
-0 0 18px rgba(255,60,90,.75);
+box-shadow: 0 0 18px rgba(255,60,90,.75);
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
 }
 
 .gate-password-error{
@@ -592,14 +635,22 @@ font-size:14px;
 color:#ffb8ca;
 }
 
+/* 全屏魔幻光芒粒子層 */
+.magic-particle {
+  position: fixed;
+  pointer-events: none;
+  width: 6px;
+  height: 6px;
+  background: #ff6f9f;
+  border-radius: 50%;
+  z-index: 1000000;
+  mix-blend-mode: screen;
+  box-shadow: 0 0 12px #ff2455, 0 0 24px #ff7ea9;
+}
 
 @keyframes rainbowBorder{
-0%{
-background-position:0% 50%;
-}
-100%{
-background-position:100% 50%;
-}
+0%{ background-position:0% 50%; }
+100%{ background-position:100% 50%; }
 }
 </style>
 </head>
@@ -607,161 +658,70 @@ background-position:100% 50%;
 <body>
 
 <div id="love520Gate">
-
-<div class="gate-box">
-
-<div class="gate-title">
-Cẩm Ly ❤️
+  <div class="gate-box" id="gateBox">
+    <div class="gate-title" id="gateTitle">Cẩm Ly ❤️</div>
+    <div class="gate-sub" id="gateSub">這次的 520 很特別<br>一起倒數進入我們的回憶吧</div>
+    <div class="countdown">
+      <div class="time-box"><div class="time-number" id="gateDays">00</div><div class="time-label">DAYS</div></div>
+      <div class="time-box"><div class="time-number" id="gateHours">00</div><div class="time-label">HOURS</div></div>
+      <div class="time-box"><div class="time-number" id="gateMinutes">00</div><div class="time-label">MIN</div></div>
+      <div class="time-box"><div class="time-number" id="gateSeconds">00</div><div class="time-label">SEC</div></div>
+    </div>
+    <input id="gatePasswordInput" class="gate-password-input" type="password" placeholder="請輸入密碼">
+    <div id="gatePasswordError" class="gate-password-error">密碼錯誤 ❤️</div>
+    <button class="enter-btn" id="enterBtn" onclick="checkGatePassword()"> 進入 </button>
+  </div>
 </div>
 
-<div class="gate-sub">
-這次的 520 很特別<br>
-一起倒數進入我們的回憶吧
-</div>
+<div class="perspective-stage">
 
-<div class="countdown">
+  <div class="container" id="mainContainer">
+    <div class="logo">❤️ HoaLy Story</div>
+    <div class="card">
+      <div class="days-title">我們已經在一起</div>
+      <div class="days" id="loveDays">0</div>
+      <div class="sub">Days ❤️</div>
+    </div>
 
-<div class="time-box">
-<div class="time-number" id="gateDays">00</div>
-<div class="time-label">DAYS</div>
-</div>
+    <div class="grid">
+      <div class="small-card">
+        <h3>📸 今日回憶</h3>
+        <p>「第一次一起吃火鍋 ❤️」<br>📍 台北 · 2025/05/20<br>一起拍了好多照片</p>
+      </div>
+      <div class="small-card music-card">
+        <h3>🎵 妳喜歡的音樂</h3>
+        <div class="vinyl-wrap"><div class="vinyl" id="vinylRecord"><div class="vinyl-center"></div></div></div>
+        <p id="musicTitle">點一下播放音樂 ❤️</p>
+        <div class="music-controls">
+          <button onclick="prevSong(event)">⏮</button>
+          <button onclick="toggleMusic(event)" id="musicStatus">▶️</button>
+          <button onclick="nextSong(event)">⏭</button>
+        </div>
+        <audio id="bgMusic"></audio>
+      </div>
+      <div class="small-card">
+        <h3>🏆 我們成就</h3>
+        <p>✈️ 坐飛機 3 次<br>🇻🇳 去過大叻、河內、臺灣🇹🇼<br></p>
+      </div>
+      <div class="small-card">
+        <h3>💌 每日一句</h3>
+        <p id="loveQuote"></p>
+      </div>
+    </div>
 
-<div class="time-box">
-<div class="time-number" id="gateHours">00</div>
-<div class="time-label">HOURS</div>
-</div>
-
-<div class="time-box">
-<div class="time-number" id="gateMinutes">00</div>
-<div class="time-label">MIN</div>
-</div>
-
-<div class="time-box">
-<div class="time-number" id="gateSeconds">00</div>
-<div class="time-label">SEC</div>
-</div>
-
-</div>
-
-<input
-id="gatePasswordInput"
-class="gate-password-input"
-type="password"
-placeholder="請輸入密碼"
-onkeydown="if(event.key==='Enter'){checkGatePassword();}">
-
-<div
-id="gatePasswordError"
-class="gate-password-error">
-密碼錯誤 ❤️
-</div>
-
-<button
-class="enter-btn"
-onclick="checkGatePassword()">
-🇻🇳 進入 🇻🇳
-</button>
-
-</div>
-
-</div>
-
-
-<div class="container">
-
-<div class="logo">❤️ HoaLy Story</div>
-
-<div class="card">
-
-<div class="days-title">
-我們已經在一起
-</div>
-
-<div class="days" id="loveDays">0</div>
-
-<div class="sub">
-Days ❤️
-</div>
+    <div class="button-wrap">
+      <a class="long-link-btn" href="520.html"><span class="spark">✨</span> 進入秘密空間 💙</a>
+    </div>
+  </div>
 
 </div>
 
-<div class="grid">
 
-<div class="small-card">
-<h3>📸 今日回憶</h3>
-<p>
-「第一次一起吃火鍋 ❤️」<br>
-📍 台北 · 2025/05/20<br>
-一起拍了好多照片
-</p>
-</div>
-
-<div class="small-card music-card">
-<h3>🎵 妳喜歡的音樂</h3>
-
-<div class="vinyl-wrap">
-<div class="vinyl" id="vinylRecord">
-<div class="vinyl-center"></div>
-</div>
-</div>
-
-<p id="musicTitle">
-點一下播放音樂 ❤️
-</p>
-
-<div class="music-controls">
-<button onclick="prevSong(event)">⏮</button>
-<button onclick="toggleMusic(event)" id="musicStatus">▶️</button>
-<button onclick="nextSong(event)">⏭</button>
-</div>
-
-<audio id="bgMusic"></audio>
-</div>
-
-<div class="small-card">
-<h3>🏆 我們成就</h3>
-<p>
-✈️ 坐飛機 3 次<br>
-🇻🇳 去過大叻、河內、臺灣🇹🇼<br>
-</p>
-</div>
-
-<div class="small-card">
-<h3>💌 每日一句</h3>
-<p id="loveQuote"></p>
-</div>
-
-</div>
-
-<div class="button-wrap">
-<a class="long-link-btn" href="520.html">
-<span class="spark">✨</span> 進入秘密空間 💙
-</a>
-
-</div>
-
-<div class="bottom-nav">
-
-<a class="nav-item active" href="index.html">
-<div class="nav-icon">🏠</div>
-<div>首頁</div>
-</a>
-
-<a class="nav-item " href="timeline.html">
-<div class="nav-icon">💗</div>
-<div>回憶</div>
-</a>
-
-<a class="nav-item " href="letter.html">
-<div class="nav-icon">💌</div>
-<div>情書</div>
-</a>
-
-<a class="nav-item " href="gifts.html">
-<div class="nav-icon">🎁</div>
-<div>禮物</div>
-</a>
-
+<div class="bottom-nav" id="bottomNav">
+  <a class="nav-item active" href="index.html"><div class="nav-icon">🏠</div><div>首頁</div></a>
+  <a class="nav-item " href="timeline.html"><div class="nav-icon">💗</div><div>回憶</div></a>
+  <a class="nav-item " href="letter.html"><div class="nav-icon">💌</div><div>情書</div></a>
+  <a class="nav-item " href="gifts.html"><div class="nav-icon">🎁</div><div>禮物</div></a>
 </div>
 
 
@@ -784,32 +744,16 @@ const loveQuotes = [
 ];
 
 const randomQuote = loveQuotes[Math.floor(Math.random() * loveQuotes.length)];
-
 document.getElementById("loveQuote").innerHTML = randomQuote;
 
-
-
 const playlist = [
-{
-title:"青衣 ❤️",
-src:"music/CR3.mp3"
-},
-{
-title:"Summertime Sadness 💕",
-src:"music/sums.mp3"
-},
-{
-title:"MÃI LÀ CÔ DÂU CỦA ANH ✨",
-src:"music/maila.mp3"
-},
-{
-title:"Ải Hồng Nhan ❄️",
-src:"music/aihong.mp3"
-}
+{ title:"青衣 ❤️", src:"music/CR3.mp3" },
+{ title:"Summertime Sadness 💕", src:"music/sums.mp3" },
+{ title:"MÃI LÀ CÔ DÂU CỦA ANH ✨", src:"music/maila.mp3" },
+{ title:"Ải Hồng Nhan ❄️", src:"music/aihong.mp3" }
 ];
 
 let currentSong = 0;
-
 const music = document.getElementById("bgMusic");
 const musicTitle = document.getElementById("musicTitle");
 const musicStatus = document.getElementById("musicStatus");
@@ -821,13 +765,8 @@ musicTitle.innerHTML = "正在播放：<br>" + playlist[index].title;
 }
 
 function toggleMusic(event){
-
 event.stopPropagation();
-
-if(!music.src){
-loadSong(currentSong);
-}
-
+if(!music.src){ loadSong(currentSong); }
 if(music.paused){
 music.play();
 musicStatus.innerHTML = "⏸";
@@ -837,172 +776,174 @@ music.pause();
 musicStatus.innerHTML = "▶️";
 vinyl.classList.remove("playing");
 }
-
 }
 
 function nextSong(event){
-
 event.stopPropagation();
-
 currentSong++;
-
-if(currentSong >= playlist.length){
-currentSong = 0;
-}
-
+if(currentSong >= playlist.length){ currentSong = 0; }
 loadSong(currentSong);
-
 music.play();
-
 musicStatus.innerHTML = "⏸";
 vinyl.classList.add("playing");
 }
 
 function prevSong(event){
-
 event.stopPropagation();
-
 currentSong--;
-
-if(currentSong < 0){
-currentSong = playlist.length - 1;
-}
-
+if(currentSong < 0){ currentSong = playlist.length - 1; }
 loadSong(currentSong);
-
 music.play();
-
 musicStatus.innerHTML = "⏸";
 vinyl.classList.add("playing");
 }
 
 music.addEventListener("ended",()=>{
-
 currentSong++;
-
-if(currentSong >= playlist.length){
-currentSong = 0;
-}
-
+if(currentSong >= playlist.length){ currentSong = 0; }
 loadSong(currentSong);
 music.play();
-
 });
-
-
 </script>
 
 
 
 <script>
-
 async function sha256(text){
-
 const data = new TextEncoder().encode(text);
-
-const hashBuffer =
-await crypto.subtle.digest("SHA-256", data);
-
+const hashBuffer = await crypto.subtle.digest("SHA-256", data);
 return Array.from(new Uint8Array(hashBuffer))
 .map(b => b.toString(16).padStart(2,"0"))
 .join("");
-
 }
 
-const PASSWORD_HASH =
-"110c83688539c2a30b98ac57ea20e5f0662126f3786bcd51c5bbd43955f99db7";
+const PASSWORD_HASH = "110c83688539c2a30b98ac57ea20e5f0662126f3786bcd51c5bbd43955f99db7";
 
 function updateGateCountdown(){
-
-const targetDate =
-new Date("2026-05-20T00:00:00");
-
+const targetDate = new Date("2026-05-20T00:00:00");
 const now = new Date();
-
 const diff = targetDate - now;
+const days = Math.floor(diff / (1000*60*60*24));
+const hours = Math.floor((diff / (1000*60*60)) % 24);
+const minutes = Math.floor((diff / (1000*60)) % 60);
+const seconds = Math.floor((diff / 1000) % 60);
 
-const days =
-Math.floor(diff / (1000*60*60*24));
+const d = days < 0 ? 0 : days;
+const h = hours < 0 ? 0 : hours;
+const m = minutes < 0 ? 0 : minutes;
+const s = seconds < 0 ? 0 : seconds;
 
-const hours =
-Math.floor((diff / (1000*60*60)) % 24);
+document.getElementById("gateDays").innerText = String(d).padStart(2,"0");
+document.getElementById("gateHours").innerText = String(h).padStart(2,"0");
+document.getElementById("gateMinutes").innerText = String(m).padStart(2,"0");
+document.getElementById("gateSeconds").innerText = String(s).padStart(2,"0");
+}
 
-const minutes =
-Math.floor((diff / (1000*60)) % 60);
+function createMagicParticles() {
+  const container = document.body;
+  for (let i = 0; i < 60; i++) {
+    const particle = document.createElement("div");
+    particle.className = "magic-particle";
+    particle.style.left = "50vw";
+    particle.style.top = "45vh";
+    
+    const angle = Math.random() * Math.PI * 2;
+    const velocity = 5 + Math.random() * 15;
+    const destX = Math.cos(angle) * velocity * 25;
+    const destY = Math.sin(angle) * velocity * 25;
+    
+    const colors = ["#ff6f9f", "#ff2455", "#ffd2df", "#6fe2ff", "#ffdf79"];
+    particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+    
+    container.appendChild(particle);
+    
+    particle.animate([
+      { transform: 'translate(0, 0) scale(1)', opacity: 1, filter: 'blur(0px)' },
+      { transform: `translate(${destX}px, ${destY}px) scale(0)`, opacity: 0, filter: 'blur(5px)' }
+    ], {
+      duration: 1000 + Math.random() * 800,
+      easing: 'cubic-bezier(0.1, 0.8, 0.3, 1)',
+      fill: 'forwards'
+    });
+    
+    setTimeout(() => particle.remove(), 1800);
+  }
+}
 
-const seconds =
-Math.floor((diff / 1000) % 60);
-
-document.getElementById("gateDays").innerText =
-String(days).padStart(2,"0");
-
-document.getElementById("gateHours").innerText =
-String(hours).padStart(2,"0");
-
-document.getElementById("gateMinutes").innerText =
-String(minutes).padStart(2,"0");
-
-document.getElementById("gateSeconds").innerText =
-String(seconds).padStart(2,"0");
-
+// 直接解鎖免密碼顯示
+function showMainPageDirectly() {
+  document.getElementById("love520Gate").style.display = "none";
+  document.getElementById("mainContainer").classList.add("main-show");
+  document.getElementById("bottomNav").classList.add("nav-show");
 }
 
 async function checkGatePassword(){
-
-const input =
-document.getElementById("gatePasswordInput");
-
-const error =
-document.getElementById("gatePasswordError");
-
+const input = document.getElementById("gatePasswordInput");
+const error = document.getElementById("gatePasswordError");
 const value = input.value.trim();
-
 const hash = await sha256(value);
 
 if(hash === PASSWORD_HASH){
-
 error.style.display = "none";
 
-document.getElementById("love520Gate")
-.style.display = "none";
+// 紀錄免登入狀態
+sessionStorage.setItem("love_gate_passed", "true");
+
+// 炸開魔法流星
+createMagicParticles();
+
+// 卡片文字方塊飛散
+document.getElementById("gateTitle").classList.add("explode-up");
+document.getElementById("gateSub").classList.add("explode-up");
+document.getElementById("gatePasswordInput").classList.add("explode-down");
+document.getElementById("enterBtn").classList.add("explode-down");
+
+const timeBoxes = document.querySelectorAll(".time-box");
+timeBoxes.forEach(box => box.classList.add("scatter"));
+
+// 卡片震動坍塌消散
+document.getElementById("gateBox").classList.add("box-disassemble");
+
+// 大大遮罩層淡出
+const gate = document.getElementById("love520Gate");
+gate.classList.add("gate-fade-out");
+
+// 迎接主頁從遠處飛過來
+setTimeout(() => {
+    document.getElementById("mainContainer").classList.add("main-show");
+    document.getElementById("bottomNav").classList.add("nav-show");
+}, 250);
+
+setTimeout(() => {
+gate.style.display = "none";
+}, 1600);
 
 }else{
-
 error.style.display = "block";
-
 }
-
 }
 
 window.addEventListener("load",()=>{
-
-updateGateCountdown();
-
-setInterval(updateGateCountdown,1000);
-
-const input =
-document.getElementById("gatePasswordInput");
-
+// 優先綁定 Enter 鍵監聽
+const input = document.getElementById("gatePasswordInput");
 if(input){
-
-input.addEventListener("keydown",function(e){
-
-if(e.key === "Enter"){
-
-e.preventDefault();
-
-checkGatePassword();
-
+  input.addEventListener("keydown", function(e){
+    if(e.key === "Enter"){
+      e.preventDefault();
+      checkGatePassword();
+    }
+  });
 }
 
-});
-
+// 驗證免密碼狀態
+if (sessionStorage.getItem("love_gate_passed") === "true") {
+  showMainPageDirectly();
+} else {
+  updateGateCountdown();
+  setInterval(updateGateCountdown, 1000);
 }
-
 });
-
 </script>
-
 
 </body>
 </html>
