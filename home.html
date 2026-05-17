@@ -441,7 +441,7 @@ margin-top:26px;
 
 /* ===== 520 密碼倒數頁 (獨立分層樣式) ===== */
 
-#love520Gate{
+#love520Gate{display:none !important;
 position:fixed;
 inset:0;
 
@@ -675,6 +675,51 @@ color:#ffb8ca;
 0%{ background-position:0% 50%; }
 100%{ background-position:100% 50%; }
 }
+
+/* ===== 修正 iPhone 底部灰色區塊 ===== */
+
+html,
+body{
+background:
+linear-gradient(rgba(10,0,4,.62),rgba(10,0,4,.62)),
+url('img/bg6.jpg') !important;
+
+background-size:cover !important;
+background-position:center center !important;
+background-repeat:no-repeat !important;
+
+min-height:100%;
+}
+
+/* iPhone fixed background bug 修正 */
+@media (max-width:768px){
+
+body{
+background-attachment:scroll !important;
+}
+
+}
+
+/* 防止底部露出灰底 */
+body::after{
+content:'';
+position:fixed;
+left:0;
+right:0;
+bottom:0;
+height:140px;
+
+background:
+linear-gradient(rgba(10,0,4,.62),rgba(10,0,4,.62)),
+url('img/bg6.jpg');
+
+background-size:cover;
+background-position:center bottom;
+
+z-index:-2;
+pointer-events:none;
+}
+
 </style>
 </head>
 
@@ -741,7 +786,7 @@ color:#ffb8ca;
 
 
 <div class="bottom-nav" id="bottomNav">
-  <a class="nav-item active" href="index.html"><div class="nav-icon">🏠</div><div>首頁</div></a>
+  <a class="nav-item active" href="temple.html"><div class="nav-icon">🏠</div><div>首頁</div></a>
   <a class="nav-item " href="timeline.html"><div class="nav-icon">💗</div><div>回憶</div></a>
   <a class="nav-item " href="letter.html"><div class="nav-icon">💌</div><div>情書</div></a>
   <a class="nav-item " href="gifts.html"><div class="nav-icon">🎁</div><div>禮物</div></a>
@@ -749,11 +794,17 @@ color:#ffb8ca;
 
 
 <script>
-const loveStartDate = new Date("2025-05-29");
-const today = new Date();
-const diffTime = today - loveStartDate;
-const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+const loveStartDate = new Date("2025-05-29T00:00:00");
+
+function updateLoveDays(){
+const now = new Date();
+const diffTime = now.getTime() - loveStartDate.getTime();
+const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))+1;
 document.getElementById("loveDays").innerText = diffDays;
+}
+
+updateLoveDays();
+setInterval(updateLoveDays,60000);
 
 
 const memories = [
@@ -853,150 +904,15 @@ music.play();
 
 
 
+
 <script>
-async function sha256(text){
-const data = new TextEncoder().encode(text);
-const hashBuffer = await crypto.subtle.digest("SHA-256", data);
-return Array.from(new Uint8Array(hashBuffer))
-.map(b => b.toString(16).padStart(2,"0"))
-.join("");
-}
-
-const PASSWORD_HASH = "110c83688539c2a30b98ac57ea20e5f0662126f3786bcd51c5bbd43955f99db7";
-
-function updateGateCountdown(){
-const targetDate = new Date("2026-05-20T00:00:00");
-const now = new Date();
-const diff = targetDate - now;
-const days = Math.floor(diff / (1000*60*60*24));
-const hours = Math.floor((diff / (1000*60*60)) % 24);
-const minutes = Math.floor((diff / (1000*60)) % 60);
-const seconds = Math.floor((diff / 1000) % 60);
-
-const d = days < 0 ? 0 : days;
-const h = hours < 0 ? 0 : hours;
-const m = minutes < 0 ? 0 : minutes;
-const s = seconds < 0 ? 0 : seconds;
-
-document.getElementById("gateDays").innerText = String(d).padStart(2,"0");
-document.getElementById("gateHours").innerText = String(h).padStart(2,"0");
-document.getElementById("gateMinutes").innerText = String(m).padStart(2,"0");
-document.getElementById("gateSeconds").innerText = String(s).padStart(2,"0");
-}
-
-function createMagicParticles() {
-  const container = document.body;
-  for (let i = 0; i < 60; i++) {
-    const particle = document.createElement("div");
-    particle.className = "magic-particle";
-    particle.style.left = "50vw";
-    particle.style.top = "45vh";
-    
-    const angle = Math.random() * Math.PI * 2;
-    const velocity = 5 + Math.random() * 15;
-    const destX = Math.cos(angle) * velocity * 25;
-    const destY = Math.sin(angle) * velocity * 25;
-    
-    const colors = ["#ff6f9f", "#ff2455", "#ffd2df", "#6fe2ff", "#ffdf79"];
-    particle.style.background = colors[Math.floor(Math.random() * colors.length)];
-    
-    container.appendChild(particle);
-    
-    particle.animate([
-      { transform: 'translate(0, 0) scale(1)', opacity: 1, filter: 'blur(0px)' },
-      { transform: `translate(${destX}px, ${destY}px) scale(0)`, opacity: 0, filter: 'blur(5px)' }
-    ], {
-      duration: 1000 + Math.random() * 800,
-      easing: 'cubic-bezier(0.1, 0.8, 0.3, 1)',
-      fill: 'forwards'
-    });
-    
-    setTimeout(() => particle.remove(), 1800);
-  }
-}
-
-// 直接解鎖免密碼顯示
-function showMainPageDirectly() {
-  document.getElementById("love520Gate").style.display = "none";
-  document.getElementById("mainContainer").classList.add("main-show");
-  document.getElementById("bottomNav").classList.add("nav-show");
-}
-
-async function checkGatePassword(){
-const input = document.getElementById("gatePasswordInput");
-const error = document.getElementById("gatePasswordError");
-const value = input.value.trim();
-const hash = await sha256(value);
-
-if(hash === PASSWORD_HASH){
-error.style.display = "none";
-
-// 紀錄免登入狀態
-sessionStorage.setItem("love_gate_passed", "true");
-
-// 炸開魔法流星
-createMagicParticles();
-
-// 卡片文字方塊飛散
-document.getElementById("gateTitle").classList.add("explode-up");
-document.getElementById("gateSub").classList.add("explode-up");
-document.getElementById("gatePasswordInput").classList.add("explode-down");
-document.getElementById("enterBtn").classList.add("explode-down");
-
-const timeBoxes = document.querySelectorAll(".time-box");
-timeBoxes.forEach(box => box.classList.add("scatter"));
-
-// 卡片震動坍塌消散
-document.getElementById("gateBox").classList.add("box-disassemble");
-
-// 大大遮罩層淡出
-const gate = document.getElementById("love520Gate");
-gate.classList.add("gate-fade-out");
-
-// 迎接主頁從遠處飛過來
-setTimeout(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "instant"
-    });
-
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
-
-    document.getElementById("mainContainer").classList.add("main-show");
-    document.getElementById("bottomNav").classList.add("nav-show");
-}, 250);
-
-setTimeout(() => {
-gate.style.display = "none";
-}, 1600);
-
-}else{
-error.style.display = "block";
-}
-}
-
 window.addEventListener("load",()=>{
-// 優先綁定 Enter 鍵監聽
-const input = document.getElementById("gatePasswordInput");
-if(input){
-  input.addEventListener("keydown", function(e){
-    if(e.key === "Enter"){
-      e.preventDefault();
-      checkGatePassword();
-    }
-  });
-}
-
-// 驗證免密碼狀態
-if (sessionStorage.getItem("love_gate_passed") === "true") {
-  showMainPageDirectly();
-} else {
-  updateGateCountdown();
-  setInterval(updateGateCountdown, 1000);
-}
+document.getElementById("mainContainer").classList.add("main-show");
+document.getElementById("bottomNav").classList.add("nav-show");
 });
+
 </script>
+
 
 </body>
 </html>
