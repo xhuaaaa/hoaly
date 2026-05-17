@@ -3,874 +3,847 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>520 Login</title>
 <link rel="apple-touch-icon" href="icon.png">
-<title>Golden Temple Intro - Libra Fixed Final</title>
 
 <style>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+
+*{margin:0;padding:0;box-sizing:border-box;}
 
 body{
-overflow:hidden;
-background:#050200;
-font-family:
-"Times New Roman",
-"Microsoft JhengHei",
-serif;
+font-family:Arial,"Microsoft JhengHei";
+
+background:
+linear-gradient(rgba(10,0,4,.62),rgba(10,0,4,.62)),
+url('img/bg4.png');
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+color:white;
+min-height:100vh;
+overflow-x:hidden;
+
+padding:24px 18px 120px;
+
+display:flex;
+justify-content:center;
 }
 
-#intro{
+/* 【核心修正】3D 特效舞台：只包裹主網頁內容，不包裹密碼層，防止隱形 Bug */
+.perspective-stage {
+width: 100%;
+max-width: 520px;
+perspective: 1600px;
+transform-style: preserve-3d;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* 主網頁內容的超時空隧道初始狀態 */
+.container{
+width:100%;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+margin:0 auto;
+
+/* 初始藏在深處，透明模糊，等待被喚醒 */
+transform: translateZ(-800px) scale(0.5) rotateY(180deg) rotateZ(-10deg);
+opacity: 0;
+filter: blur(30px);
+transition: transform 1.8s cubic-bezier(0.25, 1, 0.3, 1), 
+            opacity 1.5s cubic-bezier(0.25, 1, 0.3, 1), 
+            filter 1.4s ease;
+}
+
+/* 解鎖成功或已驗證過：主網頁華麗飛入 */
+.container.main-show {
+transform: translateZ(0) scale(1) rotateY(0deg) rotateZ(0deg) !important;
+opacity: 1 !important;
+filter: blur(0px) !important;
+}
+
+.logo{
+font-size:34px;
+font-weight:900;
+margin-bottom:26px;
+
+color:#fff4f4;
+
+text-shadow:
+0 0 18px rgba(255,100,100,1),
+0 0 40px rgba(255,30,30,.95),
+0 0 80px rgba(180,0,0,.42);
+}
+
+.card{
+width:100%;
+
+background:
+linear-gradient(
+135deg,
+rgba(130,25,35,.30),
+rgba(40,0,0,.26)
+);
+
+border:2px solid rgba(255,90,90,.88);
+
+border-radius:34px;
+
+padding:32px;
+
+backdrop-filter:blur(20px);
+
+margin-bottom:20px;
+
+box-shadow:
+0 0 16px rgba(255,60,60,.95),
+0 0 36px rgba(255,20,20,.52),
+0 0 80px rgba(180,0,0,.22);
+}
+
+/* 導覽列：確保滾動時固定在最下方 */
+.bottom-nav{
+position:fixed;
+left:50%;
+bottom:18px;
+transform:translateX(-50%);
+width:min(92%,520px);
+height:76px;
+background:rgba(20,10,18,.76);
+border:1px solid rgba(255,120,160,.18);
+border-radius:30px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+backdrop-filter:blur(20px);
+z-index: 99999;
+
+opacity: 0;
+transform: translateX(-50%) translateY(50px) scale(0.9);
+transition: all 1.4s cubic-bezier(0.25, 1, 0.3, 1) 0.4s;
+}
+
+.bottom-nav.nav-show {
+opacity: 1 !important;
+transform: translateX(-50%) translateY(0) scale(1) !important;
+}
+
+.nav-item{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:4px;
+color:#ffdce7;
+font-size:12px;
+text-decoration:none;
+}
+
+.nav-item.active{
+color:#ff6f9f;
+}
+
+.nav-icon{
+font-size:24px;
+}
+
+.days-title{
+text-align:center;
+font-size:18px;
+opacity:.9;
+}
+
+.days{
+text-align:center;
+font-size:78px;
+font-weight:900;
+margin:12px 0;
+color:#ffffff;
+text-shadow:
+0 0 12px rgba(255,80,80,1),
+0 0 28px rgba(255,40,40,.95),
+0 0 60px rgba(255,0,0,.75),
+0 0 100px rgba(180,0,0,.45);
+}
+
+.sub{
+text-align:center;
+font-size:22px;
+}
+
+.grid{
+width:100%;
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:14px;
+}
+
+.small-card{
+position:relative;
+
+background:
+linear-gradient(
+135deg,
+rgba(120,20,20,.28),
+rgba(45,0,0,.22)
+);
+
+border:2px solid rgba(255,90,90,.92);
+
+border-radius:28px;
+
+padding:22px;
+
+overflow:hidden;
+
+backdrop-filter:blur(18px);
+
+box-shadow:
+0 0 14px rgba(255,60,60,.92),
+0 0 32px rgba(255,20,20,.45),
+0 0 70px rgba(180,0,0,.18);
+
+transition:.35s ease;
+}
+
+.small-card:hover{
+transform:
+translateY(-4px)
+scale(1.01);
+
+box-shadow:
+0 0 18px rgba(255,70,70,1),
+0 0 40px rgba(255,30,30,.65),
+0 0 90px rgba(180,0,0,.28);
+}
+
+.small-card h3{
+margin-bottom:10px;
+color:#ffffff;
+font-weight:900;
+text-shadow:
+0 0 8px rgba(120,190,255,1),
+0 0 18px rgba(80,160,255,.95),
+0 0 38px rgba(0,120,255,.75);
+-webkit-text-stroke: 0.6px rgba(180,220,255,.9);
+letter-spacing:0.5px;
+}
+
+.small-card p{
+line-height:1.8;
+color:#ffe2ea;
+}
+
+/* romantic glow particles */
+body::before{
+content:'';
+position:fixed;
+inset:0;
+pointer-events:none;
+
+background:
+radial-gradient(circle at 20% 30%, rgba(255,60,60,.16), transparent 140px),
+radial-gradient(circle at 80% 20%, rgba(255,0,0,.12), transparent 160px),
+radial-gradient(circle at 50% 80%, rgba(255,100,100,.10), transparent 180px);
+
+z-index:0;
+}
+
+.music-card{
+cursor:pointer;
+}
+
+.music-controls{
+display:flex;
+justify-content:center;
+gap:18px;
+margin-top:14px;
+font-size:24px;
+
+color:#ff8a8a;
+
+text-shadow:
+0 0 10px rgba(255,60,60,.95),
+0 0 22px rgba(255,20,20,.45);
+}
+
+.vinyl-wrap{
+display:flex;
+justify-content:center;
+margin:10px 0 18px;
+}
+
+.vinyl{
+width:90px;
+height:90px;
+border-radius:50%;
+
+background:
+radial-gradient(circle,#111 20%,#000 45%,#151515 60%,#000 100%);
+
+border:3px solid rgba(255,80,80,.85);
+
+box-shadow:
+0 0 18px rgba(255,60,60,.95),
+0 0 38px rgba(255,20,20,.45);
+
+position:relative;
+
+animation:spin 4s linear infinite;
+animation-play-state:paused;
+}
+
+.vinyl.playing{
+animation-play-state:running;
+}
+
+.vinyl::before{
+content:'';
+position:absolute;
+inset:10px;
+border-radius:50%;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.vinyl-center{
+position:absolute;
+left:50%;
+top:50%;
+
+transform:translate(-50%,-50%);
+
+width:18px;
+height:18px;
+
+border-radius:50%;
+
+background:#ff4d4d;
+
+box-shadow:
+0 0 12px rgba(255,60,60,.9);
+}
+
+@keyframes spin{
+from{
+transform:rotate(0deg);
+}
+to{
+transform:rotate(360deg);
+}
+}
+
+.music-controls{
+display:flex;
+justify-content:center;
+gap:14px;
+margin-top:14px;
+}
+
+.music-controls button{
+width:44px;
+height:44px;
+
+border:none;
+border-radius:50%;
+
+background:
+linear-gradient(
+135deg,
+rgba(255,60,60,.35),
+rgba(120,0,0,.28)
+);
+
+color:#fff;
+font-size:22px;
+
+cursor:pointer;
+
+backdrop-filter:blur(12px);
+
+box-shadow:
+0 0 12px rgba(255,50,50,.75),
+0 0 26px rgba(255,20,20,.35);
+
+transition:.25s ease;
+}
+
+.music-controls button:hover{
+transform:scale(1.08);
+}
+
+.long-link-btn{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:14px;
+
+width:100%;
+max-width:480px;
+
+height:92px;
+
+margin:28px auto 0 auto;
+
+border-radius:36px;
+
+text-decoration:none;
+
+background:
+linear-gradient(
+135deg,
+rgba(20,110,220,.55),
+rgba(0,60,180,.38),
+rgba(0,110,255,.42)
+);
+
+border:2px solid rgba(90,190,255,.95);
+
+color:#f7fbff;
+
+font-size:26px;
+font-weight:900;
+letter-spacing:1px;
+
+backdrop-filter:blur(24px);
+
+box-shadow:
+0 0 22px rgba(60,170,255,.95),
+0 0 52px rgba(0,110,255,.55),
+0 0 110px rgba(0,60,220,.35);
+
+transition:.35s ease;
+}
+
+.long-link-btn:hover{
+transform:translateY(-4px);
+}
+
+.long-link-btn .spark{
+font-size:32px;
+}
+
+.button-wrap{
+width:100%;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+margin-top:26px;
+}
+
+
+/* ===== 520 密碼倒數頁 (獨立分層樣式) ===== */
+
+#love520Gate{
 position:fixed;
 inset:0;
 
 display:flex;
 justify-content:center;
 align-items:center;
-flex-direction:column;
+
+padding:24px;
 
 background:
-radial-gradient(circle at center,
-rgba(255,180,60,.12),
-rgba(10,5,0,.98));
+linear-gradient(rgba(10,0,4,.72),rgba(10,0,4,.82)),
+url('img/bg4.png');
 
-overflow:hidden;
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+z-index:999999;
+backdrop-filter:blur(15px);
+/* 確保密碼頁一開始 100% 看得見 */
+opacity: 1;
+transition: opacity 1.6s cubic-bezier(0.25, 1, 0.3, 1), 
+            backdrop-filter 1.6s cubic-bezier(0.25, 1, 0.3, 1);
 }
 
-/* 星空 */
-
-.stars{
-position:absolute;
-inset:0;
-
-background:
-radial-gradient(circle at 20% 30%,rgba(255,220,120,.95) 0 1px,transparent 2px),
-radial-gradient(circle at 70% 20%,rgba(255,180,60,.8) 0 1px,transparent 2px),
-radial-gradient(circle at 80% 70%,rgba(255,220,180,.8) 0 1px,transparent 2px),
-radial-gradient(circle at 35% 80%,rgba(255,210,120,.7) 0 1px,transparent 2px);
-
-background-size:280px 280px;
-
-animation:starMove 18s linear infinite;
-
-opacity:.75;
+/* 遮罩大背景融化消散 */
+#love520Gate.gate-fade-out {
+opacity: 0 !important;
+backdrop-filter: blur(0px) !important;
+pointer-events: none;
 }
 
-/* 神殿門 */
-
-.temple-door{
-position:relative;
-
-width:340px;
-height:520px;
-
-display:flex;
-justify-content:center;
-align-items:center;
-}
-
-.door-left,
-.door-right{
-
-position:absolute;
-top:0;
-
-width:48%;
-height:100%;
-
-background:
-linear-gradient(
-180deg,
-rgba(255,230,150,.22),
-rgba(120,70,0,.45)
-);
-
-border:2px solid rgba(255,220,120,.85);
-
-box-shadow:
-0 0 22px rgba(255,200,80,.35),
-inset 0 0 40px rgba(255,220,120,.12);
-
-backdrop-filter:blur(4px);
-
-overflow:hidden;
-}
-
-.door-left{
-left:0;
-
-transform-origin:left center;
-
-animation:openLeft 4s cubic-bezier(.18,1,.22,1) forwards;
-}
-
-.door-right{
-right:0;
-
-transform-origin:right center;
-
-animation:openRight 4s cubic-bezier(.18,1,.22,1) forwards;
-}
-
-.door-pattern{
-
-position:absolute;
-inset:24px;
-
-border:1px solid rgba(255,220,120,.45);
-
-box-shadow:
-0 0 20px rgba(255,200,80,.12);
-
-}
-
-.circle{
-
-position:absolute;
-
-left:50%;
-top:50%;
-
-transform:translate(-50%,-50%);
-
-width:140px;
-height:140px;
-
-border-radius:50%;
-
-border:1px solid rgba(255,220,120,.65);
-
-box-shadow:
-0 0 20px rgba(255,200,80,.18);
-}
-
-/* 中央光 */
-
-.center-light{
-
-position:absolute;
-
-width:120px;
-height:120px;
-
-border-radius:50%;
-
-background:
-radial-gradient(circle,
-rgba(255,255,255,1),
-rgba(255,220,120,.95),
-rgba(255,180,40,.12));
-
-filter:blur(4px);
-
-box-shadow:
-0 0 60px rgba(255,220,120,.95),
-0 0 120px rgba(255,180,40,.65);
-
-animation:pulse 4s ease-in-out infinite;
-}
-
-/* 外圈 */
-
-.magic-ring{
-position:absolute;
-
-width:620px;
-height:620px;
-
-border-radius:50%;
-
-border:1px solid rgba(255,220,120,.18);
-
-box-shadow:
-0 0 30px rgba(255,220,120,.22),
-inset 0 0 30px rgba(255,220,120,.12);
-
-animation:rotateRing 20s linear infinite;
-}
-
-/* logo */
-
-.logo{
-
-position:absolute;
-
-top:120px;
-
-font-size:120px;
-font-weight:900;
+.gate-box{
+width:min(100%,520px);
 
 background:
 linear-gradient(
 135deg,
-#fff7d8,
-#ffd36f,
-#fff1c7
+rgba(130,25,35,.30),
+rgba(40,0,0,.26)
 );
 
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
+backdrop-filter:blur(20px);
 
-text-shadow:
-0 0 12px rgba(255,240,180,.95),
-0 0 42px rgba(255,180,40,.45);
+border:2px solid rgba(255,220,120,.92);
 
-opacity:0;
+border-radius:38px;
 
-animation:logoShow 3s ease forwards 1s;
+padding:38px 28px;
+
+text-align:center;
+
+box-shadow:
+0 0 24px rgba(255,220,120,.78),
+0 0 60px rgba(255,190,80,.35),
+0 0 120px rgba(255,170,40,.18);
+
+/* 3D 特效基礎 */
+perspective: 1000px;
+transform-style: preserve-3d;
+opacity: 1;
+transition: transform 1.3s cubic-bezier(0.25, 1, 0.3, 1), 
+            opacity 1.2s cubic-bezier(0.25, 1, 0.3, 1),
+            filter 1.2s ease;
 }
 
-/* 星座 */
-
-.zodiac{
-
-position:absolute;
-
-font-size:46px;
-font-weight:900;
-
-color:#fff2b8;
-
-text-shadow:
-0 0 12px rgba(255,220,120,.95),
-0 0 28px rgba(255,180,40,.45);
+/* 卡片瞬間產生劇烈震動，隨後向後翻轉湮滅 */
+.gate-box.box-disassemble {
+  animation: gatePowerShake 0.4s ease-in-out infinite;
+  transform: translateZ(-600px) rotateY(-45deg) scale(0.3) !important;
+  opacity: 0 !important;
+  filter: blur(15px) !important;
 }
 
-.libra{
-left:120px;
-top:120px;
+@keyframes gatePowerShake {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(-3px, 2px) rotate(-1deg); }
+  40% { transform: translate(3px, -1px) rotate(1deg); }
+  60% { transform: translate(-2px, -2px) rotate(-0.5deg); }
+  80% { transform: translate(2px, 1px) rotate(0.5deg); }
 }
 
-.scorpio{
-right:120px;
-top:120px;
-}
-
-/* title */
-
-.title{
-
-position:absolute;
-
-bottom:170px;
-
+.gate-title{
 font-size:42px;
 font-weight:900;
-letter-spacing:3px;
-
-color:#fff0c8;
-
-text-shadow:
-0 0 12px rgba(255,220,120,.95),
-0 0 30px rgba(255,180,40,.35);
-
-opacity:0;
-
-animation:textFade 2s ease forwards 2.4s;
+margin-bottom:16px;
+color:#fff0f5;
+text-shadow: 0 0 18px rgba(255,80,120,.92);
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
 }
 
-.sub{
-
-position:absolute;
-
-bottom:130px;
-
+.gate-sub{
 font-size:18px;
-letter-spacing:5px;
-
-color:#ffe7b0;
-
-opacity:0;
-
-animation:textFade 2s ease forwards 2.8s;
+line-height:1.9;
+color:#ffe7ee;
+margin-bottom:30px;
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
 }
 
-/* loading */
-
-.loading-wrap{
-
-position:absolute;
-
-bottom:72px;
-
-width:320px;
-height:5px;
-
-border-radius:999px;
-
-background:rgba(255,220,120,.12);
-
-overflow:hidden;
-
-box-shadow:
-0 0 20px rgba(255,220,120,.22);
+/* 密碼卡片內元素星雲發散 */
+.explode-up {
+transform: translateY(-150px) translateZ(300px) rotateX(-45deg) scale(0.1) !important;
+opacity: 0 !important;
+filter: blur(8px) !important;
 }
 
-.loading-bar{
+.explode-down {
+transform: translateY(150px) translateZ(300px) rotateX(45deg) scale(0.1) !important;
+opacity: 0 !important;
+filter: blur(8px) !important;
+}
 
-height:100%;
-width:0%;
+.countdown{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:12px;
+margin-bottom:30px;
+perspective: 800px;
+}
 
-border-radius:999px;
-
-background:
+.time-box{
+background:transparent !important;
+border:2px solid transparent;
+background-image:
+linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),
 linear-gradient(
-90deg,
-#fff6d0,
-#ffd36f,
-#fffef2
+135deg,
+#ffb7c9,
+#ffe3ea,
+#ffd2df,
+#ffb7c9
 );
-
-box-shadow:
-0 0 18px rgba(255,220,120,.95);
-
-animation:loading 5s ease forwards;
+background-origin:border-box;
+background-clip:padding-box,border-box;
+background-size:300% 300%;
+animation:rainbowBorder 6s linear infinite;
+border-radius:22px;
+padding:16px 10px;
+transition: transform 1.4s cubic-bezier(0.25, 1, 0.3, 1), 
+            opacity 1s ease, 
+            box-shadow 1s ease,
+            filter 1.2s ease;
 }
 
-/* 金塵 */
+/* 時空碎裂特效 */
+.time-box:nth-child(1).scatter { transform: translate3d(-250px, -180px, 400px) rotateX(120deg) rotateY(-90deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff2455;}
+.time-box:nth-child(2).scatter { transform: translate3d(-80px, -250px, 500px) rotateX(-120deg) rotateY(60deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff6f9f;}
+.time-box:nth-child(3).scatter { transform: translate3d(80px, -250px, 500px) rotateX(-120deg) rotateY(-60deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff6f9f;}
+.time-box:nth-child(4).scatter { transform: translate3d(250px, -180px, 400px) rotateX(120deg) rotateY(90deg) scale(0) !important; opacity: 0 !important; filter: blur(10px); box-shadow: 0 0 60px #ff2455;}
 
-.gold-particle{
-
-position:absolute;
-
-width:4px;
-height:4px;
-
-border-radius:50%;
-
-background:#ffd36f;
-
-box-shadow:
-0 0 10px rgba(255,220,120,.95);
-
-animation:floatParticle linear infinite;
+.time-number{
+font-size:34px;
+font-weight:900;
+color:#fff8fb;
 }
 
-.tap{
-
-position:absolute;
-
-bottom:28px;
-
-font-size:15px;
-letter-spacing:3px;
-
-color:#fff2c8;
-
-animation:blink 2s infinite;
+.time-label{
+margin-top:6px;
+font-size:12px;
+letter-spacing:1px;
+color:#ffe7ee;
 }
 
-@keyframes openLeft{
-
-0%{
-transform:perspective(1200px) rotateY(0deg);
-}
-
-100%{
-transform:perspective(1200px) rotateY(-82deg);
-}
-}
-
-@keyframes openRight{
-
-0%{
-transform:perspective(1200px) rotateY(0deg);
-}
-
-100%{
-transform:perspective(1200px) rotateY(82deg);
-}
-}
-
-@keyframes rotateRing{
-
-from{
-transform:rotate(0deg);
-}
-
-to{
-transform:rotate(360deg);
-}
-}
-
-@keyframes pulse{
-
-0%,100%{
-transform:scale(1);
-}
-
-50%{
-transform:scale(1.08);
-}
-}
-
-@keyframes logoShow{
-
-from{
-opacity:0;
-transform:scale(.4);
-filter:blur(12px);
-}
-
-to{
-opacity:1;
-transform:scale(1);
-filter:blur(0px);
-}
-}
-
-@keyframes textFade{
-
-from{
-opacity:0;
-transform:translateY(20px);
-}
-
-to{
-opacity:1;
-transform:translateY(0px);
-}
-}
-
-@keyframes loading{
-
-0%{
-width:0%;
-}
-
-100%{
+.gate-password-input{
 width:100%;
-}
-}
-
-@keyframes starMove{
-from{
-transform:translateY(0px);
-}
-to{
-transform:translateY(-280px);
-}
-}
-
-@keyframes floatParticle{
-
-0%{
-transform:
-translateY(0px)
-scale(0);
-opacity:0;
+height:58px;
+border:none;
+border-radius:999px;
+padding:0 20px;
+background:rgba(255,255,255,.12);
+color:white;
+font-size:18px;
+text-align:center;
+outline:none;
+transition: transform 1.2s cubic-bezier(0.25, 1, 0.3, 1), opacity 0.8s ease;
 }
 
-20%{
-opacity:1;
-}
-
-100%{
-transform:
-translateY(-120vh)
-translateX(60px)
-scale(1.5);
-
-opacity:0;
-}
-}
-
-@keyframes blink{
-
-0%,100%{
-opacity:.35;
-}
-
-50%{
-opacity:1;
-}
+.gate-password-input::placeholder{
+color:rgba(255,255,255,.55);
 }
 
 
-.zodiac-line-wrap{
-position:absolute;
-z-index:5;
-
-width:520px;
-height:240px;
-transform:translateY(-145px);
-
-display:flex;
-justify-content:center;
-align-items:center;
-
-opacity:0;
-
-animation:
-showLines 2s ease forwards 2.4s;
-}
-
-.zodiac-svg{
+.enter-btn{
 width:100%;
-height:100%;
-
-filter:
-drop-shadow(0 0 12px rgba(120,200,255,.95))
-drop-shadow(0 0 26px rgba(40,120,255,.55))
-drop-shadow(0 0 60px rgba(0,80,255,.28));
-}
-
-/* 基礎線條樣式 */
-.draw-line{
-fill:none;
-stroke:url(#goldLine);
-stroke-width:6;
-stroke-linecap:round;
-stroke-linejoin:round;
-}
-
-/* ===== 🛠️ 核心修正：天秤座採用絕對穩健的透明度淡入動畫，100% 顯現 🛠️ ===== */
-.libra-glow-group {
-  opacity: 0;
-  animation: fadeInLibra 2.0s cubic-bezier(0.4, 0, 0.2, 1) forwards 2.6s;
-}
-
-@keyframes fadeInLibra {
-  to { opacity: 1; }
-}
-
-/* 天蠍座（單一連續線段，完美保留原本的長線劃開動畫） */
-.scorpio-line{
-stroke-dasharray: 1200;
-stroke-dashoffset: 1200;
-animation: drawScorpio 2.0s cubic-bezier(0.4, 0, 0.2, 1) forwards 3.0s;
-}
-
-
-.libra-extra-line{
-fill:none;
-
-stroke:#6fb8ff;
-stroke-width:6;
-stroke-linecap:round;
-
-stroke-dasharray:400;
-stroke-dashoffset:400;
-
-filter:
-drop-shadow(0 0 6px rgba(120,200,255,.55));
-
-opacity:1;
-
-animation:
-drawExtraLine 1.6s ease forwards 3.2s;
-}
-
-@keyframes drawExtraLine{
-to{
-stroke-dashoffset:0;
-}
-}
-
-
-@keyframes drawScorpio {
-  to { stroke-dashoffset: 0; }
-}
-
-@keyframes showLines{
-from{
-opacity:0;
-transform:scale(.7);
-filter:blur(10px);
-}
-to{
-opacity:1;
-transform:scale(1);
-filter:blur(0px);
-}
-}
-
-
-/* ===== 往神殿內前進 ===== */
-
-.temple-door{
-animation:
-templeZoom 7s ease-in-out forwards;
-transform-origin:center center;
-}
-
-@keyframes templeZoom{
-
-0%{
-transform:
-scale(1)
-translateY(0px);
-filter:blur(0px);
-}
-
-70%{
-transform:
-scale(1.18)
-translateY(-10px);
-filter:blur(0px);
-}
-
-100%{
-transform:
-scale(2.35)
-translateY(20px);
-filter:blur(8px);
-}
-}
-
-#intro::after{
-
-content:'';
-
-position:absolute;
-inset:0;
-
-background:
-radial-gradient(circle at center,
-transparent 0%,
-rgba(255,220,120,.05) 40%,
-rgba(0,0,0,.92) 100%);
-
-pointer-events:none;
-}
-
-.center-light{
-
-animation:
-portalLight 7s ease forwards;
-}
-
-@keyframes portalLight{
-
-0%{
-opacity:.7;
-transform:scale(1);
-}
-
-70%{
-opacity:1;
-transform:scale(1.5);
-}
-
-100%{
-opacity:1;
-transform:scale(4.5);
-filter:blur(18px);
-}
-}
-
-
-/* ===== 浮雕升級（不改位置） ===== */
-
-.door-left,
-.door-right{
-
-background:
-linear-gradient(
-145deg,
-#2d1a00 0%,
-#6e4a12 12%,
-#d7a63e 25%,
-#fff2b0 40%,
-#b57812 60%,
-#4d2a00 100%
-) !important;
-
+height:60px;
+margin-top:18px;
+border:2px solid rgba(255,220,220,.95);
+border-radius:999px;
+background:linear-gradient(180deg,#ff5c66 0%, #ce102d 55%, #8f0718 100%);
+color:white;
+font-size:24px;
+font-weight:900;
+letter-spacing:2px;
+cursor:pointer;
 box-shadow:
-0 0 18px rgba(255,190,60,.55),
-inset 0 0 80px rgba(255,255,255,.08),
-inset 0 0 25px rgba(255,220,120,.25),
-0 0 60px rgba(255,180,40,.18) !important;
-
-border:3px solid rgba(255,220,120,.95) !important;
-
-overflow:hidden;
+0 0 12px rgba(255,85,100,.55),
+0 8px 20px rgba(75,0,15,.24);
+text-shadow:
+0 0 6px rgba(255,255,255,.75),
+0 0 14px rgba(255,90,120,.65);
+transition:all .25s ease;
 }
 
-.door-left::before,
-.door-right::before{
-
-content:'';
-
-position:absolute;
-inset:22px;
-
-border-radius:18px;
-
-border:2px solid rgba(255,230,160,.85);
-
-box-shadow:
-inset 0 0 25px rgba(255,240,180,.18),
-0 0 12px rgba(255,220,120,.22);
+.enter-btn:hover{
+transform:translateY(-2px) scale(1.03);
+filter:brightness(1.08);
 }
 
-.door-left::after,
-.door-right::after{
 
-content:'';
-
-position:absolute;
-
-width:220px;
-height:220px;
-
-left:50%;
-top:50%;
-
-transform:translate(-50%,-50%);
-
-border-radius:50%;
-
-border:2px solid rgba(255,220,120,.45);
-
-box-shadow:
-0 0 25px rgba(255,220,120,.22),
-inset 0 0 25px rgba(255,240,180,.12);
-
-opacity:.95;
+.gate-password-error{
+display:none;
+margin-top:12px;
+font-size:14px;
+color:#ffb8ca;
 }
 
+/* 全屏魔幻光芒粒子層 */
+.magic-particle {
+  position: fixed;
+  pointer-events: none;
+  width: 6px;
+  height: 6px;
+  background: #ff6f9f;
+  border-radius: 50%;
+  z-index: 1000000;
+  mix-blend-mode: screen;
+  box-shadow: 0 0 12px #ff2455, 0 0 24px #ff7ea9;
+}
+
+@keyframes rainbowBorder{
+0%{ background-position:0% 50%; }
+100%{ background-position:100% 50%; }
+}
+
+
+/* 只隱藏主內容 */
+.perspective-stage,
+.bottom-nav{
+display:none !important;
+}
+
+/* 強制顯示登入頁 */
+#love520Gate{
+display:flex !important;
+opacity:1 !important;
+visibility:visible !important;
+}
 </style>
+
 </head>
 
 <body>
 
-<div id="intro">
-
-<div class="stars"></div>
-
-<div class="magic-ring"></div>
-
-
-<div class="logo">H ♥ L</div>
-
-<div class="temple-door">
-
-<div class="center-light"></div>
-
-<div class="zodiac-line-wrap">
-
-<svg class="zodiac-svg" viewBox="0 0 600 300">
-
-<defs>
-<linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
-<stop offset="0%" stop-color="#dff4ff"/>
-<stop offset="50%" stop-color="#4fa8ff"/>
-<stop offset="100%" stop-color="#d8f0ff"/>
-</linearGradient>
-</defs>
-
-<g class="draw-line libra-glow-group">
-
-  <!-- 上方弧線 -->
-  <path d="M 65 130 L 125 130 Q 155 70 185 130 L 245 130" />
-
-  <!-- 第一條 -->
-  <path d="M 65 165 L 245 165" />
-
-  <!-- 第二條 -->
-  <path d="M 65 195 L 245 195" />
-
-  <!-- 第三條（動畫版） -->
-  <path class="libra-extra-line"
-        d="M 55 206 L 255 206" />
-
-</g>
-
-<path class="draw-line scorpio-line"
-d="M350 210
-L350 120
-Q350 90 380 90
-Q410 90 410 120
-L410 210
-
-L410 120
-Q410 90 440 90
-Q470 90 470 120
-L470 180
-
-Q470 220 520 220
-
-L500 198
-M520 220
-L488 238"
-/>
-
-</svg>
-
-</div>
-
-
-<div class="door-left">
-<div class="door-pattern"></div>
-<div class="circle"></div>
-</div>
-
-<div class="door-right">
-<div class="door-pattern"></div>
-<div class="circle"></div>
-</div>
-
-</div>
-
-<div class="title">LY HOA Store</div>
-
-<div class="sub">LOVE · MEMORY · FOREVER</div>
-
-<div class="loading-wrap">
-<div class="loading-bar"></div>
-</div>
-
-
-
+<div id="love520Gate">
+  <div class="gate-box" id="gateBox">
+    <div class="gate-title" id="gateTitle">Cẩm Ly ❤️</div>
+    <div class="gate-sub" id="gateSub">這次的 520 很特別<br>一起倒數進入我們的回憶吧</div>
+    <div class="countdown">
+      <div class="time-box"><div class="time-number" id="gateDays">00</div><div class="time-label">DAYS</div></div>
+      <div class="time-box"><div class="time-number" id="gateHours">00</div><div class="time-label">HOURS</div></div>
+      <div class="time-box"><div class="time-number" id="gateMinutes">00</div><div class="time-label">MIN</div></div>
+      <div class="time-box"><div class="time-number" id="gateSeconds">00</div><div class="time-label">SEC</div></div>
+    </div>
+    <input id="gatePasswordInput" class="gate-password-input" type="password" placeholder="請輸入密碼">
+    <div id="gatePasswordError" class="gate-password-error">密碼錯誤 ❤️</div>
+    <button class="enter-btn" id="enterBtn" onclick="checkGatePassword()"> 🇻🇳進入🇻🇳 </button>
+  </div>
 </div>
 
 <script>
-
-// 將金塵塞入特定容器，確保不干擾 SVG 的渲染樹
-const starsContainer = document.querySelector(".stars") || document.body;
-
-for(let i=0;i<60;i++){
-
-const p = document.createElement("div");
-
-p.className = "gold-particle";
-
-p.style.left = Math.random()*100 + "vw";
-
-p.style.top = Math.random()*100 + "vh";
-
-p.style.animationDuration =
-(6 + Math.random()*8) + "s";
-
-p.style.animationDelay =
-(Math.random()*6) + "s";
-
-starsContainer.appendChild(p);
-
+async function sha256(text){
+const data = new TextEncoder().encode(text);
+const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+return Array.from(new Uint8Array(hashBuffer))
+.map(b => b.toString(16).padStart(2,"0"))
+.join("");
 }
 
-setTimeout(()=>{
+const PASSWORD_HASH = "110c83688539c2a30b98ac57ea20e5f0662126f3786bcd51c5bbd43955f99db7";
 
-document.getElementById("intro").style.transition="2s";
-document.getElementById("intro").style.opacity="0";
+function updateGateCountdown(){
+const targetDate = new Date("2026-05-20T00:00:00");
+const now = new Date();
+const diff = targetDate - now;
+const days = Math.floor(diff / (1000*60*60*24));
+const hours = Math.floor((diff / (1000*60*60)) % 24);
+const minutes = Math.floor((diff / (1000*60)) % 60);
+const seconds = Math.floor((diff / 1000) % 60);
 
-setTimeout(()=>{
-document.getElementById("intro").style.display="none";
-},2000);
+const d = days < 0 ? 0 : days;
+const h = hours < 0 ? 0 : hours;
+const m = minutes < 0 ? 0 : minutes;
+const s = seconds < 0 ? 0 : seconds;
 
-},6200);
+document.getElementById("gateDays").innerText = String(d).padStart(2,"0");
+document.getElementById("gateHours").innerText = String(h).padStart(2,"0");
+document.getElementById("gateMinutes").innerText = String(m).padStart(2,"0");
+document.getElementById("gateSeconds").innerText = String(s).padStart(2,"0");
+}
 
-</script>
+function createMagicParticles() {
+  const container = document.body;
+  for (let i = 0; i < 60; i++) {
+    const particle = document.createElement("div");
+    particle.className = "magic-particle";
+    particle.style.left = "50vw";
+    particle.style.top = "45vh";
+    
+    const angle = Math.random() * Math.PI * 2;
+    const velocity = 5 + Math.random() * 15;
+    const destX = Math.cos(angle) * velocity * 25;
+    const destY = Math.sin(angle) * velocity * 25;
+    
+    const colors = ["#ff6f9f", "#ff2455", "#ffd2df", "#6fe2ff", "#ffdf79"];
+    particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+    
+    container.appendChild(particle);
+    
+    particle.animate([
+      { transform: 'translate(0, 0) scale(1)', opacity: 1, filter: 'blur(0px)' },
+      { transform: `translate(${destX}px, ${destY}px) scale(0)`, opacity: 0, filter: 'blur(5px)' }
+    ], {
+      duration: 1000 + Math.random() * 800,
+      easing: 'cubic-bezier(0.1, 0.8, 0.3, 1)',
+      fill: 'forwards'
+    });
+    
+    setTimeout(() => particle.remove(), 1800);
+  }
+}
+
+// 直接解鎖免密碼顯示
+function showMainPageDirectly() {
+  document.getElementById("love520Gate").style.display = "none";
+  document.getElementById("mainContainer").classList.add("main-show");
+  document.getElementById("bottomNav").classList.add("nav-show");
+}
+
+async function checkGatePassword(){
+const input = document.getElementById("gatePasswordInput");
+const error = document.getElementById("gatePasswordError");
+const value = input.value.trim();
+const hash = await sha256(value);
+
+if(hash === PASSWORD_HASH){
+error.style.display = "none";
+
+// 紀錄免登入狀態
+sessionStorage.setItem("love_gate_passed", "true");
+
+// 炸開魔法流星
+createMagicParticles();
+
+// 卡片文字方塊飛散
+document.getElementById("gateTitle").classList.add("explode-up");
+document.getElementById("gateSub").classList.add("explode-up");
+document.getElementById("gatePasswordInput").classList.add("explode-down");
+document.getElementById("enterBtn").classList.add("explode-down");
+
+const timeBoxes = document.querySelectorAll(".time-box");
+timeBoxes.forEach(box => box.classList.add("scatter"));
+
+// 卡片震動坍塌消散
+document.getElementById("gateBox").classList.add("box-disassemble");
+
+// 大大遮罩層淡出
+const gate = document.getElementById("love520Gate");
+gate.classList.add("gate-fade-out");
 
 
-<script>
-setTimeout(()=>{
-window.location.href="home.html";
-},8200);
+// 跳轉到 temple.html
+setTimeout(() => {
+window.location.href = "temple.html";
+}, 1400);
+
+
+}else{
+error.style.display = "block";
+}
+}
+
+window.addEventListener("load",()=>{
+// 優先綁定 Enter 鍵監聽
+const input = document.getElementById("gatePasswordInput");
+if(input){
+  input.addEventListener("keydown", function(e){
+    if(e.key === "Enter"){
+      e.preventDefault();
+      checkGatePassword();
+    }
+  });
+}
+
+// 驗證免密碼狀態
+if (sessionStorage.getItem("love_gate_passed") === "true") {
+  showMainPageDirectly();
+} else {
+  updateGateCountdown();
+  setInterval(updateGateCountdown, 1000);
+}
+});
 </script>
 
 </body>
