@@ -3,61 +3,219 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="apple-touch-icon" href="icon.png">
-<title>LyHoa Story❤️</title>
+<title>禮物博物館 ❤️</title>
 
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
-*{margin:0;padding:0;box-sizing:border-box;}
-
+/* =========================================================
+   🌟 完美還原：全網頁大背景完全改回你原本最穩定的原廠設定
+   ========================================================= */
 body{
 font-family:Arial,"Microsoft JhengHei";
-
 background:
-linear-gradient(rgba(20,0,10,.45),rgba(20,0,10,.45)),
+linear-gradient(rgba(10,0,8,.72),rgba(10,0,8,.72)),
 url('img/bg.png');
-
 background-size:cover;
 background-position:center;
 background-attachment:fixed;
-
-color:#f6f6f6;
+color:#fff;
 min-height:100vh;
 overflow-x:hidden;
-padding:24px 18px 120px;
+padding:30px 18px 120px;
 }
 
 .container{
-max-width:520px;
+max-width:1100px;
 margin:auto;
 }
 
-.logo{
-font-size:30px;
+.title{
+font-size:42px;
 font-weight:900;
-margin-bottom:24px;
+text-align:center;
+margin-bottom:14px;
+letter-spacing:2px;
 text-shadow:
-0 0 12px rgba(255,180,210,.35);
+0 0 12px rgba(255,255,255,.7),
+0 0 35px rgba(255,80,120,.45);
 }
 
+.subtitle{
+text-align:center;
+margin-bottom:36px;
+font-size:16px;
+color:#ffd7e5;
+opacity:.92;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:26px;
+}
+
+/* =========================================================
+   🌟 完美保留：只有卡面本身使用圖片多色星雲疊加與照片底圖
+   ========================================================= */
 .card{
-background:
-linear-gradient(
-145deg,
-rgba(255,255,255,.92),
-rgba(248,248,248,.88)
-);
-border:1px solid rgba(255,120,160,.18);
-border-radius:30px;
-padding:28px;
-backdrop-filter:blur(18px);
-margin-bottom:18px;
-box-shadow:
-0 0 14px rgba(255,255,255,.28),
-0 0 36px rgba(255,255,255,.18),
-0 10px 28px rgba(0,0,0,.12);
+position:relative;
+border-radius:28px; /* 圖片上優雅的超大圓角 */
+height: 200px; /* 固定高度，讓卡片像整塊發光的魔法水晶板 */
+display: flex;
+flex-direction: column;
+justify-content: flex-end; /* 文字推到卡片下方 */
+padding: 24px 20px;
+cursor: pointer;
+overflow: hidden;
+background-size: cover !important;
+background-position: center !important;
+transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s ease, border-color 0.4s ease;
 }
 
+/* 用來承載「多色星雲漸層」與「磨砂玻璃模糊」的遮罩層 */
+.card-overlay {
+position: absolute;
+inset: 0;
+backdrop-filter: blur(2px) brightness(0.85);
+-webkit-backdrop-filter: blur(2px) brightness(0.85);
+transition: all 0.4s ease;
+z-index: 1;
+}
+
+/* 卡片內文字內容（確保浮在星雲和圖片上方） */
+.card-content-box {
+position: relative;
+z-index: 2;
+text-align: left; /* 靠左對齊，帶有精緻的高級感 */
+}
+
+/* 斜切流光滑過效果 */
+.card::after {
+content: '';
+position: absolute;
+top: -50%; left: -80%; width: 40%; height: 200%;
+background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+transform: rotate(25deg);
+pointer-events: none;
+transition: left 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+z-index: 3;
+}
+.card:hover::after {
+left: 160%;
+}
+
+.card:hover{
+transform: translateY(-10px) scale(1.02);
+}
+
+.card:hover .card-overlay {
+backdrop-filter: blur(0px) brightness(1.05); /* 滑鼠移上去時，星雲變亮、照片變清晰 */
+}
+
+/* ===== 🎨 各分類卡片專屬的「星雲光暈」與「霓虹外發光（Glow）」 ===== */
+
+/* 1. 24K黃金系列 */
+.card.gold24k {
+border: 1.5px solid rgba(255, 180, 50, 0.5);
+box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 0 20px rgba(255, 170, 45, 0.25);
+}
+.card.gold24k .card-overlay {
+background: radial-gradient(circle at top right, rgba(255, 160, 40, 0.5) 0%, rgba(15, 8, 3, 0.65) 80%);
+}
+.card.gold24k:hover {
+border-color: #fff2b2;
+box-shadow: 0 18px 40px rgba(0,0,0,0.7), 0 0 35px rgba(255, 170, 45, 0.65);
+}
+
+/* 2. 18K珠寶系列 */
+.card.gold18k {
+border: 1.5px solid rgba(185, 100, 255, 0.5);
+box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 0 20px rgba(165, 75, 255, 0.25);
+}
+.card.gold18k .card-overlay {
+background: radial-gradient(circle at top right, rgba(165, 75, 255, 0.45) 0%, rgba(10, 5, 22, 0.65) 80%);
+}
+.card.gold18k:hover {
+border-color: #f3d5ff;
+box-shadow: 0 18px 40px rgba(0,0,0,0.7), 0 0 35px rgba(165, 75, 255, 0.65);
+}
+
+/* 3. 手錶收藏系列 */
+.card.watch {
+border: 1.5px solid rgba(75, 145, 255, 0.5);
+box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 0 20px rgba(45, 115, 255, 0.25);
+}
+.card.watch .card-overlay {
+background: radial-gradient(circle at top right, rgba(45, 115, 255, 0.45) 0%, rgba(4, 8, 25, 0.65) 80%);
+}
+.card.watch:hover {
+border-color: #d1e4ff;
+box-shadow: 0 18px 40px rgba(0,0,0,0.7), 0 0 35px rgba(45, 115, 255, 0.65);
+}
+
+/* 4. 花束回憶系列 */
+.card.flowers {
+border: 1.5px solid rgba(255, 95, 145, 0.5);
+box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 0 20px rgba(255, 65, 125, 0.25);
+}
+.card.flowers .card-overlay {
+background: radial-gradient(circle at top right, rgba(255, 65, 125, 0.45) 0%, rgba(20, 4, 12, 0.65) 80%);
+}
+.card.flowers:hover {
+border-color: #ffdae6;
+box-shadow: 0 18px 40px rgba(0,0,0,0.7), 0 0 35px rgba(255, 65, 125, 0.65);
+}
+
+/* 5. 玩偶收藏系列 */
+.card.dolls {
+border: 1.5px solid rgba(45, 215, 245, 0.5);
+box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 0 20px rgba(0, 195, 225, 0.25);
+}
+.card.dolls .card-overlay {
+background: radial-gradient(circle at top right, rgba(0, 195, 225, 0.45) 0%, rgba(3, 12, 25, 0.65) 80%);
+}
+.card.dolls:hover {
+border-color: #d1f7ff;
+box-shadow: 0 18px 40px rgba(0,0,0,0.7), 0 0 35px rgba(0, 195, 225, 0.65);
+}
+
+/* 6. 特別紀念系列 */
+.card.special {
+border: 1.5px solid rgba(225, 95, 255, 0.5);
+box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 0 20px rgba(215, 55, 255, 0.25);
+}
+.card.special .card-overlay {
+background: radial-gradient(circle at top right, rgba(215, 55, 255, 0.45) 0%, rgba(15, 4, 25, 0.65) 80%);
+}
+.card.special:hover {
+border-color: #f6d1ff;
+box-shadow: 0 18px 40px rgba(0,0,0,0.7), 0 0 35px rgba(215, 55, 255, 0.65);
+}
+
+/* ========================================================= */
+
+.card-title{
+font-size:21px;
+font-weight:700;
+color:#fff;
+letter-spacing: 1px;
+margin-bottom:4px;
+text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+
+.card-count{
+font-size:13px;
+color:rgba(255, 255, 255, 0.75);
+letter-spacing:1px;
+text-shadow: 0 1px 5px rgba(0,0,0,0.8);
+}
+
+/* 底部導覽列完全還原你最習慣的原廠經典樣式 */
 .bottom-nav{
 position:fixed;
 left:50%;
@@ -93,87 +251,101 @@ color:#ff6f9f;
 font-size:24px;
 }
 
-
-
-
-.title{
-font-size:32px;
-font-weight:900;
-margin-bottom:20px;
-
-color:#ffffff;
-
-text-align:center;
-
-text-shadow:
-0 0 10px rgba(255,255,255,.65),
-0 0 22px rgba(255,90,90,.48),
-0 0 42px rgba(255,40,40,.22);
+/* 彈出相簿層 */
+.viewer{
+position:fixed;
+inset:0;
+background:rgba(5, 2, 10, 0.98);
+z-index:1000;
+display:none;
+flex-direction:column;
+opacity:0;
+transition:opacity .4s ease;
 }
 
+.viewer.show{
+display:flex;
+opacity:1;
+}
 
+.viewer-header{
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid rgba(255,255,255,.08);
+background:rgba(12, 6, 22, 0.7);
+}
 
-.grid{
+.viewer-title{
+font-size:20px;
+font-weight:700;
+color:#fff;
+}
+
+.close-btn{
+font-size:24px;
+color:rgba(255,255,255,0.5);
+cursor:pointer;
+padding:4px 12px;
+}
+
+.close-btn:hover{
+color:#fff;
+}
+
+.viewer-grid{
+flex:1;
+overflow-y:auto;
+padding:20px;
 display:grid;
-grid-template-columns:1fr 1fr;
+grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
 gap:16px;
+padding-bottom:80px;
 }
 
-.gift-card{
-position:relative;
-background:
-linear-gradient(
-180deg,
-rgba(255,245,248,.96),
-rgba(255,236,242,.92)
-);
-
-border-radius:28px;
-padding:14px;
-text-align:center;
-overflow:hidden;
-
-border:1.5px solid rgba(255,255,255,.88);
-
-box-shadow:
-0 0 12px rgba(255,255,255,.35),
-0 0 28px rgba(255,255,255,.18);
-
-transition:.25s;
-}
-
-.gift-card:hover{
-transform:translateY(-4px);
-
-box-shadow:
-0 0 20px rgba(255,255,255,.48),
-0 0 48px rgba(255,255,255,.26),
-0 12px 28px rgba(0,0,0,.18);
-}
-
-.gift-card::before{
-content:'';
-position:absolute;
-top:0;
-left:0;
-right:0;
-height:5px;
-
-background:
-linear-gradient(
-90deg,
-#ff8fb1,
-#ffbfd0,
-#ff8fb1
-);
-}
-
-.gift-photo{
+.viewer-img{
 width:100%;
-height:170px;
+aspect-ratio:0.72;
 object-fit:cover;
-border-radius:20px;
-margin-bottom:12px;
+border-radius:18px;
+border:1px solid rgba(255,255,255,.15);
+box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+cursor:pointer;
+transition:all .35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.viewer-img:hover{
+transform:scale(1.05) translateY(-4px);
+border-color:rgba(255,255,255,0.6);
+box-shadow:0 12px 25px rgba(255,255,255,0.2);
+}
+
+/* 燈箱大圖層 */
+.lightbox{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.96);
+z-index:1100;
+display:none;
+justify-content:center;
+align-items:center;
+opacity:0;
+transition:opacity .3s ease;
+}
+
+.lightbox.show{
+display:flex;
+opacity:1;
+}
+
+.lightbox-img{
+max-width:94%;
+max-height:85vh;
+object-fit:contain;
+border-radius:12px;
+border:1px solid rgba(255,255,255,0.2);
+box-shadow:0 0 40px rgba(0,0,0,0.9);
 }
 </style>
 </head>
@@ -181,262 +353,151 @@ margin-bottom:12px;
 <body>
 
 <div class="container">
-
-<div class="title">🎁 Những món quà dành cho nhau</div>
-
-<div class="grid">
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/1.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>Marc Jacobs耳環💎</div>
+  <div class="title">🎁 Quà của chúng ta</div>
+  <div class="subtitle">Trong mỗi món quà đều có những kỷ niệm đẹp và hạnh phúc của hai đứa ❤️</div>
+  
+  <div class="grid" id="cardGrid"></div>
 </div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/2.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>24K玫瑰🌹</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/3.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>Olivia手錶⌚</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/4.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>18K手環📿</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/5.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>18K耳環風水紅寶💎</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/6.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>24K紀念💎</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/7.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>18K戒指💍</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/8.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>18K項鍊📿</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/9.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>史迪奇🧸</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/10.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>Dyson吹風機🪻</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/11.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>蛋塔、裝飾花🌹</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/12.jpeg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>生日禮物🎂</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/13.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>情人節花🌹</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/14.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>38婦女節花🌹</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/15.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>DW天蠍座吊飾♏</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/16.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>DW迷你手錶⌚</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/17.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>24K紀念💎</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/18.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>24K紀念💎</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/19.jpeg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>蠟花熊🧸</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/20.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>玩偶🧸</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/21.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>玩偶🧸</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/22.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>玩偶🧸</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/23.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>24K紀念💎</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/24.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>三種顏色玫瑰🌹</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/25.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>美人配美花🌹</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/26.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>藍玫瑰🪻</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/27.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>一對手鍊銀📿</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/28.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>100朵玫瑰🌹</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/29.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>14K耳環玫瑰金💎</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/30.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>9K戒指💍</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/31.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>情人節🌹</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/32.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>香水💎</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/33.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>Fossil手錶⌚</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/34.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>銀項鍊📿</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/35.jpg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>第一次送花🌹</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/36.jpeg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>寶寶送我手錶⌚</div>
-</div>
-
-<div class="gift-card">
-<img class="gift-photo" src="gift/37.jpeg">
-<div style='font-size:18px;font-weight:800;color:#4bbcff;
-text-shadow:none;'>寶寶送我生日禮物🎂</div>
-</div>
-
-</div>
-
-</div>
-
 
 <div class="bottom-nav">
-
-<a class="nav-item " href="home.html">
-<div class="nav-icon">🏠</div>
-<div>首頁</div>
-</a>
-
-<a class="nav-item " href="timeline.html">
-<div class="nav-icon">💗</div>
-<div>回憶</div>
-</a>
-
-<a class="nav-item " href="letter.html">
-<div class="nav-icon">💌</div>
-<div>情書</div>
-</a>
-
-<a class="nav-item active" href="gifts.html">
-<div class="nav-icon">🎁</div>
-<div>禮物</div>
-</a>
-
+  <a class="nav-item" href="home.html">
+    <div class="nav-icon">🏠</div>
+    <div>首頁</div>
+  </a>
+  <a class="nav-item" href="timeline.html">
+    <div class="nav-icon">💗</div>
+    <div>回憶</div>
+  </a>
+  <a class="nav-item" href="letter.html">
+    <div class="nav-icon">💌</div>
+    <div>情書</div>
+  </a>
+  <a class="nav-item active" href="gifts.html">
+    <div class="nav-icon">🎁</div>
+    <div>禮物</div>
+  </a>
+  <a class="nav-item active" href="vn.html">
+    <div class="nav-icon">🇻🇳</div>
+    <div>VNWord</div>
+  </a>
 </div>
 
+<div class="viewer" id="viewer">
+  <div class="viewer-header">
+    <span class="viewer-title" id="viewerTitle">分類相簿</span>
+    <span class="close-btn" onclick="closeViewer()">✕</span>
+  </div>
+  <div class="viewer-grid" id="viewerGrid"></div>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <img class="lightbox-img" id="lightboxImg" src="" alt="大圖">
+</div>
+
+<script>
+// 數據源（完全沿用妳原本的照片路徑）
+const giftData = {
+  gold24k: {
+    title: "✨ 24K黃金系列",
+    cssClass: "gold24k",
+    images: ["gift/2.jpg", "gift/6.jpg", "gift/17.jpg", "gift/18.jpg", "gift/23.jpg", "gift/24k.jpg"]
+  },
+  gold18k: {
+    title: "💎 18K珠寶系列",
+    cssClass: "gold18k",
+    images: ["gift/4.jpg", "gift/5.jpg", "gift/7.jpg", "gift/8.jpg", "gift/29.jpg", "gift/30.jpg", "gift/34.jpg"]
+  },
+  watch: {
+    title: "⌚ 手錶收藏系列",
+    cssClass: "watch",
+    images: ["gift/3.jpg", "gift/15.jpg", "gift/16.jpg", "gift/33.jpg", "gift/36.jpeg"]
+  },
+  flowers: {
+    title: "🌹 花束回憶系列",
+    cssClass: "flowers",
+    images: ["gift/13.jpg", "gift/14.jpg", "gift/24.jpg", "gift/25.jpg", "gift/26.jpg", "gift/28.jpg", "gift/31.jpg", "gift/35.jpg", "gift/19.jpeg", "gift/flowe.jpg", "gift/fflow2.jpg", "gift/fflow.jpg"]
+  },
+  dolls: {
+    title: "🧸 玩偶收藏系列",
+    cssClass: "dolls",
+    images: ["gift/9.jpg", "gift/20.jpg", "gift/21.jpg", "gift/22.jpg"]
+  },
+  special: {
+    title: "🎂 特別紀念系列",
+    cssClass: "special",
+    images: ["gift/1.jpg", "gift/10.jpg", "gift/11.jpg", "gift/12.jpeg", "gift/27.jpg", "gift/32.jpg", "gift/37.jpeg", "gift/glg.jpg", "gift/lyhome.jpg"]
+  }
+};
+
+// 動態渲染卡片（直接注入各項分類第一張相片作為卡片背景）
+function renderCards() {
+  const grid = document.getElementById("cardGrid");
+  grid.innerHTML = "";
+  
+  Object.keys(giftData).forEach(key => {
+    const item = giftData[key];
+    const count = item.images.length;
+    const coverImage = item.images[0]; 
+    
+    const card = document.createElement("div");
+    card.className = `card ${item.cssClass}`;
+    card.style.background = `url('${coverImage}')`;
+    card.onclick = () => openViewer(key);
+    
+    card.innerHTML = `
+      <div class="card-overlay"></div>
+      <div class="card-content-box">
+        <div class="card-title">${item.title}</div>
+        <div class="card-count">${count} 件禮物</div>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+function openViewer(key) {
+  const item = giftData[key];
+  document.getElementById("viewerTitle").innerText = item.title;
+  const vGrid = document.getElementById("viewerGrid");
+  vGrid.innerHTML = "";
+  
+  item.images.forEach(src => {
+    const img = document.createElement("img");
+    img.className = "viewer-img";
+    img.src = src;
+    img.onclick = (e) => {
+      e.stopPropagation();
+      openLightbox(src);
+    };
+    vGrid.appendChild(img);
+  });
+  
+  const viewer = document.getElementById("viewer");
+  viewer.style.display = "flex";
+  setTimeout(() => viewer.classList.add("show"), 10);
+}
+
+function closeViewer() {
+  const viewer = document.getElementById("viewer");
+  viewer.classList.remove("show");
+  setTimeout(() => viewer.style.display = "none", 400);
+}
+
+function openLightbox(src) {
+  const lb = document.getElementById("lightbox");
+  document.getElementById("lightboxImg").src = src;
+  lb.style.display = "flex";
+  setTimeout(() => lb.classList.add("show"), 10);
+}
+
+function closeLightbox() {
+  const lb = document.getElementById("lightbox");
+  lb.classList.remove("show");
+  setTimeout(() => lb.style.display = "none", 300);
+}
+
+window.onload = renderCards;
+</script>
 
 </body>
 </html>
