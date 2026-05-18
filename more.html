@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>More ❤️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:
+linear-gradient(rgba(10,0,4,.72),rgba(10,0,4,.72)),
+url('img/bg.png');
+
+
+color:white;
+min-height:100vh;
+padding:24px 18px 120px;
+max-width:560px;
+margin:auto;
+overflow-x:hidden;
+}
+
+body::before{
+content:'';
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at top left,rgba(255,0,90,.35),transparent 40%),
+radial-gradient(circle at bottom right,rgba(255,80,0,.25),transparent 40%);
+pointer-events:none;
+z-index:-1;
+}
+
+.title{
+font-size:38px;
+font-weight:900;
+margin:20px 0 28px;
+
+text-shadow:
+0 0 20px rgba(255,80,120,.9),
+0 0 40px rgba(255,0,0,.45);
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:16px;
+}
+
+.link-card{
+text-decoration:none;
+color:white;
+display:block;
+}
+
+.card{
+background:
+linear-gradient(
+135deg,
+rgba(130,25,35,.32),
+rgba(40,0,0,.24)
+);
+
+border:2px solid rgba(255,100,120,.85);
+
+border-radius:28px;
+
+padding:22px;
+
+backdrop-filter:blur(20px);
+
+box-shadow:
+0 0 18px rgba(255,60,60,.55),
+0 0 40px rgba(255,20,20,.25);
+
+transition:
+transform .25s ease,
+box-shadow .25s ease,
+filter .25s ease;
+}
+
+.link-card:hover .card{
+transform:translateY(-4px) scale(1.02);
+}
+
+.link-card:active .card{
+transform:scale(.95);
+
+filter:brightness(1.15);
+
+box-shadow:
+0 0 30px rgba(70, 129, 255, 0.95),
+0 0 60px rgba(255,0,0,.55);
+}
+
+.icon{
+font-size:34px;
+margin-bottom:14px;
+}
+
+.card h3{
+font-size:20px;
+margin-bottom:10px;
+}
+
+.card p{
+opacity:.82;
+line-height:1.7;
+font-size:14px;
+}
+
+.bottom-nav{
+position:fixed;
+left:50%;
+bottom:18px;
+transform:translateX(-50%);
+width:min(92%,520px);
+
+background:rgba(20,10,18,.76);
+
+border:1px solid rgba(255,120,160,.18);
+
+border-radius:30px;
+
+display:flex;
+justify-content:space-around;
+align-items:center;
+
+padding:14px;
+
+backdrop-filter:blur(20px);
+}
+
+.nav-item{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:4px;
+text-decoration:none;
+color:#ffdce7;
+font-size:12px;
+}
+
+.nav-icon{
+font-size:24px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="title">
+Nhiều tính năng hơn
+</div>
+
+<div class="grid">
+
+<a class="link-card" href="card.html">
+<div class="card">
+<div class="icon">♠</div>
+<h3>抽卡遊戲</h3>
+<p>
+抽出下一次的禮物<br>
+</p>
+</div>
+</a>
+
+<a class="link-card" href="vn/vn.html">
+<div class="card">
+<div class="icon">✪</div>
+<h3>越南語練習</h3>
+<p>
+Đang phát triển ✨
+</p>
+</div>
+</a>
+
+<a class="link-card" href="more.html">
+<div class="card">
+<div class="icon">☪</div>
+<h3>Đang phát triển ✨</h3>
+<p>
+Đang phát triển ✨
+</p>
+</div>
+</a>
+
+<a class="link-card" href="more.html">
+<div class="card">
+<div class="icon">☪</div>
+<h3>Đang phát triển ✨</h3>
+<p>
+Đang phát triển ✨
+</p>
+</div>
+</a>
+
+<a class="link-card" href="more.html">
+<div class="card">
+<div class="icon">☪</div>
+<h3>Đang phát triển ✨</h3>
+<p>
+Đang phát triển ✨
+</p>
+</div>
+</a>
+
+<a class="link-card" href="520.html">
+<div class="card">
+<div class="icon">♛</div>
+<h3>秘密空間</h3>
+<p>
+20.05.2026<br>情人節網站
+</p>
+</div>
+</a>
+
+</div>
+
+<div class="bottom-nav">
+
+<a class="nav-item" href="temple.html">
+<div class="nav-icon">🏠</div>
+<div>首頁</div>
+</a>
+
+<a class="nav-item" href="timeline.html">
+<div class="nav-icon">💗</div>
+<div>回憶</div>
+</a>
+
+<a class="nav-item" href="letter.html">
+<div class="nav-icon">💌</div>
+<div>情書</div>
+</a>
+
+<a class="nav-item" href="gifts.html">
+<div class="nav-icon">🎁</div>
+<div>禮物</div>
+</a>
+
+<a class="nav-item" href="more.html">
+<div class="nav-icon">❖</div>
+<div>更多</div>
+</a>
+
+</div>
+
+</body>
+</html>

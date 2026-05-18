@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" href="icon.png">
+<title>Legendary Love Gacha - Navigation Edition</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+-webkit-tap-highlight-color: transparent;
+}
+
+body{
+overflow:hidden;
+height:100vh;
+font-family:Segoe UI,sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background: radial-gradient(circle at top,#1a0005 0%,#050002 60%,#000 100%);
+color:white;
+padding-bottom: 90px; /* 預留底部導覽列的空間，防止行動裝置卡片重疊 */
+}
+
+/* 宇宙星空背景 */
+.bg{
+position:fixed;
+inset:-20%;
+background:
+radial-gradient(circle at 25% 35%, rgba(255, 0, 50, 0.15), transparent 40%),
+radial-gradient(circle at 75% 65%, rgba(150, 0, 255, 0.15), transparent 45%),
+radial-gradient(circle at 50% 50%, rgba(255, 0, 100, 0.12), transparent 40%);
+filter:blur(70px);
+animation:bgMove 16s ease-in-out infinite alternate;
+z-index: 1;
+}
+
+@keyframes bgMove{
+from{transform:scale(1) rotate(0deg);}
+to{transform:scale(1.15) rotate(3deg);}
+}
+
+/* 標題 */
+.title{
+position:absolute;
+top:35px;
+text-align:center;
+z-index: 20;
+transition: opacity 0.5s;
+}
+.title.hide { opacity: 0; pointer-events: none; }
+
+.title h1{
+font-size:42px;
+letter-spacing:10px;
+font-family: 'Times New Roman', serif;
+background: linear-gradient(to bottom, #ffffff 30%, #ff3b30 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-shadow: 0 0 30px rgba(255, 59, 48, 0.4);
+}
+
+.title p{
+margin-top:12px;
+letter-spacing:3px;
+color:rgba(255,255,255,.6);
+font-size: 14px;
+}
+
+/* 卡片區 */
+.cards{
+display:flex;
+gap:24px;
+justify-content:center;
+flex-wrap:wrap;
+padding:20px;
+z-index:10;
+width: 100%;
+max-width: 1200px;
+}
+
+/* 卡片基礎 */
+.card{
+width:185px;
+height:300px;
+position:relative;
+cursor:pointer;
+perspective:2500px;
+animation:floatCard 5s ease-in-out infinite;
+transition:.6s cubic-bezier(.34, 1.56, 0.64, 1);
+}
+
+.card:nth-child(1){animation-delay:0s;}
+.card:nth-child(2){animation-delay:.3s;}
+.card:nth-child(3){animation-delay:.6s;}
+.card:nth-child(4){animation-delay:.9s;}
+.card:nth-child(5){animation-delay:1.2s;}
+
+@keyframes floatCard{
+0%,100%{ transform:translateY(0px); }
+50%{ transform:translateY(-12px); }
+}
+
+/* 點擊後其它卡片淡出 */
+.card.fade{
+opacity:.01;
+filter:blur(12px);
+transform:scale(0.5);
+pointer-events: none;
+}
+
+/* 能量球蓄力顫抖 */
+.card.charging {
+  animation: megaShock 0.06s infinite linear !important;
+}
+
+@keyframes megaShock {
+  0% { transform: translate(3px, -2px) scale(1.04); filter: brightness(1.3); }
+  50% { transform: translate(-3px, 3px) scale(0.97); filter: brightness(1.6); }
+  100% { transform: translate(2px, -3px) scale(1.02); filter: brightness(1.3); }
+}
+
+/* 大爆發開啟狀態 */
+.card.active{
+z-index: 999;
+animation: none;
+transform: translateY(-20px) scale(1.4);
+}
+
+/* 內層翻轉 */
+.inner{
+position:relative;
+width:100%;
+height:100%;
+transform-style:preserve-3d;
+transition: transform 1.5s cubic-bezier(.15, .95, .2, 1);
+}
+
+/* 翻開時轉 540 度顯示背面內容 */
+.card.active .inner{
+transform: rotateY(540deg) rotateZ(6deg); 
+}
+
+.front, .back{
+position:absolute;
+width:100%;
+height:100%;
+border-radius:24px;
+overflow:hidden;
+backface-visibility:hidden;
+-webkit-backface-visibility:hidden;
+box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+}
+
+/* ===== 卡片正面 ===== */
+.front{
+display:flex;
+justify-content:center;
+align-items:center;
+border: 2px solid var(--theme-color);
+background-color: #080305;
+background-image: radial-gradient(circle at 50% 50%, transparent 40%, rgba(0,0,0,0.9));
+}
+
+.card.r { --theme-color: #a855f7; --glow: rgba(168,85,247,0.3); }
+.card.sr { --theme-color: #38bdf8; --glow: rgba(56,189,248,0.3); }
+.card.ssr { --theme-color: #ffd700; --glow: rgba(255,215,0,0.4); }
+.card.secret { --theme-color: #00ffcc; --glow: rgba(0,255,204,0.5); }
+.card.red-glow { --theme-color: #ff3b30; --glow: rgba(255,59,48,0.5); }
+
+/* 四角雕花 */
+.vines, .vines-extra { position: absolute; inset: 0; pointer-events: none; }
+.vines::before, .vines::after, .vines-extra::before, .vines-extra::after {
+  content: ""; position: absolute; width: 32px; height: 32px;
+  border: 2px double var(--theme-color); opacity: 0.6;
+  filter: drop-shadow(0 0 5px var(--glow));
+}
+.vines::before { top: 10px; left: 10px; border-right: none; border-bottom: none; border-radius: 14px 0 0 0; }
+.vines::after { bottom: 10px; right: 10px; border-left: none; border-top: none; border-radius: 0 0 14px 0; }
+.vines-extra::before { top: 10px; right: 10px; border-left: none; border-bottom: none; border-radius: 0 14px 0 0; }
+.vines-extra::after { bottom: 10px; left: 10px; border-right: none; border-top: none; border-radius: 0 0 0 14px; }
+
+.ornament {
+  position: absolute; inset: 6px;
+  border: 1px solid rgba(255,255,255,0.02); border-radius: 18px; pointer-events: none;
+}
+.ornament::before { content: ""; position: absolute; inset: 6px; border: 1px solid var(--theme-color); opacity: 0.2; border-radius: 14px; }
+
+/* 中央星盤 */
+.center{
+position:absolute; width:130px; height:130px; border-radius:50%;
+display:flex; justify-content:center; align-items:center; z-index: 2;
+}
+
+.astrology-ring {
+  position: absolute; inset: 0; border-radius: 50%;
+  border: 1px solid var(--theme-color); opacity: 0.35;
+  filter: drop-shadow(0 0 6px var(--theme-color));
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='none' stroke='white' stroke-width='0.6' stroke-opacity='0.4'/%3E%3Ccircle cx='50' cy='50' r='38' fill='none' stroke='white' stroke-width='0.3' stroke-dasharray='1,2' stroke-opacity='0.3'/%3E%3Cpath d='M50,2 L50,98 M2,50 L98,50' stroke='white' stroke-width='0.3' stroke-opacity='0.2'/%3E%3C/svg%3E");
+  animation: spinRing 25s linear infinite;
+}
+
+@keyframes spinRing { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+.symbol{
+font-size:46px; color: var(--theme-color);
+text-shadow: 0 0 10px var(--theme-color), 0 0 35px var(--theme-color);
+animation:pulse 2.5s infinite ease-in-out; z-index: 3;
+}
+
+.shine{
+position:absolute; inset:-100%;
+background: linear-gradient(110deg, transparent 43%, rgba(255,255,255,0.2) 50%, transparent 57%);
+transform: rotate(35deg); animation:shine 5s linear infinite; z-index: 4;
+}
+
+/* ===== 🔴 紅色雷電能量球 Canvas 圖層 🔴 ===== */
+.lightning-canvas {
+  position: absolute;
+  top: -60px; left: -60px;
+  width: calc(100% + 120px) !important;
+  height: calc(100% + 120px) !important;
+  pointer-events: none;
+  z-index: 100;
+  mix-blend-mode: screen;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.card.charging .lightning-canvas {
+  opacity: 1;
+}
+
+/* ===== 卡片背面 ===== */
+.back{
+transform:rotateY(180deg);
+background: #0a0204;
+background-image: 
+  radial-gradient(circle at 50% 15%, var(--glow) 0%, transparent 75%),
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='none'/%3E%3Cpath d='M8,8 L177,8 L177,292 L8,292 Z' fill='none' stroke='rgba(255,255,255,0.06)' stroke-width='1'/%3E%3C/svg%3E");
+border: 2px solid var(--theme-color);
+display:flex; justify-content:center; align-items:center; flex-direction:column; text-align:center; padding:24px;
+}
+
+.card.r .back { box-shadow: 0 0 50px rgba(168,85,247,0.5); }
+.card.sr .back { box-shadow: 0 0 60px rgba(56,189,248,0.5); }
+.card.ssr .back { box-shadow: 0 0 85px rgba(255,215,0,0.6), inset 0 0 25px rgba(255,215,0,0.15); }
+.card.secret .back { box-shadow: 0 0 110px rgba(0,255,204,0.7), inset 0 0 30px rgba(0,255,204,0.2); }
+.card.red-glow .back { box-shadow: 0 0 100px rgba(255,59,48,0.7), inset 0 0 30px rgba(255,59,48,0.2); }
+
+.rarity{
+font-size:18px; font-weight: bold; margin-bottom:20px; letter-spacing: 2px;
+text-shadow: 0 0 10px currentColor;
+}
+
+.reward{
+font-size:15px; line-height:1.9; color: #e2e8f0; letter-spacing: 1px;
+}
+
+.glow-text{ font-weight: bold; animation:mythicGlow .8s infinite alternate; }
+
+/* ===== 🔘 「收下命運」黃金按鈕 ===== */
+.close-btn {
+  position: fixed; bottom: -80px; left: 50%; transform: translateX(-50%);
+  padding: 14px 40px; font-size: 16px; font-weight: bold; border: 2px solid #ff3b30;
+  background: linear-gradient(135deg, #220005, #000000); color: #ff3b30;
+  border-radius: 30px; cursor:pointer; z-index: 1000; opacity: 0;
+  box-shadow: 0 0 20px rgba(255, 59, 48, 0.4), inset 0 0 10px rgba(255, 59, 48, 0.2);
+  letter-spacing: 2px; transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.close-btn.show { bottom: 120px; opacity: 1; } /* 按鈕往上挪，防止擋到導航列 */
+.close-btn:hover { background: #ff3b30; color: #000; box-shadow: 0 0 35px #ff3b30; }
+
+/* ===== 🌟 完美導入：原廠經典下置導航列樣式 🌟 ===== */
+.bottom-nav{
+position:fixed;
+left:50%;
+bottom:18px;
+transform:translateX(-50%);
+width:min(92%,520px);
+height:76px;
+background:rgba(20,10,18,.76);
+border:1px solid rgba(255,120,160,.18);
+border-radius:30px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+z-index:99999; /* 確保浮在宇宙粒子與卡片的最上層 */
+transition: opacity 0.5s;
+}
+.bottom-nav.hide { opacity: 0.1; pointer-events: none; } /* 抽卡開牌時稍微淡化防干擾 */
+
+.nav-item{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:4px;
+color:#ffdce7;
+font-size:12px;
+text-decoration:none;
+}
+
+.nav-item.active{
+color:#ff6f9f;
+}
+
+.nav-icon{
+font-size:24px;
+}
+
+/* 漂浮粒子 */
+.particle{ position:fixed; width:2px; height:2px; background:white; border-radius:50%; opacity:.25; animation:floatUp linear infinite; pointer-events: none; }
+
+/* 動畫庫 */
+@keyframes floatUp{ from{ transform:translateY(100vh) scale(0.8); opacity:0; } 10%{ opacity:.5; } to{ transform:translateY(-120vh) scale(1.3); opacity:0; } }
+@keyframes pulse{ 0%,100%{ transform:scale(1); opacity: 0.85; } 50%{ transform:scale(1.06); opacity: 1; filter: drop-shadow(0 0 12px var(--theme-color)); } }
+@keyframes shine{ 0% { transform:translateX(-140%) rotate(35deg); } 25%, 100% { transform:translateX(140%) rotate(35deg); } }
+@keyframes mythicGlow{ from{ text-shadow: 0 0 10px white, 0 0 25px currentColor; color: #fff; } to{ text-shadow: 0 0 20px white, 0 0 45px currentColor, 0 0 60px #ff3b30; color: #fffde0; } }
+
+/* RWD 優化 */
+@media(max-width:768px){
+.title h1{ font-size:32px; letter-spacing: 6px; }
+.cards{ gap:14px; padding: 10px; }
+.card{ width:135px; height:220px; }
+.center{ width:92px; height:92px; }
+.symbol{ font-size:36px; }
+.rarity { font-size: 14px; margin-bottom: 12px; }
+.reward{ font-size:12px; line-height: 1.6; }
+.close-btn { width: 80%; text-align: center; font-size: 14px; padding: 12px 0; bottom: -80px; }
+.close-btn.show { bottom: 120px; }
+.vines::before, .vines::after, .vines-extra::before, .vines-extra::after { width: 20px; height: 20px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="title" id="page-title">
+<h1>DESTINY GACHA</h1>
+<p>Chọn quà cho ngày đặc biệt tiếp theo 💖</p>
+</div>
+
+<button class="close-btn" id="close-btn">Nhận quà 🎁</button>
+
+<div class="cards" id="card-container">
+
+<div class="card r">
+<canvas class="lightning-canvas"></canvas>
+<div class="inner">
+<div class="front">
+<div class="shine"></div><div class="vines"></div><div class="vines-extra"></div><div class="ornament"></div>
+<div class="center"><div class="astrology-ring"></div><div class="symbol">☾</div></div>
+</div>
+<div class="back">
+<div class="rarity"></div>
+<div class="reward"></div>
+</div>
+</div>
+</div>
+
+<div class="card sr">
+<canvas class="lightning-canvas"></canvas>
+<div class="inner">
+<div class="front">
+<div class="shine"></div><div class="vines"></div><div class="vines-extra"></div><div class="ornament"></div>
+<div class="center"><div class="astrology-ring"></div><div class="symbol">✦</div></div>
+</div>
+<div class="back">
+<div class="rarity"></div>
+<div class="reward"></div>
+</div>
+</div>
+</div>
+
+<div class="card ssr">
+<canvas class="lightning-canvas"></canvas>
+<div class="inner">
+<div class="front">
+<div class="shine"></div><div class="vines"></div><div class="vines-extra"></div><div class="ornament"></div>
+<div class="center"><div class="astrology-ring"></div><div class="symbol">☀</div></div>
+</div>
+<div class="back">
+<div class="rarity"></div>
+<div class="reward"></div>
+</div>
+</div>
+</div>
+
+<div class="card red-glow">
+<canvas class="lightning-canvas"></canvas>
+<div class="inner">
+<div class="front">
+<div class="shine"></div><div class="vines"></div><div class="vines-extra"></div><div class="ornament"></div>
+<div class="center"><div class="astrology-ring"></div><div class="symbol">♡</div></div>
+</div>
+<div class="back">
+<div class="rarity"></div>
+<div class="reward"></div>
+</div>
+</div>
+</div>
+
+<div class="card secret">
+<canvas class="lightning-canvas"></canvas>
+<div class="inner">
+<div class="front">
+<div class="shine"></div><div class="vines"></div><div class="vines-extra"></div><div class="ornament"></div>
+<div class="center"><div class="astrology-ring"></div><div class="symbol">🌹</div></div>
+</div>
+<div class="back">
+<div class="rarity"></div>
+<div class="reward"></div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="bottom-nav" id="bottom-nav">
+  <a class="nav-item" href="home.html">
+    <div class="nav-icon">🏠</div>
+    <div>首頁</div>
+  </a>
+  <a class="nav-item" href="timeline.html">
+    <div class="nav-icon">💗</div>
+    <div>回憶</div>
+  </a>
+  <a class="nav-item" href="letter.html">
+    <div class="nav-icon">💌</div>
+    <div>情書</div>
+  </a>
+  <a class="nav-item" href="gifts.html">
+    <div class="nav-icon">🎁</div>
+    <div>禮物</div>
+  </a>
+  <a class="nav-item active" href="more.html">
+    <div class="nav-icon">❖</div>
+    <div>更多</div>
+  </a>
+</div>
+
+<script>
+const cards = document.querySelectorAll(".card");
+const closeBtn = document.getElementById("close-btn");
+const pageTitle = document.getElementById("page-title");
+const bottomNav = document.getElementById("bottom-nav");
+
+let currentActiveCard = null; 
+let lightningAnimationId = null;
+
+// 🎁 隨機內容池
+const rewardPool = [
+  { rarityText: "⭐⭐ Giải tư", rewardText: "Chọn 1 con gấu bông 🧸", isSSR: false, isSecret: false, customColor: "#a855f7" },
+  { rarityText: "⭐⭐⭐ Giải ba", rewardText: "<br>Chọn 1 món mỹ phẩm 💄", isSSR: false, isSecret: false, customColor: "#38bdf8" },
+  { rarityText: "⭐⭐⭐⭐⭐ Giải lớn", rewardText: "Chọn 1 món trang sức 💎", isSSR: true, isSecret: false, customColor: "#ffd700" },
+  { rarityText: "⭐⭐⭐⭐ Giải nhì", rewardText: "Chọn 1 cái túi dưới 7 triệu 💼", isSSR: false, isSecret: false, customColor: "#38bdf8" },
+  { rarityText: "👑 Phần thưởng nhỏ", rewardText: "Anh hôn em một cái", isSSR: false, isSecret: true, customColor: "#00ffcc" }
+];
+
+function shuffleContents() {
+  const shuffled = [...rewardPool];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  cards.forEach((card, index) => {
+    const data = shuffled[index];
+    const rarityDiv = card.querySelector(".rarity");
+    const rewardDiv = card.querySelector(".reward");
+    
+    rarityDiv.innerHTML = data.rarityText;
+    rewardDiv.innerHTML = data.rewardText;
+    
+    if (card.classList.contains("red-glow")) {
+      rarityDiv.style.color = "#ff3b30";
+    } else {
+      rarityDiv.style.color = data.customColor;
+    }
+
+    if(data.isSSR) {
+      rarityDiv.style.animation = "mythicGlow .8s infinite alternate";
+      rewardDiv.className = "reward glow-text";
+    } else {
+      rarityDiv.style.animation = "none";
+      rewardDiv.className = "reward";
+    }
+    
+    if(data.isSecret && !card.classList.contains("red-glow")) {
+      rarityDiv.style.textShadow = "0 0 15px #00ffcc";
+    } else {
+      rarityDiv.style.textShadow = "0 0 10px currentColor";
+    }
+  });
+}
+
+shuffleContents();
+
+// ==========================================
+// 🎮 網開箱網站級音效引擎 (Web Audio API) 🎮
+// ==========================================
+let audioCtx = null;
+
+function initAudio() {
+  if (!audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+}
+
+function playHeavyBassSound() {
+  initAudio();
+  const now = audioCtx.currentTime;
+  const duration = 1.2;
+
+  const subOsc = audioCtx.createOscillator();
+  const gainNode = audioCtx.createGain();
+  const filter = audioCtx.createBiquadFilter();
+
+  subOsc.type = 'sine';
+  subOsc.frequency.setValueAtTime(110, now);
+  subOsc.frequency.linearRampToValueAtTime(55, now + duration);
+
+  filter.type = 'lowpass';
+  filter.frequency.setValueAtTime(140, now);
+
+  gainNode.gain.setValueAtTime(0.01, now);
+  gainNode.gain.linearRampToValueAtTime(0.35, now + duration - 0.1);
+  gainNode.gain.exponentialRampToValueAtTime(0.001, now + duration);
+
+  subOsc.connect(filter);
+  filter.connect(gainNode);
+  gainNode.connect(audioCtx.destination);
+
+  subOsc.start(now);
+  subOsc.stop(now + duration);
+}
+
+function playDingSound() {
+  initAudio();
+  const now = audioCtx.currentTime;
+  const crystalHarmonics = [1100, 1650, 2200, 3300];
+
+  crystalHarmonics.forEach((freq, index) => {
+    const osc = audioCtx.createOscillator();
+    const gainNode = audioCtx.createGain();
+
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(freq, now);
+
+    const vol = index === 3 ? 0.25 : 0.07;
+    gainNode.gain.setValueAtTime(vol, now);
+    gainNode.gain.exponentialRampToValueAtTime(0.00001, now + 1.4);
+
+    osc.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+    osc.start(now);
+    osc.stop(now + 1.4);
+  });
+}
+
+// ⚡ 紅色雷電能量球 Canvas 渲染 ⚡
+function drawElectricOrb(canvas) {
+  const ctx = canvas.getContext("2d");
+  const pad = 60;
+  const rect = canvas.parentElement.getBoundingClientRect();
+  canvas.width = rect.width + pad * 2; canvas.height = rect.height + pad * 2;
+  const centerX = canvas.width / 2; const centerY = canvas.height / 2;
+
+  function render() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const baseRadius = 45; const plasmaColor = "#ff1a40"; 
+    
+    const grad = ctx.createRadialGradient(centerX, centerY, 5, centerX, centerY, baseRadius + 20);
+    grad.addColorStop(0, '#ffffff'); grad.addColorStop(0.2, 'rgba(255, 50, 80, 0.9)');
+    grad.addColorStop(0.6, 'rgba(230, 0, 30, 0.4)'); grad.addColorStop(1, 'transparent');
+    ctx.fillStyle = grad; ctx.beginPath(); ctx.arc(centerX, centerY, baseRadius + 25, 0, Math.PI * 2); ctx.fill();
+
+    ctx.shadowBlur = 15; ctx.shadowColor = plasmaColor;
+    for (let k = 0; k < 4; k++) {
+      ctx.beginPath(); ctx.strokeStyle = k === 0 ? "#ffffff" : plasmaColor; ctx.lineWidth = k === 0 ? 1.5 : Math.random() * 2 + 1;
+      for (let i = 0; i <= 30; i++) {
+        const angle = (i / 30) * Math.PI * 2; const offset = (Math.random() - 0.5) * 14; const r = baseRadius + offset;
+        const x = centerX + Math.cos(angle) * r; const y = centerY + Math.sin(angle) * r;
+        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+    }
+
+    for (let b = 0; b < 6; b++) {
+      ctx.beginPath(); ctx.strokeStyle = Math.random() > 0.4 ? "#ffffff" : plasmaColor; ctx.lineWidth = Math.random() * 2 + 0.8;
+      ctx.moveTo(centerX, centerY);
+      const targetAngle = (b / 6) * Math.PI * 2 + (Math.random() - 0.5) * 0.5; const targetDist = Math.random() * 120 + 80; 
+      let currX = centerX; let currY = centerY;
+      for (let s = 1; s <= 6; s++) {
+        const progress = s / 6; const totalX = centerX + Math.cos(targetAngle) * targetDist * progress; const totalY = centerY + Math.sin(targetAngle) * targetDist * progress;
+        currX = totalX + (Math.random() - 0.5) * 25; currY = totalY + (Math.random() - 0.5) * 25; ctx.lineTo(currX, currY);
+      }
+      ctx.stroke();
+    }
+    lightningAnimationId = requestAnimationFrame(render);
+  }
+  render();
+}
+
+cards.forEach(card=>{
+card.addEventListener("click",()=>{
+if(card.classList.contains("active") || card.classList.contains("charging") || currentActiveCard) return;
+
+playHeavyBassSound();
+
+pageTitle.classList.add("hide");
+bottomNav.classList.add("hide"); // 抽卡時將下方導覽列半透明淡出，視覺更乾淨
+cards.forEach(c=>{ if(c !== card) c.classList.add("fade"); });
+
+card.classList.add("charging");
+const canvas = card.querySelector(".lightning-canvas");
+drawElectricOrb(canvas);
+
+navigator.vibrate?.([60, 40, 60, 40, 120]);
+
+setTimeout(()=>{
+  cancelAnimationFrame(lightningAnimationId); 
+  const ctx = canvas.getContext("2d"); ctx.clearRect(0, 0, canvas.width, canvas.height); 
+  
+  card.classList.remove("charging");
+  card.classList.add("active");
+  currentActiveCard = card; 
+
+  playDingSound();
+
+  setTimeout(() => { closeBtn.classList.add("show"); }, 900);
+}, 1200);
+});
+});
+
+/* 🔘 重複玩 */
+closeBtn.addEventListener("click", () => {
+  if (!currentActiveCard) return;
+  closeBtn.classList.remove("show");
+  currentActiveCard.classList.remove("active"); 
+  
+  setTimeout(() => {
+    pageTitle.classList.remove("hide");
+    bottomNav.classList.remove("hide"); // 重新顯示底部導覽列
+    cards.forEach(c => { c.classList.remove("fade"); });
+    currentActiveCard = null; 
+    setTimeout(() => { shuffleContents(); }, 150);
+  }, 400);
+});
+
+/* 背景星空微粒 */
+for(let i=0;i<110;i++){
+const p = document.createElement("div"); p.className = "particle"; p.style.left = Math.random()*100 + "vw";
+const size = Math.random()*3 + 1; p.style.width = size + "px"; p.style.height = size + "px";
+p.style.animationDuration = (Math.random()*8 + 7) + "s"; p.style.animationDelay = (Math.random()*5) + "s";
+document.body.appendChild(p);
+}
+</script>
+
+</body>
+</html>

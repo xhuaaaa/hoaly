@@ -59,17 +59,19 @@ animation:starMove 18s linear infinite;
 opacity:.75;
 }
 
-/* 神殿門 */
+/* 超厚重神殿門主體 */
 
 .temple-door{
 position:relative;
 
-width:340px;
-height:520px;
+width:520px !important;
+height:620px !important;
+perspective:2400px !important;
 
 display:flex;
 justify-content:center;
 align-items:center;
+transform-style: preserve-3d;
 }
 
 .door-left,
@@ -78,21 +80,28 @@ align-items:center;
 position:absolute;
 top:0;
 
-width:48%;
+width:50% !important;
 height:100%;
 
 background:
 linear-gradient(
-180deg,
-rgba(255,230,150,.22),
-rgba(120,70,0,.45)
-);
+145deg,
+#120700 0%,
+#3b1a00 10%,
+#7a4300 18%,
+#ffcf6b 28%,
+#fff0bc 40%,
+#a65d00 58%,
+#2b1200 100%
+) !important;
 
-border:2px solid rgba(255,220,120,.85);
+border:8px solid rgba(255,220,120,1) !important;
 
 box-shadow:
-0 0 22px rgba(255,200,80,.35),
-inset 0 0 40px rgba(255,220,120,.12);
+0 0 45px rgba(255,190,60,.75),
+inset 0 0 160px rgba(255,255,255,.18),
+inset 0 0 70px rgba(255,220,120,.35),
+0 0 140px rgba(255,180,40,.28) !important;
 
 backdrop-filter:blur(4px);
 
@@ -147,7 +156,7 @@ box-shadow:
 0 0 20px rgba(255,200,80,.18);
 }
 
-/* 中央光 */
+/* 中央基礎發光 */
 
 .center-light{
 
@@ -170,7 +179,7 @@ box-shadow:
 0 0 60px rgba(255,220,120,.95),
 0 0 120px rgba(255,180,40,.65);
 
-animation:pulse 4s ease-in-out infinite;
+animation:portalLight 7s ease forwards;
 }
 
 /* 外圈 */
@@ -221,32 +230,6 @@ text-shadow:
 opacity:0;
 
 animation:logoShow 3s ease forwards 1s;
-}
-
-/* 星座 */
-
-.zodiac{
-
-position:absolute;
-
-font-size:46px;
-font-weight:900;
-
-color:#fff2b8;
-
-text-shadow:
-0 0 12px rgba(255,220,120,.95),
-0 0 28px rgba(255,180,40,.45);
-}
-
-.libra{
-left:120px;
-top:120px;
-}
-
-.scorpio{
-right:120px;
-top:120px;
 }
 
 /* title */
@@ -349,20 +332,6 @@ box-shadow:
 animation:floatParticle linear infinite;
 }
 
-.tap{
-
-position:absolute;
-
-bottom:28px;
-
-font-size:15px;
-letter-spacing:3px;
-
-color:#fff2c8;
-
-animation:blink 2s infinite;
-}
-
 @keyframes openLeft{
 
 0%{
@@ -393,17 +362,6 @@ transform:rotate(0deg);
 
 to{
 transform:rotate(360deg);
-}
-}
-
-@keyframes pulse{
-
-0%,100%{
-transform:scale(1);
-}
-
-50%{
-transform:scale(1.08);
 }
 }
 
@@ -478,21 +436,11 @@ opacity:0;
 }
 }
 
-@keyframes blink{
 
-0%,100%{
-opacity:.35;
-}
-
-50%{
-opacity:1;
-}
-}
-
-
+/* 🛠️ 核心還原：星座線條容器置頂（z-index: 30）並同步 3D 推進前進動畫 */
 .zodiac-line-wrap{
 position:absolute;
-z-index:5;
+z-index:30 !important; 
 
 width:520px;
 height:240px;
@@ -503,31 +451,39 @@ justify-content:center;
 align-items:center;
 
 opacity:0;
+pointer-events: none;
+transform-origin: center center;
 
 animation:
-showLines 2s ease forwards 2.4s;
+  showLines 2s ease forwards 2.4s,
+  templeZoom 7s ease-in-out forwards; /* 補回前進動畫 */
 }
 
 .zodiac-svg{
 width:100%;
 height:100%;
-
-filter:
-drop-shadow(0 0 12px rgba(120,200,255,.95))
-drop-shadow(0 0 26px rgba(40,120,255,.55))
-drop-shadow(0 0 60px rgba(0,80,255,.28));
 }
 
-/* 基礎線條樣式 */
+/* 🛠️ 核心還原：星座線條本體（加粗到 9） */
 .draw-line{
 fill:none;
 stroke:url(#goldLine);
-stroke-width:6;
+stroke-width:9 !important; 
 stroke-linecap:round;
 stroke-linejoin:round;
 }
 
-/* ===== 🛠️ 核心修正：天秤座採用絕對穩健的透明度淡入動畫，100% 顯現 🛠️ ===== */
+/* 🛠️ 核心還原：星座專屬發光亮框（粗度 16 霓虹外框） */
+.glow-border-line {
+fill:none;
+stroke:#77c5ff !important; 
+stroke-width:16 !important; 
+stroke-linecap:round;
+stroke-linejoin:round;
+opacity: 0.9;
+filter: url(#superGlow); 
+}
+
 .libra-glow-group {
   opacity: 0;
   animation: fadeInLibra 2.0s cubic-bezier(0.4, 0, 0.2, 1) forwards 2.6s;
@@ -537,31 +493,34 @@ stroke-linejoin:round;
   to { opacity: 1; }
 }
 
-/* 天蠍座（單一連續線段，完美保留原本的長線劃開動畫） */
 .scorpio-line{
 stroke-dasharray: 1200;
 stroke-dashoffset: 1200;
 animation: drawScorpio 2.0s cubic-bezier(0.4, 0, 0.2, 1) forwards 3.0s;
 }
 
-
+/* 🛠️ 核心還原：天秤座底座橫線動畫與發光 */
 .libra-extra-line{
 fill:none;
-
 stroke:#6fb8ff;
-stroke-width:6;
+stroke-width:9 !important;
 stroke-linecap:round;
-
 stroke-dasharray:400;
 stroke-dashoffset:400;
-
-filter:
-drop-shadow(0 0 6px rgba(120,200,255,.55));
-
 opacity:1;
+animation: drawExtraLine 1.6s ease forwards 3.2s;
+}
 
-animation:
-drawExtraLine 1.6s ease forwards 3.2s;
+.libra-extra-glow {
+fill:none;
+stroke:#2299ff !important;
+stroke-width:16 !important;
+stroke-linecap:round;
+stroke-dasharray:400;
+stroke-dashoffset:400;
+filter: url(#superGlow);
+opacity:0.8;
+animation: drawExtraLine 1.6s ease forwards 3.2s;
 }
 
 @keyframes drawExtraLine{
@@ -578,12 +537,12 @@ stroke-dashoffset:0;
 @keyframes showLines{
 from{
 opacity:0;
-transform:scale(.7);
+transform:scale(.7) translateY(-145px);
 filter:blur(10px);
 }
 to{
 opacity:1;
-transform:scale(1);
+transform:scale(1) translateY(-145px);
 filter:blur(0px);
 }
 }
@@ -637,12 +596,6 @@ rgba(0,0,0,.92) 100%);
 pointer-events:none;
 }
 
-.center-light{
-
-animation:
-portalLight 7s ease forwards;
-}
-
 @keyframes portalLight{
 
 0%{
@@ -663,32 +616,7 @@ filter:blur(18px);
 }
 
 
-/* ===== 浮雕升級（不改位置） ===== */
-
-.door-left,
-.door-right{
-
-background:
-linear-gradient(
-145deg,
-#2d1a00 0%,
-#6e4a12 12%,
-#d7a63e 25%,
-#fff2b0 40%,
-#b57812 60%,
-#4d2a00 100%
-) !important;
-
-box-shadow:
-0 0 18px rgba(255,190,60,.55),
-inset 0 0 80px rgba(255,255,255,.08),
-inset 0 0 25px rgba(255,220,120,.25),
-0 0 60px rgba(255,180,40,.18) !important;
-
-border:3px solid rgba(255,220,120,.95) !important;
-
-overflow:hidden;
-}
+/* ===== 浮雕裝飾 ===== */
 
 .door-left::before,
 .door-right::before{
@@ -696,15 +624,16 @@ overflow:hidden;
 content:'';
 
 position:absolute;
-inset:22px;
+inset:12px !important;
 
 border-radius:18px;
 
-border:2px solid rgba(255,230,160,.85);
+border:5px solid rgba(255,245,190,.98) !important;
 
 box-shadow:
-inset 0 0 25px rgba(255,240,180,.18),
-0 0 12px rgba(255,220,120,.22);
+inset 0 0 45px rgba(255,255,255,.25),
+0 0 24px rgba(255,220,120,.45),
+0 0 60px rgba(255,180,40,.18) !important;
 }
 
 .door-left::after,
@@ -714,8 +643,8 @@ content:'';
 
 position:absolute;
 
-width:220px;
-height:220px;
+width:300px !important;
+height:300px !important;
 
 left:50%;
 top:50%;
@@ -724,13 +653,76 @@ transform:translate(-50%,-50%);
 
 border-radius:50%;
 
-border:2px solid rgba(255,220,120,.45);
+border:5px solid rgba(255,220,120,.45);
 
 box-shadow:
-0 0 25px rgba(255,220,120,.22),
-inset 0 0 25px rgba(255,240,180,.12);
+0 0 50px rgba(255,220,120,.45),
+inset 0 0 50px rgba(255,240,180,.12) !important;
 
 opacity:.95;
+}
+
+
+/* ===== 🛠️ 核心還原：極亮魔幻球體顏色（藍白紅漸層＋高亮發光） ===== */
+
+.energy-core{
+position:absolute;
+width:200px !important;
+height:200px !important;
+border-radius:50%;
+
+background:
+radial-gradient(circle,
+rgba(255,255,255,1) 0%,
+rgba(120,180,255,.95) 20%,
+rgba(255,60,60,.9) 45%,
+rgba(255,0,0,.25) 70%,
+transparent 100%) !important;
+
+box-shadow:
+0 0 35px rgba(255,255,255,.35),
+0 0 90px rgba(255,0,0,.28),
+0 0 160px rgba(120,0,0,.75) !important;
+
+animation:corePulse 2.4s ease-in-out infinite;
+z-index:8;
+}
+
+.energy-ring{
+display:none !important;
+}
+
+.temple-door::before{
+display:none !important;
+}
+
+.lightning-container, .vortex-swirl {
+  display: none !important;
+}
+
+@keyframes corePulse{
+
+0%,100%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.12);
+}
+}
+
+
+/* ===== HARD FIX FOR SQUARE CORNERS ===== */
+
+.swirl-layer,
+.swirl-layer2{
+
+border-radius:50% !important;
+
+-webkit-mask-image:radial-gradient(circle, #fff 58%, transparent 59%) !important;
+mask-image:radial-gradient(circle, #fff 58%, transparent 59%) !important;
+
+overflow:hidden !important;
 }
 
 </style>
@@ -743,66 +735,55 @@ opacity:.95;
 <div class="stars"></div>
 
 <div class="magic-ring"></div>
-
+<div class="energy-core"></div>
 
 <div class="logo">H ♥ L</div>
 
-<div class="temple-door">
-
-<div class="center-light"></div>
-
 <div class="zodiac-line-wrap">
-
 <svg class="zodiac-svg" viewBox="0 0 600 300">
-
 <defs>
 <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
 <stop offset="0%" stop-color="#dff4ff"/>
 <stop offset="50%" stop-color="#4fa8ff"/>
 <stop offset="100%" stop-color="#d8f0ff"/>
 </linearGradient>
+
+<filter id="superGlow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6" result="blur1" />
+  <feGaussianBlur stdDeviation="12" result="blur2" />
+  <feMerge>
+    <feMergeNode in="blur2" />
+    <feMergeNode in="blur1" />
+    <feMergeNode in="SourceGraphic" />
+  </feMerge>
+</filter>
 </defs>
 
-<g class="draw-line libra-glow-group">
-
-  <!-- 上方弧線 -->
-  <path d="M 65 130 L 125 130 Q 155 70 185 130 L 245 130" />
-
-  <!-- 第一條 -->
-  <path d="M 65 165 L 245 165" />
-
-  <!-- 第二條 -->
-  <path d="M 65 195 L 245 195" />
-
-  <!-- 第三條（動畫版） -->
-  <path class="libra-extra-line"
-        d="M 55 206 L 255 206" />
-
+<g class="libra-glow-group">
+  <g class="glow-border-line">
+    <path d="M 65 145 L 125 145 Q 155 85 185 145 L 245 145" />
+    <path class="libra-extra-glow" d="M 55 185 L 255 185" />
+  </g>
+  
+  <g class="draw-line">
+    <path d="M 65 145 L 125 145 Q 155 85 185 145 L 245 145" />
+    <path class="libra-extra-line" d="M 55 185 L 255 185" />
+  </g>
 </g>
 
-<path class="draw-line scorpio-line"
-d="M350 210
-L350 120
-Q350 90 380 90
-Q410 90 410 120
-L410 210
-
-L410 120
-Q410 90 440 90
-Q470 90 470 120
-L470 180
-
-Q470 220 520 220
-
-L500 198
-M520 220
-L488 238"
-/>
-
+<g style="animation: drawScorpio 2.0s cubic-bezier(0.4, 0, 0.2, 1) forwards 3.0s;">
+  <path class="glow-border-line scorpio-line"
+  d="M350 210 L350 120 Q350 90 380 90 Q410 90 410 120 L410 210 L410 120 Q410 90 440 90 Q470 90 470 120 L470 180 Q470 220 520 220 L500 198 M520 220 L488 238" />
+  
+  <path class="draw-line scorpio-line"
+  d="M350 210 L350 120 Q350 90 380 90 Q410 90 410 120 L410 210 L410 120 Q410 90 440 90 Q470 90 470 120 L470 180 Q470 220 520 220 L500 198 M520 220 L488 238" />
+</g>
 </svg>
-
 </div>
 
+<div class="temple-door">
+
+<div class="center-light"></div>
 
 <div class="door-left">
 <div class="door-pattern"></div>
@@ -824,48 +805,30 @@ L488 238"
 <div class="loading-bar"></div>
 </div>
 
-
-
 </div>
 
 <script>
-
-// 將金塵塞入特定容器，確保不干擾 SVG 的渲染樹
 const starsContainer = document.querySelector(".stars") || document.body;
 
 for(let i=0;i<60;i++){
-
 const p = document.createElement("div");
-
 p.className = "gold-particle";
-
 p.style.left = Math.random()*100 + "vw";
-
 p.style.top = Math.random()*100 + "vh";
-
-p.style.animationDuration =
-(6 + Math.random()*8) + "s";
-
-p.style.animationDelay =
-(Math.random()*6) + "s";
-
+p.style.animationDuration = (6 + Math.random()*8) + "s";
+p.style.animationDelay = (Math.random()*6) + "s";
 starsContainer.appendChild(p);
-
 }
 
 setTimeout(()=>{
-
 document.getElementById("intro").style.transition="2s";
 document.getElementById("intro").style.opacity="0";
 
 setTimeout(()=>{
 document.getElementById("intro").style.display="none";
 },2000);
-
 },6200);
-
 </script>
-
 
 <script>
 setTimeout(()=>{
