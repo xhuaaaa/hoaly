@@ -1,0 +1,9459 @@
+[
+  {
+    "vn": "xin hỏi 請問",
+    "zh": "tên 名字",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tên 名字",
+    "zh": "là gì 是什麼",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "là gì 是什麼",
+    "zh": "còn 還有",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "còn 還有",
+    "zh": "xin lỗi 不好意思",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xin lỗi 不好意思",
+    "zh": "người 人",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "người 人",
+    "zh": "nước nào 哪個國家",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nước nào 哪個國家",
+    "zh": "Đài Loan 臺灣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Đài Loan 臺灣",
+    "zh": "Hàn Quốc 韓國",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Hàn Quốc 韓國",
+    "zh": "phải không 是嗎",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "phải không 是嗎",
+    "zh": "Nhật Bản 日本",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Nhật Bản 日本",
+    "zh": "Việt Nam 越南",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Việt Nam 越南",
+    "zh": "trường 學校",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trường 學校",
+    "zh": "đại học 大學",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đại học 大學",
+    "zh": "biết 知道",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "biết 知道",
+    "zh": "nói 說",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nói 說",
+    "zh": "tiếng Việt 越語",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tiếng Việt 越語",
+    "zh": "một chút 一點點",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "một chút 一點點",
+    "zh": "khoa 系",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khoa 系",
+    "zh": "Đông Nam Á 東南亞",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Đông Nam Á 東南亞",
+    "zh": "chính trị 政治",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chính trị 政治",
+    "zh": "năm nhất 大一",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "năm nhất 大一",
+    "zh": "cô giáo 女老師",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cô giáo 女老師",
+    "zh": "khó 難",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khó 難",
+    "zh": "đúng rồi 對了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đúng rồi 對了",
+    "zh": "sinh viên 學生",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sinh viên 學生",
+    "zh": "tạm ổn 還可以",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tạm ổn 還可以",
+    "zh": "cũng 也",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cũng 也",
+    "zh": "phát âm 發音",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "phát âm 發音",
+    "zh": "lắm 太",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lắm 太",
+    "zh": "khá 相當；好",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khá 相當；好",
+    "zh": "vậy à 這樣喔",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "vậy à 這樣喔",
+    "zh": "khó lắm 太難了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khó lắm 太難了",
+    "zh": "Tôi thấy 我覺得",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Tôi thấy 我覺得",
+    "zh": "tạm ổn 還可以",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tạm ổn 還可以",
+    "zh": "sinh viên 大學生",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sinh viên 大學生",
+    "zh": "tại 因為（後面接地點就是‘在’的意思）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tại 因為（後面接地點就是‘在’的意思）",
+    "zh": "Ấn Độ 印度",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Ấn Độ 印度",
+    "zh": "Thái Lan 泰國",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Thái Lan 泰國",
+    "zh": "gia đình 家庭",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "gia đình 家庭",
+    "zh": "mấy 幾",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mấy 幾",
+    "zh": "ông nội 爺爺",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ông nội 爺爺",
+    "zh": "bà nội 奶奶",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bà nội 奶奶",
+    "zh": "ba / bố 爸爸",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ba / bố 爸爸",
+    "zh": "má / mẹ 媽媽",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "má / mẹ 媽媽",
+    "zh": "chị gái 姐姐",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chị gái 姐姐",
+    "zh": "em trai 弟弟",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "em trai 弟弟",
+    "zh": "lập gia đình 結婚",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lập gia đình 結婚",
+    "zh": "lấy chồng 嫁人",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lấy chồng 嫁人",
+    "zh": "con 孩子",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "con 孩子",
+    "zh": "bé trai 男孩子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bé trai 男孩子",
+    "zh": "mới 剛剛；新",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mới 剛剛；新",
+    "zh": "tháng 月",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tháng 月",
+    "zh": "tuổi 歲",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tuổi 歲",
+    "zh": "chúc mừng 恭喜",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chúc mừng 恭喜",
+    "zh": "lâu 久",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lâu 久",
+    "zh": "em gái 妹妹",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "em gái 妹妹",
+    "zh": "đẹp gái 漂亮",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đẹp gái 漂亮",
+    "zh": "đây là 這是",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đây là 這是",
+    "zh": "giới thiệu 介紹",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giới thiệu 介紹",
+    "zh": "đồng nghiệp 同事",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đồng nghiệp 同事",
+    "zh": "được 可以；得到",
+    "category": "工作",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "được 可以；得到",
+    "zh": "gặp 見面",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "gặp 見面",
+    "zh": "sinh 生（漢越字）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sao vậy  怎麼了",
+    "zh": "anh bị sao 你怎麼了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "anh bị sao 你怎麼了",
+    "zh": "Trả lời 回答",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Trả lời 回答",
+    "zh": "Anh có đó không 你在嗎",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Anh có đó không 你在嗎",
+    "zh": "Nói gì vậy 說什麼",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Nói gì vậy 說什麼",
+    "zh": "Viết tiếng Trung 寫中文",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Viết tiếng Trung 寫中文",
+    "zh": "Nhanh lên 快點",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Nhanh lên 快點",
+    "zh": "Anh muốn chết rồi 我要死了",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Anh muốn chết rồi 我要死了",
+    "zh": "Mì tương đen 炸醬麵",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Mì tương đen 炸醬麵",
+    "zh": "ghi lại  紀錄",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ghi lại  紀錄",
+    "zh": "Em cũng chả biết ăn gì 我也不知道吃什麼",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Em cũng chả biết ăn gì 我也不知道吃什麼",
+    "zh": "nói em nghe 跟我說",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nói em nghe 跟我說",
+    "zh": "sao mệt  怎麼累了",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sao mệt  怎麼累了",
+    "zh": "đau không 痛嗎",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đau không 痛嗎",
+    "zh": "ý kiến gì  有什麼意見",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "ý kiến gì  有什麼意見",
+    "zh": "nay vợ tăng ca mấy tiếng vậy 老婆今天加班幾個",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nay vợ tăng ca mấy tiếng vậy 老婆今天加班幾個",
+    "zh": "小時呢",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "4 tiếng 4 小時",
+    "zh": "Vợ ơi tan làm anh đi tập gym 老婆 我下班去健",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Vợ ơi tan làm anh đi tập gym 老婆 我下班去健",
+    "zh": "身房運動",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Giỡn không vui 不好玩",
+    "zh": "Dỡn hong duiiii 不好玩（年輕人流行）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Dỡn hong duiiii 不好玩（年輕人流行）",
+    "zh": "4 tiếng hả 4 小時嗎",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "4 tiếng hả 4 小時嗎",
+    "zh": "Vợ đã đặt bữa tối chưa 老婆已經訂晚餐了嗎",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Vợ đã đặt bữa tối chưa 老婆已經訂晚餐了嗎",
+    "zh": "hôn một cái  親一個",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hôn một cái  親一個",
+    "zh": "nhớ em quá  非常想妳",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhớ em quá  非常想妳",
+    "zh": "ôm một cái  抱一個",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ôm một cái  抱一個",
+    "zh": "phải làm sao  要怎麼辦",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "phải làm sao  要怎麼辦",
+    "zh": "biến thái 變態",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "biến thái 變態",
+    "zh": "nhầm 搞錯了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nhầm 搞錯了",
+    "zh": "vợ về đến nhà chưa nha 老婆回到家了嗎",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "vợ về đến nhà chưa nha 老婆回到家了嗎",
+    "zh": "nhảm nhí  廢話",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "nhảm nhí  廢話",
+    "zh": "đồ mặt dày 厚臉皮",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đồ mặt dày 厚臉皮",
+    "zh": "hình như là vậy  好像是這樣",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hình như là vậy  好像是這樣",
+    "zh": "bạn có rảnh không  你有空嗎",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bạn có rảnh không  你有空嗎",
+    "zh": "mình đói rồi  我餓了",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "mình đói rồi  我餓了",
+    "zh": "mình hơi khát  我有點渴",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mình hơi khát  我有點渴",
+    "zh": "mình rất buồn ngủ  我很睏",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mình rất buồn ngủ  我很睏",
+    "zh": "mình rất lo 我很擔心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mình rất lo 我很擔心",
+    "zh": "mình phải đi rồi  我該走了",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mình phải đi rồi  我該走了",
+    "zh": "Không vấn đề  沒問題",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Không vấn đề  沒問題",
+    "zh": "được đấy  可以呀",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "được đấy  可以呀",
+    "zh": "sở thích của bạn là gì  你的愛好是什麼",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sở thích của bạn là gì  你的愛好是什麼",
+    "zh": "mình thích nghe nhạc  我喜歡聽歌",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mình thích nghe nhạc  我喜歡聽歌",
+    "zh": "đi cùng nhau nhé 一起去吧",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi cùng nhau nhé 一起去吧",
+    "zh": "xin lỗi mình đến muộn  對不起我遲到了",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "xin lỗi mình đến muộn  對不起我遲到了",
+    "zh": "bạn ăn no chưa 你吃飽了嗎",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bạn ăn no chưa 你吃飽了嗎",
+    "zh": "khoảng mười phút nữa  大概還有10 分鐘",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "khoảng mười phút nữa  大概還有10 分鐘",
+    "zh": "Mình muốn đổi tiền  我要換錢",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Mình muốn đổi tiền  我要換錢",
+    "zh": "Không phải như vậy  不是這樣的",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Không phải như vậy  不是這樣的",
+    "zh": "chúng ta kết bạn nhé  我們交個朋友吧",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "chúng ta kết bạn nhé  我們交個朋友吧",
+    "zh": "nhé  喔 好嗎 吧 呢（語氣詞）",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhé  喔 好嗎 吧 呢（語氣詞）",
+    "zh": "nha 喔 好嗎 吧 呢（更親密）",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nha 喔 好嗎 吧 呢（更親密）",
+    "zh": "Anh đang làm gì á 你在做什麼啊",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Anh đang làm gì á 你在做什麼啊",
+    "zh": "Em mới đặt nè 我剛剛訂好了喔",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Em mới đặt nè 我剛剛訂好了喔",
+    "zh": "Anh còn việc chưa làm xong 我還有工作沒做完",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Anh còn việc chưa làm xong 我還有工作沒做完",
+    "zh": "Công việc nay bận không anh 你今天工作忙嗎",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Công việc nay bận không anh 你今天工作忙嗎",
+    "zh": "nè 喔 啦 呢",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "nè 喔 啦 呢",
+    "zh": "giống  像",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giống  像",
+    "zh": "vô lý 沒有道理",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "vô lý 沒有道理",
+    "zh": "thế à  是嗎",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thế à  是嗎",
+    "zh": "ra đây  過來/出來",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ra đây  過來/出來",
+    "zh": "chịu  沒辦法",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chịu  沒辦法",
+    "zh": "Không cần  不需要",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Không cần  不需要",
+    "zh": "miễn phí  免費",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "miễn phí  免費",
+    "zh": "tối nay 今晚",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tối nay 今晚",
+    "zh": "tùy  隨便",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tùy  隨便",
+    "zh": "đi mà  拜託了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đi mà  拜託了",
+    "zh": "toi rồi 完蛋了 糟糕了",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "toi rồi 完蛋了 糟糕了",
+    "zh": "yêu em quá đi  太愛妳了",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "yêu em quá đi  太愛妳了",
+    "zh": "đâu có  哪有",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đâu có  哪有",
+    "zh": "vô tâm 沒心沒肺 無心",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "vô tâm 沒心沒肺 無心",
+    "zh": "tặng quà  禮物",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tặng quà  禮物",
+    "zh": "hứa đi  你保證",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hứa đi  你保證",
+    "zh": "kệ tôi 別管我",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "kệ tôi 別管我",
+    "zh": "đồ tồi 渣男 渣女",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đồ tồi 渣男 渣女",
+    "zh": "đừng lo  別擔心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo  別擔心",
+    "zh": "rẽ trái  左轉",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rẽ trái  左轉",
+    "zh": "rẽ phải  右轉",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rẽ phải  右轉",
+    "zh": "dắt quá 太貴了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dắt quá 太貴了",
+    "zh": "đừng đi  別走",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đừng đi  別走",
+    "zh": "hay lắm 很棒",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hay lắm 很棒",
+    "zh": "bên 邊、方向",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bên 邊、方向",
+    "zh": "rẽ  轉",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trái  左",
+    "zh": "phải  右",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "phải  右",
+    "zh": "trước  前",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trước  前",
+    "zh": "sau 後",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sau 後",
+    "zh": "trên  上",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trên  上",
+    "zh": "dưới  下",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dưới  下",
+    "zh": "đánh đàn 彈琴",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đánh đàn 彈琴",
+    "zh": "khiếu  天賦/才能",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khiếu  天賦/才能",
+    "zh": "khiếu nại 投訴/申訴",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khiếu nại 投訴/申訴",
+    "zh": "âm nhạc  音樂",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "âm nhạc  音樂",
+    "zh": "báo ứng  報應",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "báo ứng  報應",
+    "zh": "háo sắc  好色",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "háo sắc  好色",
+    "zh": "lên đây  上來",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lên đây  上來",
+    "zh": "nó lừa anh 他騙（lừa)我",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nó lừa anh 他騙（lừa)我",
+    "zh": "phòng đơn 單人房",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "phòng đơn 單人房",
+    "zh": "phòng đôi 雙人房",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "phòng đôi 雙人房",
+    "zh": "quẹo  轉彎",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "quẹo  轉彎",
+    "zh": "quẹo trài 左轉",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "quẹo trài 左轉",
+    "zh": "Đi thẳng 直走",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Đi thẳng 直走",
+    "zh": "mua rau 買菜",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mua rau 買菜",
+    "zh": "Chợ 市場",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Chợ 市場",
+    "zh": "mua đồ 買東西",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mua đồ 買東西",
+    "zh": "đi  穿、走、去、吧",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đi  穿、走、去、吧",
+    "zh": "chưa mà 還沒呢",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chưa mà 還沒呢",
+    "zh": "Cảm thấy 覺得",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Cảm thấy 覺得",
+    "zh": "Không khó đâu  不太難",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Không khó đâu  不太難",
+    "zh": "siêu thị  超市",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "siêu thị  超市",
+    "zh": "bệnh viện  醫院",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bệnh viện  醫院",
+    "zh": "khám bệnh  看病",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khám bệnh  看病",
+    "zh": "công viên  公園",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "công viên  公園",
+    "zh": "Tốn tiền 花錢",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Tốn tiền 花錢",
+    "zh": "Mà giờ đang họp 可是現在在開會",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Mà giờ đang họp 可是現在在開會",
+    "zh": "mà 不過、可是",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "mà 不過、可是",
+    "zh": "giống nhau không 一樣嗎",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "giống nhau không 一樣嗎",
+    "zh": "bao gồm 包含",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "bao gồm 包含",
+    "zh": "cả 也、全部、連…都",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cả 也、全部、連…都",
+    "zh": "nam 男、男性",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nam 男、男性",
+    "zh": "nữ  女、女性",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nữ  女、女性",
+    "zh": "cô giáo  女老師",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cô giáo  女老師",
+    "zh": "thầy giáo  男老師",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thầy giáo  男老師",
+    "zh": "toàn bộ  全部",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sao không nói anh đặt đồ ăn tối cho em",
+    "zh": "為什麼不跟我說 讓我幫妳訂晚餐",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Giống, chỉ là ngữ khí khác nhau",
+    "zh": "一樣只是語氣不同",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Sếp lại nói nhảm hả?",
+    "zh": "老闆又在說廢話了嗎",
+    "category": "工作",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "em đúng không?",
+    "zh": "這張頭像很漂亮 是妳老公幫妳拍的對嗎",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Cô giáo mới chuẩn",
+    "zh": "新來的女老師很正",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Giáo viên bao gồm cả nam và nữ",
+    "zh": "老師包含男和女",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cái này nghĩa là gì vậy",
+    "zh": "這個是什麼意思呢",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cô giáo đẹp như tiên chỉ mới 18 tuổi",
+    "zh": "女老師漂亮的像仙女 才18 歲",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vợ anh đẹp quá trời luôn",
+    "zh": "我的老婆漂亮到不行",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "anh muốn ghi lại một chút",
+    "zh": "我要紀錄一下",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cơm 飯",
+    "zh": "bún 米線",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bún 米線",
+    "zh": "phở 河粉",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "phở 河粉",
+    "zh": "mì 麵",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mì 麵",
+    "zh": "bánh mì 法國麵包",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bánh mì 法國麵包",
+    "zh": "cháo 粥",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cháo 粥",
+    "zh": "thịt 肉",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thịt 肉",
+    "zh": "thịt heo 豬肉（南部）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thịt heo 豬肉（南部）",
+    "zh": "thịt bò 牛肉",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thịt bò 牛肉",
+    "zh": "thịt gà 雞肉",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thịt gà 雞肉",
+    "zh": "cá 魚",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cá 魚",
+    "zh": "tôm 蝦",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tôm 蝦",
+    "zh": "mực 花枝／魷魚",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mực 花枝／魷魚",
+    "zh": "rau 菜",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rau 菜",
+    "zh": "rau muống 空心菜",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rau muống 空心菜",
+    "zh": "cà chua 番茄",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cà chua 番茄",
+    "zh": "nước mắm 魚露",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nước mắm 魚露",
+    "zh": "ớt 辣椒",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ớt 辣椒",
+    "zh": "đường 糖",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đường 糖",
+    "zh": "nước 水",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nước 水",
+    "zh": "đá 冰塊",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đá 冰塊",
+    "zh": "nước đá 冰水",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nước đá 冰水",
+    "zh": "trà 茶",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trà 茶",
+    "zh": "cà phê 咖啡",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cà phê 咖啡",
+    "zh": "sữa 牛奶",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sữa 牛奶",
+    "zh": "nước ngọt 汽水",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nước ngọt 汽水",
+    "zh": "bia 啤酒",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bia 啤酒",
+    "zh": "nhà 家",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nhà 家",
+    "zh": "phòng 房間",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "phòng 房間",
+    "zh": "cửa 門",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cửa 門",
+    "zh": "đèn 燈",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đèn 燈",
+    "zh": "quạt 電風扇",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "quạt 電風扇",
+    "zh": "máy lạnh 冷氣（南部）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "máy lạnh 冷氣（南部）",
+    "zh": "điện thoại 手機",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "điện thoại 手機",
+    "zh": "sạc 充電器",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sạc 充電器",
+    "zh": "tiền 錢",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tiền 錢",
+    "zh": "ví 錢包",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ví 錢包",
+    "zh": "chìa khóa 鑰匙",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chìa khóa 鑰匙",
+    "zh": "xe máy 機車",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xe máy 機車",
+    "zh": "xe hơi 汽車",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xe hơi 汽車",
+    "zh": "xe buýt 公車",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xe buýt 公車",
+    "zh": "đường 路",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đường 路",
+    "zh": "gần 近",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "gần 近",
+    "zh": "xa 遠",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xa 遠",
+    "zh": "quẹo 轉彎（南部）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "quẹo 轉彎（南部）",
+    "zh": "mua 買",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mua 買",
+    "zh": "bán 賣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bán 賣",
+    "zh": "giá 價格",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giá 價格",
+    "zh": "mắc 貴（南部）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mắc 貴（南部）",
+    "zh": "rẻ 便宜",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rẻ 便宜",
+    "zh": "bớt 算便宜一點",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bớt 算便宜一點",
+    "zh": "hết 沒了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hết 沒了",
+    "zh": "còn 還有",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "còn 還有",
+    "zh": "được 可以／好",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "được 可以／好",
+    "zh": "không được 不行",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "không được 不行",
+    "zh": "xíu 一點點",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "xíu 一點點",
+    "zh": "chờ xíu 等一下",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chờ xíu 等一下",
+    "zh": "xong 好了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xong 好了",
+    "zh": "từ từ 慢慢來",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "từ từ 慢慢來",
+    "zh": "mệt 累",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mệt 累",
+    "zh": "đói 餓",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đói 餓",
+    "zh": "no 飽",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "no 飽",
+    "zh": "máy tính 電腦",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "máy tính 電腦",
+    "zh": "máy tính xách tay 筆記型電腦",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "máy tính xách tay 筆記型電腦",
+    "zh": "gối 枕頭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gối 枕頭",
+    "zh": "mền (南) / chăn 被子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mền (南) / chăn 被子",
+    "zh": "giường 床",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giường 床",
+    "zh": "cửa sổ 窗戶",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cửa sổ 窗戶",
+    "zh": "đồng hồ 時鐘",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đồng hồ 時鐘",
+    "zh": "tivi 電視",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tivi 電視",
+    "zh": "remote 遙控器",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "remote 遙控器",
+    "zh": "bàn 桌子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bàn 桌子",
+    "zh": "tủ 櫃子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tủ 櫃子",
+    "zh": "sàn nhà 地板",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sàn nhà 地板",
+    "zh": "trần nhà 天花板",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trần nhà 天花板",
+    "zh": "ghế 椅子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ghế 椅子",
+    "zh": "đèn 燈",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đèn 燈",
+    "zh": "công tắc 開關",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "công tắc 開關",
+    "zh": "bút 筆",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bút 筆",
+    "zh": "chìa khóa 鑰匙",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chìa khóa 鑰匙",
+    "zh": "giấy 紙",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giấy 紙",
+    "zh": "ảnh 照片",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ảnh 照片",
+    "zh": "hình ảnh 圖片",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cửa 門",
+    "zh": "quạt 電風扇",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "quạt 電風扇",
+    "zh": "máy lạnh (南)  空調",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "máy lạnh (南)  空調",
+    "zh": "tủ quần áo 衣櫃",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tủ quần áo 衣櫃",
+    "zh": "quầy 櫃檯",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quầy 櫃檯",
+    "zh": "thang máy 電梯",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thang máy 電梯",
+    "zh": "cầu thang 樓梯",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cầu thang 樓梯",
+    "zh": "xe máy 摩托車",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xe máy 摩托車",
+    "zh": "áo khoác 外套",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "áo khoác 外套",
+    "zh": "quần áo / áo 衣服",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "quần áo / áo 衣服",
+    "zh": "quần 褲子",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quần 褲子",
+    "zh": "giày 鞋子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giày 鞋子",
+    "zh": "dép 拖鞋",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dép 拖鞋",
+    "zh": "giày cao gót 高跟鞋",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giày cao gót 高跟鞋",
+    "zh": "tay 手",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tay 手",
+    "zh": "chân 腳",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chân 腳",
+    "zh": "mắt 眼睛",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mắt 眼睛",
+    "zh": "mũi 鼻子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mũi 鼻子",
+    "zh": "miệng 嘴巴",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "miệng 嘴巴",
+    "zh": "môi 嘴唇",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "môi 嘴唇",
+    "zh": "cằm 下巴",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cằm 下巴",
+    "zh": "bụng 肚子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bụng 肚子",
+    "zh": "đầu gối 膝蓋",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đầu gối 膝蓋",
+    "zh": "đùi 大腿",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đùi 大腿",
+    "zh": "bắp chân 小腿",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bắp chân 小腿",
+    "zh": "lưng 背",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lưng 背",
+    "zh": "đường ruột 腸胃",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đường ruột 腸胃",
+    "zh": "khẩu vị / sự thèm ăn 胃口",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khẩu vị / sự thèm ăn 胃口",
+    "zh": "dây 線",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dây 線",
+    "zh": "dao 刀",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dao 刀",
+    "zh": "chén 碗",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chén 碗",
+    "zh": "nồi 鍋子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nồi 鍋子",
+    "zh": "táo 蘋果",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "táo 蘋果",
+    "zh": "dâu tây 草莓",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dâu tây 草莓",
+    "zh": "thơm (南)  鳳梨",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thơm (南)  鳳梨",
+    "zh": "lê 梨子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lê 梨子",
+    "zh": "táo tàu 棗子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "táo tàu 棗子",
+    "zh": "xoài 芒果",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xoài 芒果",
+    "zh": "sầu riêng 榴蓮",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sầu riêng 榴蓮",
+    "zh": "nho 葡萄",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nho 葡萄",
+    "zh": "hồng 柿子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hồng 柿子",
+    "zh": "ổi 芭樂",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ổi 芭樂",
+    "zh": "mãng cầu 釋迦",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mãng cầu 釋迦",
+    "zh": "cam 橘子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cam 橘子",
+    "zh": "mận (南)  蓮霧",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mận (南)  蓮霧",
+    "zh": "đu đủ 木瓜",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đu đủ 木瓜",
+    "zh": "ăn vặt 點心",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ăn vặt 點心",
+    "zh": "món tráng miệng / đồ ngọt 甜點",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "món tráng miệng / đồ ngọt 甜點",
+    "zh": "hổ 老虎",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hổ 老虎",
+    "zh": "sư tử 獅子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sư tử 獅子",
+    "zh": "thỏ 兔子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thỏ 兔子",
+    "zh": "rắn 蛇",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rắn 蛇",
+    "zh": "chim 鳥",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chim 鳥",
+    "zh": "voi 大象",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "voi 大象",
+    "zh": "khỉ 猴子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khỉ 猴子",
+    "zh": "khỉ đột 猩猩",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khỉ đột 猩猩",
+    "zh": "chó 狗",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chó 狗",
+    "zh": "mèo 貓",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mèo 貓",
+    "zh": "heo (南)  豬",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "heo (南)  豬",
+    "zh": "gà 雞",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "gà 雞",
+    "zh": "vịt 鴨",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "vịt 鴨",
+    "zh": "đồng nghiệp 同事",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 1 – 吃飯・喝",
+    "zh": "ăn — 吃",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ăn — 吃",
+    "zh": "ăn cơm — 吃飯",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ăn cơm — 吃飯",
+    "zh": "ăn sáng — 吃早餐",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ăn sáng — 吃早餐",
+    "zh": "ăn trưa — 吃午餐",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ăn trưa — 吃午餐",
+    "zh": "ăn tối — 吃晚餐",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ăn tối — 吃晚餐",
+    "zh": "uống — 喝",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "uống — 喝",
+    "zh": "uống nước — 喝水",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "uống nước — 喝水",
+    "zh": "uống cà phê — 喝咖啡",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "uống cà phê — 喝咖啡",
+    "zh": "uống trà — 喝茶",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "uống trà — 喝茶",
+    "zh": "đói — 餓",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đói — 餓",
+    "zh": "no — 飽",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "no — 飽",
+    "zh": "khát — 渴",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khát — 渴",
+    "zh": "ngon — 好吃",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ngon — 好吃",
+    "zh": "dở — 不好吃",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dở — 不好吃",
+    "zh": "mắc — 貴",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mắc — 貴",
+    "zh": "🗓 Day 2 – 睡覺・身體",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 2 – 睡覺・身體",
+    "zh": "ngủ — 睡",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ngủ — 睡",
+    "zh": "ngủ rồi — 睡了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ngủ rồi — 睡了",
+    "zh": "ngủ chưa — 睡了沒",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ngủ chưa — 睡了沒",
+    "zh": "dậy — 起床",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dậy — 起床",
+    "zh": "thức — 醒著",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thức — 醒著",
+    "zh": "mệt — 累",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mệt — 累",
+    "zh": "mệt quá — 很累",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mệt quá — 很累",
+    "zh": "khỏe — 健康",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "khỏe — 健康",
+    "zh": "đau — 痛",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đau — 痛",
+    "zh": "đau đầu — 頭痛",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đau đầu — 頭痛",
+    "zh": "đau bụng — 肚子痛",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đau bụng — 肚子痛",
+    "zh": "sốt — 發燒",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sốt — 發燒",
+    "zh": "choáng — 頭暈",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "choáng — 頭暈",
+    "zh": "buồn ngủ — 想睡",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "buồn ngủ — 想睡",
+    "zh": "nghỉ — 休息",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nghỉ — 休息",
+    "zh": "🗓 Day 3 – 情感",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 3 – 情感",
+    "zh": "nhớ — 想念",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhớ — 想念",
+    "zh": "nhớ quá — 好想",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nhớ quá — 好想",
+    "zh": "thương — 愛、疼",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thương — 愛、疼",
+    "zh": "thương quá — 很愛",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thương quá — 很愛",
+    "zh": "thích — 喜歡",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thích — 喜歡",
+    "zh": "ghét — 討厭",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ghét — 討厭",
+    "zh": "buồn — 難過",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "buồn — 難過",
+    "zh": "vui — 開心",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "vui — 開心",
+    "zh": "giận — 生氣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giận — 生氣",
+    "zh": "dỗi — 鬧彆扭",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dỗi — 鬧彆扭",
+    "zh": "tủi — 委屈",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tủi — 委屈",
+    "zh": "lo — 擔心",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lo — 擔心",
+    "zh": "yên tâm — 放心",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "yên tâm — 放心",
+    "zh": "hạnh phúc — 幸福",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hạnh phúc — 幸福",
+    "zh": "cô đơn — 孤單",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cô đơn — 孤單",
+    "zh": "🗓 Day 4 – 家人稱呼",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 4 – 家人稱呼",
+    "zh": "anh — 我（男）",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "anh — 我（男）",
+    "zh": "em — 你／我（情侶）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "em — 你／我（情侶）",
+    "zh": "ba — 爸爸",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ba — 爸爸",
+    "zh": "má — 媽媽",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "má — 媽媽",
+    "zh": "ông — 爺爺",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ông — 爺爺",
+    "zh": "bà — 奶奶",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bà — 奶奶",
+    "zh": "bác — 伯叔阿姨",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bác — 伯叔阿姨",
+    "zh": "cô — 阿姨",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cô — 阿姨",
+    "zh": "chú — 叔叔",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chú — 叔叔",
+    "zh": "anh hai — 大哥",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "anh hai — 大哥",
+    "zh": "chị — 姐姐",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chị — 姐姐",
+    "zh": "em gái — 妹妹",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "em gái — 妹妹",
+    "zh": "em trai — 弟弟",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "em trai — 弟弟",
+    "zh": "gia đình — 家庭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gia đình — 家庭",
+    "zh": "nhà — 家",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhà — 家",
+    "zh": "🗓 Day 5 – 回家・移動",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 5 – 回家・移動",
+    "zh": "về — 回去",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "về — 回去",
+    "zh": "về nhà — 回家",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "về nhà — 回家",
+    "zh": "đi — 去",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi — 去",
+    "zh": "đi làm — 去上班",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đi làm — 去上班",
+    "zh": "đi chơi — 去玩",
+    "category": "工作",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi chơi — 去玩",
+    "zh": "qua — 過去",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "qua — 過去",
+    "zh": "tới — 到",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tới — 到",
+    "zh": "ra — 出去",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ra — 出去",
+    "zh": "vô — 進來",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lên — 上去",
+    "zh": "xuống — 下來",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xuống — 下來",
+    "zh": "xa — 遠",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xa — 遠",
+    "zh": "gần — 近",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "gần — 近",
+    "zh": "kẹt xe — 塞車",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "kẹt xe — 塞車",
+    "zh": "lạc đường — 迷路",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lạc đường — 迷路",
+    "zh": "🗓 Day 6 – 時間",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 6 – 時間",
+    "zh": "hôm nay — 今天",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hôm nay — 今天",
+    "zh": "hôm qua — 昨天",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hôm qua — 昨天",
+    "zh": "mai — 明天",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mai — 明天",
+    "zh": "bữa nay — 今天（南部）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bữa nay — 今天（南部）",
+    "zh": "bữa kia — 前幾天",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bữa kia — 前幾天",
+    "zh": "sáng — 早上",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sáng — 早上",
+    "zh": "trưa — 中午",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trưa — 中午",
+    "zh": "chiều — 下午",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chiều — 下午",
+    "zh": "tối — 晚上",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tối — 晚上",
+    "zh": "khuya — 深夜",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khuya — 深夜",
+    "zh": "giờ — 時間",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giờ — 時間",
+    "zh": "lát — 等一下",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lát — 等一下",
+    "zh": "chút — 一下",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chút — 一下",
+    "zh": "sớm — 早",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sớm — 早",
+    "zh": "trễ — 晚",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trễ — 晚",
+    "zh": "🗓 Day 7 – 動作",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 7 – 動作",
+    "zh": "làm — 做／工作",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "làm — 做／工作",
+    "zh": "làm việc — 工作",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "làm việc — 工作",
+    "zh": "ngồi — 坐",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ngồi — 坐",
+    "zh": "đứng — 站",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đứng — 站",
+    "zh": "nói — 說",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nói — 說",
+    "zh": "nghe — 聽",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nghe — 聽",
+    "zh": "nhìn — 看",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nhìn — 看",
+    "zh": "coi — 看（南部）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "coi — 看（南部）",
+    "zh": "cười — 笑",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cười — 笑",
+    "zh": "khóc — 哭",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khóc — 哭",
+    "zh": "ôm — 抱",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ôm — 抱",
+    "zh": "hôn — 親",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hôn — 親",
+    "zh": "nấu — 煮",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nấu — 煮",
+    "zh": "dọn — 整理",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dọn — 整理",
+    "zh": "giặt — 洗衣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giặt — 洗衣",
+    "zh": "🗓 Day 8 – 生活",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 8 – 生活",
+    "zh": "phòng — 房間",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "phòng — 房間",
+    "zh": "giường — 床",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giường — 床",
+    "zh": "tắm — 洗澡",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tắm — 洗澡",
+    "zh": "tắm rửa — 洗漱",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tắm rửa — 洗漱",
+    "zh": "quần — 褲子",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quần — 褲子",
+    "zh": "áo — 衣服",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "áo — 衣服",
+    "zh": "điện thoại — 手機",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "điện thoại — 手機",
+    "zh": "sạc — 充電",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sạc — 充電",
+    "zh": "wifi — 網路",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "wifi — 網路",
+    "zh": "xe — 車",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xe — 車",
+    "zh": "xe máy — 機車",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xe máy — 機車",
+    "zh": "tiền — 錢",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tiền — 錢",
+    "zh": "mua — 買",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mua — 買",
+    "zh": "bán — 賣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bán — 賣",
+    "zh": "chợ — 市場",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chợ — 市場",
+    "zh": "🗓 Day 9 – 常用語氣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 9 – 常用語氣",
+    "zh": "rồi — 已經",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "rồi — 已經",
+    "zh": "chưa — 還沒",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chưa — 還沒",
+    "zh": "nữa — 再",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nữa — 再",
+    "zh": "thôi — 算了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thôi — 算了",
+    "zh": "nha — 喔",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nha — 喔",
+    "zh": "hen — 好嗎（南部）",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "hen — 好嗎（南部）",
+    "zh": "hả — 什麼",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hả — 什麼",
+    "zh": "sao — 為什麼",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sao — 為什麼",
+    "zh": "vậy — 這樣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "vậy — 這樣",
+    "zh": "được — 可以",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "được — 可以",
+    "zh": "không — 不",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "không — 不",
+    "zh": "có — 有",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "có — 有",
+    "zh": "mà — 但是",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mà — 但是",
+    "zh": "nè — 你看",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "nè — 你看",
+    "zh": "kìa — 那邊",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "kìa — 那邊",
+    "zh": "🗓 Day 10 – 關係 & 未來",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 10 – 關係 & 未來",
+    "zh": "cưới — 結婚",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cưới — 結婚",
+    "zh": "vợ — 老婆",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "vợ — 老婆",
+    "zh": "chồng — 老公",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đám cưới — 婚禮",
+    "zh": "yêu — 愛",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "yêu — 愛",
+    "zh": "yêu thương — 相愛",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "yêu thương — 相愛",
+    "zh": "sống chung — 一起生活",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sống chung — 一起生活",
+    "zh": "tương lai — 未來",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tương lai — 未來",
+    "zh": "ở bên — 在身邊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở bên — 在身邊",
+    "zh": "chăm sóc — 照顧",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chăm sóc — 照顧",
+    "zh": "tin — 相信",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tin — 相信",
+    "zh": "hứa — 答應",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hứa — 答應",
+    "zh": "đợi — 等",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đợi — 等",
+    "zh": "theo — 跟",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "theo — 跟",
+    "zh": "mãi — 永遠",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mãi — 永遠",
+    "zh": "🗓 Day 11 – 工作・上班",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 11 – 工作・上班",
+    "zh": "làm việc — 工作",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "làm việc — 工作",
+    "zh": "đi làm — 去上班",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi làm — 去上班",
+    "zh": "tan ca — 下班",
+    "category": "工作",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tan ca — 下班",
+    "zh": "tăng ca — 加班",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca — 加班",
+    "zh": "nghề — 職業",
+    "category": "工作",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nghề — 職業",
+    "zh": "công ty — 公司",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "công ty — 公司",
+    "zh": "sếp — 老闆",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sếp — 老闆",
+    "zh": "đồng nghiệp — 同事",
+    "category": "工作",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đồng nghiệp — 同事",
+    "zh": "lương — 薪水",
+    "category": "工作",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lương — 薪水",
+    "zh": "tiền công — 工錢",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tiền công — 工錢",
+    "zh": "mệt mỏi — 疲累",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mệt mỏi — 疲累",
+    "zh": "áp lực — 壓力",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "áp lực — 壓力",
+    "zh": "nghỉ phép — 請假",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nghỉ phép — 請假",
+    "zh": "bận — 忙",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bận — 忙",
+    "zh": "rảnh — 有空",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rảnh — 有空",
+    "zh": "🗓 Day 12 – 手機・聯絡",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 12 – 手機・聯絡",
+    "zh": "gọi — 打電話",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gọi — 打電話",
+    "zh": "nhắn tin — 傳訊",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nhắn tin — 傳訊",
+    "zh": "bắt máy — 接電話",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bắt máy — 接電話",
+    "zh": "tắt máy — 關機",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tắt máy — 關機",
+    "zh": "mạng — 網路",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mạng — 網路",
+    "zh": "sóng — 訊號",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sóng — 訊號",
+    "zh": "mất sóng — 沒訊號",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mất sóng — 沒訊號",
+    "zh": "pin — 電池",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "pin — 電池",
+    "zh": "hết pin — 沒電",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hết pin — 沒電",
+    "zh": "sạc pin — 充電",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sạc pin — 充電",
+    "zh": "chụp hình — 拍照",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chụp hình — 拍照",
+    "zh": "quay video — 錄影",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quay video — 錄影",
+    "zh": "gửi — 傳送",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gửi — 傳送",
+    "zh": "nhận — 接收",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nhận — 接收",
+    "zh": "xem — 看",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 13 – 關心對方",
+    "zh": "sao rồi — 怎麼樣了",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sao rồi — 怎麼樣了",
+    "zh": "ổn không — 還好嗎",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ổn không — 還好嗎",
+    "zh": "có sao không — 沒事吧",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "có sao không — 沒事吧",
+    "zh": "mệt hông — 累不累（南部）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "mệt hông — 累不累（南部）",
+    "zh": "ăn chưa — 吃了沒",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "ăn chưa — 吃了沒",
+    "zh": "về chưa — 到家沒",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "về chưa — 到家沒",
+    "zh": "đang làm gì — 在幹嘛",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đang làm gì — 在幹嘛",
+    "zh": "nhớ anh không — 想我嗎",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhớ anh không — 想我嗎",
+    "zh": "nhớ em không — 想你嗎",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "nhớ em không — 想你嗎",
+    "zh": "đi đường cẩn thận — 路上小心",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "đi đường cẩn thận — 路上小心",
+    "zh": "giữ sức khỏe — 顧好身體",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ sức khỏe — 顧好身體",
+    "zh": "ngủ sớm — 早點睡",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ngủ sớm — 早點睡",
+    "zh": "đừng lo — 別擔心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo — 別擔心",
+    "zh": "anh ở đây — 我在",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "anh ở đây — 我在",
+    "zh": "em ở đây — 我在",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 14 – 心情",
+    "zh": "tâm trạng — 心情",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tâm trạng — 心情",
+    "zh": "thoải mái — 放鬆",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thoải mái — 放鬆",
+    "zh": "căng thẳng — 緊張",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "căng thẳng — 緊張",
+    "zh": "bực — 煩",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bực — 煩",
+    "zh": "khó chịu — 不舒服",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khó chịu — 不舒服",
+    "zh": "dễ thương — 可愛",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dễ thương — 可愛",
+    "zh": "đáng yêu — 迷人",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đáng yêu — 迷人",
+    "zh": "vui vẻ — 開心",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vui vẻ — 開心",
+    "zh": "chán — 無聊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chán — 無聊",
+    "zh": "mệt nhoài — 累翻",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mệt nhoài — 累翻",
+    "zh": "hào hứng — 期待",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tuyệt — 很棒",
+    "zh": "tệ — 很糟",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tệ — 很糟",
+    "zh": "bình thường — 普通",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bình thường — 普通",
+    "zh": "khó — 難",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 15 – 日常生活",
+    "zh": "mở — 打開",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mở — 打開",
+    "zh": "đóng — 關",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đóng — 關",
+    "zh": "bật — 開（電）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bật — 開（電）",
+    "zh": "tắt — 關（電）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tắt — 關（電）",
+    "zh": "lấy — 拿",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lấy — 拿",
+    "zh": "để — 放",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "để — 放",
+    "zh": "xài — 用（南部）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "xài — 用（南部）",
+    "zh": "mượn — 借",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mượn — 借",
+    "zh": "trả — 還",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trả — 還",
+    "zh": "mất — 不見",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mất — 不見",
+    "zh": "tìm — 找",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tìm — 找",
+    "zh": "dọn dẹp — 整理",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dọn dẹp — 整理",
+    "zh": "lau — 擦",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lau — 擦",
+    "zh": "rửa — 洗",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rửa — 洗",
+    "zh": "đổ — 倒",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 16 – 吃東西",
+    "zh": "món — 菜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "món — 菜",
+    "zh": "bún — 米線",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bún — 米線",
+    "zh": "phở — 河粉",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "phở — 河粉",
+    "zh": "cơm tấm — 碎米飯",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cơm tấm — 碎米飯",
+    "zh": "hủ tiếu — 粿條",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hủ tiếu — 粿條",
+    "zh": "bánh mì — 法國麵包",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bánh mì — 法國麵包",
+    "zh": "thịt — 肉",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thịt — 肉",
+    "zh": "cá — 魚",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "cá — 魚",
+    "zh": "trứng — 蛋",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trứng — 蛋",
+    "zh": "rau — 菜",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rau — 菜",
+    "zh": "canh — 湯",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "canh — 湯",
+    "zh": "nước mắm — 魚露",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nước mắm — 魚露",
+    "zh": "ớt — 辣椒",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ớt — 辣椒",
+    "zh": "ngọt — 甜",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ngọt — 甜",
+    "zh": "cay — 辣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 17 – 買東西",
+    "zh": "mua sắm — 購物",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mua sắm — 購物",
+    "zh": "chọn — 選",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chọn — 選",
+    "zh": "coi thử — 看看",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "coi thử — 看看",
+    "zh": "hỏi giá — 問價錢",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hỏi giá — 問價錢",
+    "zh": "rẻ — 便宜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "rẻ — 便宜",
+    "zh": "đắt — 貴",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đắt — 貴",
+    "zh": "bớt — 便宜點",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bớt — 便宜點",
+    "zh": "giảm giá — 打折",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giảm giá — 打折",
+    "zh": "trả tiền — 付錢",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trả tiền — 付錢",
+    "zh": "tiền mặt — 現金",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tiền mặt — 現金",
+    "zh": "chuyển khoản — 轉帳",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chuyển khoản — 轉帳",
+    "zh": "hóa đơn — 帳單",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hóa đơn — 帳單",
+    "zh": "bao nhiêu — 多少錢",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bao nhiêu — 多少錢",
+    "zh": "còn không — 還有嗎",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "còn không — 還有嗎",
+    "zh": "hết rồi — 沒了",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "🗓 Day 18 – 出門",
+    "zh": "ra ngoài — 出門",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ra ngoài — 出門",
+    "zh": "về trong — 回來",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "về trong — 回來",
+    "zh": "đi chợ — 逛市場",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi chợ — 逛市場",
+    "zh": "đi ăn — 去吃飯",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi ăn — 去吃飯",
+    "zh": "đi chơi — 去玩",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi chơi — 去玩",
+    "zh": "đi dạo — 走走",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi dạo — 走走",
+    "zh": "gặp — 見面",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gặp — 見面",
+    "zh": "đón — 去接",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đón — 去接",
+    "zh": "đưa — 送",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đưa — 送",
+    "zh": "tới nơi — 到了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tới nơi — 到了",
+    "zh": "về tới — 回到了",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "về tới — 回到了",
+    "zh": "lâu — 久",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lâu — 久",
+    "zh": "nhanh — 快",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nhanh — 快",
+    "zh": "chậm — 慢",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "chậm — 慢",
+    "zh": "trễ giờ — 遲到",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 19 – 身體狀況",
+    "zh": "mệt lắm — 很累",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mệt lắm — 很累",
+    "zh": "khỏe hơn — 好一點",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "khỏe hơn — 好一點",
+    "zh": "yếu — 虛弱",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "yếu — 虛弱",
+    "zh": "choáng váng — 頭昏",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "choáng váng — 頭昏",
+    "zh": "nhức — 痠痛",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhức — 痠痛",
+    "zh": "sổ mũi — 流鼻水",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sổ mũi — 流鼻水",
+    "zh": "ho — 咳嗽",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ho — 咳嗽",
+    "zh": "đau họng — 喉嚨痛",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đau họng — 喉嚨痛",
+    "zh": "khát nước — 口渴",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "khát nước — 口渴",
+    "zh": "đói bụng — 肚子餓",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đói bụng — 肚子餓",
+    "zh": "nóng — 熱",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nóng — 熱",
+    "zh": "lạnh — 冷",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lạnh — 冷",
+    "zh": "khó thở — 呼吸不順",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "khó thở — 呼吸不順",
+    "zh": "mồ hôi — 汗",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mồ hôi — 汗",
+    "zh": "uống thuốc — 吃藥",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 20 – 感情深化",
+    "zh": "quan tâm — 關心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quan tâm — 關心",
+    "zh": "chăm sóc — 照顧",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chăm sóc — 照顧",
+    "zh": "hiểu — 理解",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hiểu — 理解",
+    "zh": "tin tưởng — 信任",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tin tưởng — 信任",
+    "zh": "trân trọng — 珍惜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trân trọng — 珍惜",
+    "zh": "ở bên nhau — 在一起",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở bên nhau — 在一起",
+    "zh": "yêu nhiều — 很愛",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "yêu nhiều — 很愛",
+    "zh": "thương nhiều — 很疼",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thương nhiều — 很疼",
+    "zh": "nhớ hoài — 一直想",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhớ hoài — 一直想",
+    "zh": "muốn gặp — 想見",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "muốn gặp — 想見",
+    "zh": "muốn ôm — 想抱",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "muốn ôm — 想抱",
+    "zh": "muốn hôn — 想親",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "muốn hôn — 想親",
+    "zh": "không rời — 不離開",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "không rời — 不離開",
+    "zh": "mãi bên nhau — 永遠在一起",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "mãi bên nhau — 永遠在一起",
+    "zh": "tình yêu — 愛情",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "tình yêu — 愛情",
+    "zh": "🗓 Day 21 – 天氣",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 21 – 天氣",
+    "zh": "nắng — 太陽",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nắng — 太陽",
+    "zh": "mưa — 下雨",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mưa — 下雨",
+    "zh": "trời mưa — 下雨天",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trời mưa — 下雨天",
+    "zh": "trời nắng — 大太陽",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trời nắng — 大太陽",
+    "zh": "nóng — 熱",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lạnh — 冷",
+    "zh": "mát — 涼",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mát — 涼",
+    "zh": "oi — 悶",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "oi — 悶",
+    "zh": "ẩm — 潮濕",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ẩm — 潮濕",
+    "zh": "gió — 風",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "gió — 風",
+    "zh": "bão — 颱風",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "bão — 颱風",
+    "zh": "lũ — 淹水",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "lũ — 淹水",
+    "zh": "thời tiết — 天氣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thời tiết — 天氣",
+    "zh": "dự báo — 預報",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dự báo — 預報",
+    "zh": "thay đổi — 變化",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 22 – 出行・交通",
+    "zh": "đường — 路",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đường — 路",
+    "zh": "đường lớn — 大路",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đường lớn — 大路",
+    "zh": "đường nhỏ — 小路",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đường nhỏ — 小路",
+    "zh": "đèn đỏ — 紅燈",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đèn đỏ — 紅燈",
+    "zh": "đèn xanh — 綠燈",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đèn xanh — 綠燈",
+    "zh": "quẹo — 轉彎（南部）",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quẹo — 轉彎（南部）",
+    "zh": "chạy — 開（車）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chạy — 開（車）",
+    "zh": "dừng — 停",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dừng — 停",
+    "zh": "băng qua — 穿越",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "băng qua — 穿越",
+    "zh": "vượt — 超車",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vượt — 超車",
+    "zh": "kẹt xe — 塞車",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "kẹt xe — 塞車",
+    "zh": "bãi xe — 停車場",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bãi xe — 停車場",
+    "zh": "đổ xăng — 加油",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đổ xăng — 加油",
+    "zh": "xe hơi — 汽車",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xe hơi — 汽車",
+    "zh": "xe buýt — 公車",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 23 – 家裡日常",
+    "zh": "ở nhà — 在家",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở nhà — 在家",
+    "zh": "dọn nhà — 打掃",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dọn nhà — 打掃",
+    "zh": "lau nhà — 拖地",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lau nhà — 拖地",
+    "zh": "rửa chén — 洗碗",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giặt đồ — 洗衣",
+    "zh": "phơi đồ — 曬衣",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "phơi đồ — 曬衣",
+    "zh": "xếp đồ — 收拾",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xếp đồ — 收拾",
+    "zh": "nấu cơm — 煮飯",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nấu cơm — 煮飯",
+    "zh": "mở cửa — 開門",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mở cửa — 開門",
+    "zh": "đóng cửa — 關門",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đóng cửa — 關門",
+    "zh": "quạt — 電風扇",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quạt — 電風扇",
+    "zh": "máy lạnh — 冷氣",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "máy lạnh — 冷氣",
+    "zh": "đèn — 燈",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đèn — 燈",
+    "zh": "ổ cắm — 插座",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ổ cắm — 插座",
+    "zh": "ổ điện — 插頭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 24 – 關心・安慰",
+    "zh": "đừng buồn — 別難過",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đừng buồn — 別難過",
+    "zh": "đừng khóc — 別哭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đừng khóc — 別哭",
+    "zh": "có anh đây — 有我在",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "có anh đây — 有我在",
+    "zh": "có em đây — 有我在",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "có em đây — 有我在",
+    "zh": "mọi chuyện ổn — 都會好的",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mọi chuyện ổn — 都會好的",
+    "zh": "từ từ — 慢慢來",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "từ từ — 慢慢來",
+    "zh": "bình tĩnh — 冷靜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bình tĩnh — 冷靜",
+    "zh": "nghe anh nói — 聽我說",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nghe anh nói — 聽我說",
+    "zh": "tin em đi — 相信我",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tin em đi — 相信我",
+    "zh": "để anh lo — 交給我",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "để anh lo — 交給我",
+    "zh": "để em lo — 我來處理",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "để em lo — 我來處理",
+    "zh": "đừng suy nghĩ nhiều — 別想太多",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đừng suy nghĩ nhiều — 別想太多",
+    "zh": "nghỉ ngơi đi — 去休息吧",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nghỉ ngơi đi — 去休息吧",
+    "zh": "uống nước đi — 去喝水",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "uống nước đi — 去喝水",
+    "zh": "ăn chút gì đi — 吃點東西吧",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 25 – 出去玩",
+    "zh": "đi du lịch — 旅行",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi du lịch — 旅行",
+    "zh": "đi biển — 去海邊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi biển — 去海邊",
+    "zh": "đi núi — 去山上",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi núi — 去山上",
+    "zh": "đi xa — 去遠一點",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi xa — 去遠一點",
+    "zh": "chụp hình chung — 合照",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chụp hình chung — 合照",
+    "zh": "check-in — 打卡",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "check-in — 打卡",
+    "zh": "đi bộ — 走路",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đi bộ — 走路",
+    "zh": "đi xe — 騎車",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi xe — 騎車",
+    "zh": "ở khách sạn — 住飯店",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở khách sạn — 住飯店",
+    "zh": "đặt phòng — 訂房",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đặt phòng — 訂房",
+    "zh": "đặt vé — 訂票",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đặt vé — 訂票",
+    "zh": "lịch trình — 行程",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lịch trình — 行程",
+    "zh": "vui ghê — 好開心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vui ghê — 好開心",
+    "zh": "mệt mà vui — 累但開心",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "mệt mà vui — 累但開心",
+    "zh": "kỷ niệm — 回憶",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "🗓 Day 26 – 金錢・計畫",
+    "zh": "tiết kiệm — 存錢",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tiết kiệm — 存錢",
+    "zh": "xài tiền — 花錢",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xài tiền — 花錢",
+    "zh": "kế hoạch — 計畫",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kế hoạch — 計畫",
+    "zh": "dự định — 打算",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dự định — 打算",
+    "zh": "chi tiêu — 支出",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chi tiêu — 支出",
+    "zh": "thu nhập — 收入",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thu nhập — 收入",
+    "zh": "đủ tiền — 錢夠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đủ tiền — 錢夠",
+    "zh": "thiếu tiền — 錢不夠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thiếu tiền — 錢不夠",
+    "zh": "để dành — 留起來",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "để dành — 留起來",
+    "zh": "đầu tư — 投資",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đầu tư — 投資",
+    "zh": "làm ăn — 做生意",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "làm ăn — 做生意",
+    "zh": "ổn định — 穩定",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ổn định — 穩定",
+    "zh": "cố gắng — 努力",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cố gắng — 努力",
+    "zh": "tương lai chung — 共同未來",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tương lai chung — 共同未來",
+    "zh": "lo cho gia đình — 照顧家庭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 27 – 爭執・溝通",
+    "zh": "hiểu lầm — 誤會",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hiểu lầm — 誤會",
+    "zh": "cãi nhau — 吵架",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cãi nhau — 吵架",
+    "zh": "giận nhau — 生氣",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "giận nhau — 生氣",
+    "zh": "im lặng — 不說話",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "im lặng — 不說話",
+    "zh": "nói rõ — 說清楚",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nói rõ — 說清楚",
+    "zh": "giải thích — 解釋",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giải thích — 解釋",
+    "zh": "xin lỗi — 對不起",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xin lỗi — 對不起",
+    "zh": "tha thứ — 原諒",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bỏ qua — 放過",
+    "zh": "làm hòa — 和好",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "làm hòa — 和好",
+    "zh": "nói chuyện — 談一談",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nói chuyện — 談一談",
+    "zh": "nghe nhau — 互相聽",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nghe nhau — 互相聽",
+    "zh": "tôn trọng — 尊重",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "tôn trọng — 尊重",
+    "zh": "thẳng thắn — 直接",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thẳng thắn — 直接",
+    "zh": "chân thành — 真心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 28 – 見家人",
+    "zh": "về quê — 回老家",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "về quê — 回老家",
+    "zh": "thăm nhà — 探望家人",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thăm nhà — 探望家人",
+    "zh": "ăn cơm chung — 一起吃飯",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ăn cơm chung — 一起吃飯",
+    "zh": "nói chuyện — 聊天",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nói chuyện — 聊天",
+    "zh": "chào hỏi — 打招呼",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chào hỏi — 打招呼",
+    "zh": "lễ phép — 有禮貌",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lễ phép — 有禮貌",
+    "zh": "dạ thưa — 敬語",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dạ thưa — 敬語",
+    "zh": "biếu quà — 送禮",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "biếu quà — 送禮",
+    "zh": "ở lại — 留下來",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở lại — 留下來",
+    "zh": "ngủ lại — 住一晚",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ngủ lại — 住一晚",
+    "zh": "giúp việc — 幫忙",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giúp việc — 幫忙",
+    "zh": "nấu ăn — 做菜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nấu ăn — 做菜",
+    "zh": "dọn dẹp — 整理",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dọn dẹp — 整理",
+    "zh": "vui lòng — 開心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vui lòng — 開心",
+    "zh": "thoải mái — 放鬆",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 29 – 感情承諾",
+    "zh": "tin nhau — 信任彼此",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tin nhau — 信任彼此",
+    "zh": "hiểu nhau — 了解彼此",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "hiểu nhau — 了解彼此",
+    "zh": "thương nhau — 相愛",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "thương nhau — 相愛",
+    "zh": "quan tâm nhau — 關心彼此",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "quan tâm nhau — 關心彼此",
+    "zh": "chung thủy — 忠誠",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "chung thủy — 忠誠",
+    "zh": "cam kết — 承諾",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cam kết — 承諾",
+    "zh": "nghiêm túc — 認真",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nghiêm túc — 認真",
+    "zh": "lâu dài — 長久",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lâu dài — 長久",
+    "zh": "bên nhau — 在一起",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bên nhau — 在一起",
+    "zh": "không bỏ nhau — 不離開",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "không bỏ nhau — 不離開",
+    "zh": "cùng cố gắng — 一起努力",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "cùng cố gắng — 一起努力",
+    "zh": "cùng nhau — 一起",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cùng nhau — 一起",
+    "zh": "đi tới cùng — 走到最後",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "đi tới cùng — 走到最後",
+    "zh": "gia đình nhỏ — 小家庭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gia đình nhỏ — 小家庭",
+    "zh": "hạnh phúc lâu dài — 長久幸福",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 30 – 生活穩定",
+    "zh": "ổn định cuộc sống — 生活穩定",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ổn định cuộc sống — 生活穩定",
+    "zh": "ở chung — 同居",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở chung — 同居",
+    "zh": "chia sẻ — 分享",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chia sẻ — 分享",
+    "zh": "giúp đỡ — 幫助",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giúp đỡ — 幫助",
+    "zh": "dựa vào nhau — 互相依靠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dựa vào nhau — 互相依靠",
+    "zh": "tin tưởng nhau — 互相信任",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "tin tưởng nhau — 互相信任",
+    "zh": "cảm thông — 體諒",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "cảm thông — 體諒",
+    "zh": "nhường nhịn — 退讓",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "nhường nhịn — 退讓",
+    "zh": "lắng nghe — 傾聽",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lắng nghe — 傾聽",
+    "zh": "hi sinh — 犧牲",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hi sinh — 犧牲",
+    "zh": "xây dựng — 建立",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xây dựng — 建立",
+    "zh": "giữ gìn — 維持",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ gìn — 維持",
+    "zh": "bảo vệ — 保護",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bảo vệ — 保護",
+    "zh": "trưởng thành — 成長",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trưởng thành — 成長",
+    "zh": "gia đình hạnh phúc — 幸福家庭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gia đình hạnh phúc — 幸福家庭",
+    "zh": "🗓 Day 31 – 情緒細節",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 31 – 情緒細節",
+    "zh": "bực mình — 心煩",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bực mình — 心煩",
+    "zh": "khó chịu — 不舒服／不爽",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "khó chịu — 不舒服／不爽",
+    "zh": "tủi thân — 覺得委屈",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tủi thân — 覺得委屈",
+    "zh": "nhạy cảm — 敏感",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhạy cảm — 敏感",
+    "zh": "áp lực — 壓力",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "áp lực — 壓力",
+    "zh": "mệt mỏi — 疲憊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mệt mỏi — 疲憊",
+    "zh": "stress — 壓力（口語）",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "stress — 壓力（口語）",
+    "zh": "thoải mái — 放鬆",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thoải mái — 放鬆",
+    "zh": "dễ chịu — 舒服",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dễ chịu — 舒服",
+    "zh": "an tâm — 安心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "an tâm — 安心",
+    "zh": "lo lắng — 擔心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lo lắng — 擔心",
+    "zh": "suy nghĩ — 想",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "suy nghĩ — 想",
+    "zh": "đắn đo — 猶豫",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đắn đo — 猶豫",
+    "zh": "hối hận — 後悔",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hối hận — 後悔",
+    "zh": "hết buồn — 不難過了",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 32 – 個性・特質",
+    "zh": "hiền — 溫和",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hiền — 溫和",
+    "zh": "dễ thương — 可愛",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đáng yêu — 迷人",
+    "zh": "khó tính — 挑剔",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "khó tính — 挑剔",
+    "zh": "nóng tính — 脾氣急",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nóng tính — 脾氣急",
+    "zh": "vui tính — 好相處",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vui tính — 好相處",
+    "zh": "thật thà — 老實",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thật thà — 老實",
+    "zh": "chân thành — 真誠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chân thành — 真誠",
+    "zh": "tử tế — 善良",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tử tế — 善良",
+    "zh": "biết điều — 懂事",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "biết điều — 懂事",
+    "zh": "kiên nhẫn — 有耐心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kiên nhẫn — 有耐心",
+    "zh": "cẩn thận — 小心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cẩn thận — 小心",
+    "zh": "chu đáo — 周到",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chu đáo — 周到",
+    "zh": "chăm chỉ — 勤奮",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chăm chỉ — 勤奮",
+    "zh": "lười — 懶",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 33 – 健康照顧",
+    "zh": "giữ sức khỏe — 顧健康",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ sức khỏe — 顧健康",
+    "zh": "ngủ đủ — 睡飽",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ngủ đủ — 睡飽",
+    "zh": "ăn uống điều độ — 飲食正常",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ăn uống điều độ — 飲食正常",
+    "zh": "tập thể dục — 運動",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tập thể dục — 運動",
+    "zh": "đi bộ — 散步",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi bộ — 散步",
+    "zh": "uống nhiều nước — 多喝水",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "uống nhiều nước — 多喝水",
+    "zh": "khám bệnh — 看醫生",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "khám bệnh — 看醫生",
+    "zh": "bác sĩ — 醫生",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bác sĩ — 醫生",
+    "zh": "thuốc — 藥",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thuốc — 藥",
+    "zh": "toa thuốc — 藥單",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "toa thuốc — 藥單",
+    "zh": "hết bệnh — 痊癒",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hết bệnh — 痊癒",
+    "zh": "đỡ rồi — 好多了",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đỡ rồi — 好多了",
+    "zh": "tái khám — 回診",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tái khám — 回診",
+    "zh": "nghỉ ngơi — 休息",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nghỉ ngơi — 休息",
+    "zh": "theo dõi — 觀察",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 34 – 在一起",
+    "zh": "ở cạnh — 在旁邊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở cạnh — 在旁邊",
+    "zh": "ở gần — 在附近",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở gần — 在附近",
+    "zh": "ở xa — 在遠方",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở xa — 在遠方",
+    "zh": "nhắn tin hoài — 一直傳訊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhắn tin hoài — 一直傳訊",
+    "zh": "gọi hoài — 一直打電話",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gọi hoài — 一直打電話",
+    "zh": "chờ đợi — 等待",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chờ đợi — 等待",
+    "zh": "nhớ nhung — 想念",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhớ nhung — 想念",
+    "zh": "mong gặp — 期待見面",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mong gặp — 期待見面",
+    "zh": "gặp lại — 再見面",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gặp lại — 再見面",
+    "zh": "chia xa — 分開",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chia xa — 分開",
+    "zh": "đoàn tụ — 團聚",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đoàn tụ — 團聚",
+    "zh": "nắm tay — 牽手",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nắm tay — 牽手",
+    "zh": "tựa vai — 靠著",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tựa vai — 靠著",
+    "zh": "đi chung — 一起走",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi chung — 一起走",
+    "zh": "bên cạnh nhau — 在彼此身邊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 35 – 未來規劃",
+    "zh": "dự tính — 打算",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dự tính — 打算",
+    "zh": "lên kế hoạch — 規劃",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lên kế hoạch — 規劃",
+    "zh": "ổn định công việc — 工作穩定",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ổn định công việc — 工作穩定",
+    "zh": "mua nhà — 買房",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mua nhà — 買房",
+    "zh": "mua xe — 買車",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mua xe — 買車",
+    "zh": "tiết kiệm tiền — 存錢",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tiết kiệm tiền — 存錢",
+    "zh": "lo cho tương lai — 為未來打算",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lo cho tương lai — 為未來打算",
+    "zh": "định cư — 定居",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "định cư — 定居",
+    "zh": "chuyển chỗ ở — 搬家",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chuyển chỗ ở — 搬家",
+    "zh": "bắt đầu mới — 新開始",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bắt đầu mới — 新開始",
+    "zh": "cơ hội — 機會",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cơ hội — 機會",
+    "zh": "thử thách — 挑戰",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thử thách — 挑戰",
+    "zh": "thành công — 成功",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thành công — 成功",
+    "zh": "thất bại — 失敗",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thất bại — 失敗",
+    "zh": "học hỏi — 學習",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thương ba má — 愛爸媽",
+    "zh": "quan tâm gia đình — 關心家庭",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quan tâm gia đình — 關心家庭",
+    "zh": "ăn cơm gia đình — 家庭聚餐",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ăn cơm gia đình — 家庭聚餐",
+    "zh": "giỗ — 忌日",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giỗ — 忌日",
+    "zh": "đám tiệc — 宴會",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đám tiệc — 宴會",
+    "zh": "đám giỗ — 忌日宴",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đám giỗ — 忌日宴",
+    "zh": "đám cưới — 婚禮",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đám cưới — 婚禮",
+    "zh": "đám tang — 喪禮",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đám tang — 喪禮",
+    "zh": "họ hàng — 親戚",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "họ hàng — 親戚",
+    "zh": "gần gũi — 親近",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gần gũi — 親近",
+    "zh": "xa cách — 疏遠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xa cách — 疏遠",
+    "zh": "kính trọng — 尊敬",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kính trọng — 尊敬",
+    "zh": "lễ nghĩa — 禮數",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lễ nghĩa — 禮數",
+    "zh": "hiếu thảo — 孝順",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hiếu thảo — 孝順",
+    "zh": "đầm ấm — 溫馨",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 37 – 日常交流",
+    "zh": "kể chuyện — 說故事",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kể chuyện — 說故事",
+    "zh": "chia sẻ — 分享",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chia sẻ — 分享",
+    "zh": "tâm sự — 傾訴",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tâm sự — 傾訴",
+    "zh": "hỏi han — 關心問候",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hỏi han — 關心問候",
+    "zh": "trả lời — 回答",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trả lời — 回答",
+    "zh": "giải thích — 解釋",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giải thích — 解釋",
+    "zh": "bàn bạc — 商量",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bàn bạc — 商量",
+    "zh": "thống nhất — 達成共識",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thống nhất — 達成共識",
+    "zh": "quyết định — 決定",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quyết định — 決定",
+    "zh": "thay đổi — 改變",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thay đổi — 改變",
+    "zh": "chấp nhận — 接受",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chấp nhận — 接受",
+    "zh": "từ chối — 拒絕",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "từ chối — 拒絕",
+    "zh": "đồng ý — 同意",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đồng ý — 同意",
+    "zh": "phản đối — 反對",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "phản đối — 反對",
+    "zh": "giữ lời — 守信用",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 38 – 家裡物品",
+    "zh": "bàn — 桌子",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bàn — 桌子",
+    "zh": "ghế — 椅子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ghế — 椅子",
+    "zh": "tủ — 櫃子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tủ — 櫃子",
+    "zh": "kệ — 架子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "kệ — 架子",
+    "zh": "nồi — 鍋",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nồi — 鍋",
+    "zh": "chảo — 平底鍋",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chảo — 平底鍋",
+    "zh": "ly — 杯子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ly — 杯子",
+    "zh": "chén — 碗",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chén — 碗",
+    "zh": "muỗng — 湯匙",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "muỗng — 湯匙",
+    "zh": "đũa — 筷子",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đũa — 筷子",
+    "zh": "dao — 刀",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "dao — 刀",
+    "zh": "thớt — 砧板",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thớt — 砧板",
+    "zh": "máy giặt — 洗衣機",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "máy giặt — 洗衣機",
+    "zh": "tủ lạnh — 冰箱",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tủ lạnh — 冰箱",
+    "zh": "bếp — 廚房",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 39 – 外出應對",
+    "zh": "xin đường — 問路",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xin đường — 問路",
+    "zh": "chỉ đường — 指路",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chỉ đường — 指路",
+    "zh": "đi lạc — 迷路",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi lạc — 迷路",
+    "zh": "đi đúng — 走對",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi đúng — 走對",
+    "zh": "đi sai — 走錯",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi sai — 走錯",
+    "zh": "tới trễ — 遲到",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tới trễ — 遲到",
+    "zh": "đúng giờ — 準時",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đúng giờ — 準時",
+    "zh": "đặt chỗ — 訂位",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đặt chỗ — 訂位",
+    "zh": "xếp hàng — 排隊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xếp hàng — 排隊",
+    "zh": "đợi lượt — 等輪到",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đợi lượt — 等輪到",
+    "zh": "bận việc — 有事",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bận việc — 有事",
+    "zh": "rảnh rỗi — 有空",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "rảnh rỗi — 有空",
+    "zh": "giải quyết — 解決",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giải quyết — 解決",
+    "zh": "xong việc — 做完事",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xong việc — 做完事",
+    "zh": "quay về — 回去",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 40 – 成熟的愛",
+    "zh": "trưởng thành — 成熟",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trưởng thành — 成熟",
+    "zh": "hiểu chuyện — 懂事",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hiểu chuyện — 懂事",
+    "zh": "biết nhường — 會讓步",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kiểm soát cảm xúc — 控制情緒",
+    "zh": "tôn trọng nhau — 尊重彼此",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tôn trọng nhau — 尊重彼此",
+    "zh": "tin cậy — 可靠",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "tin cậy — 可靠",
+    "zh": "đồng hành — 陪伴",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đồng hành — 陪伴",
+    "zh": "dựa vào — 依靠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dựa vào — 依靠",
+    "zh": "vững vàng — 穩定",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vững vàng — 穩定",
+    "zh": "bình yên — 平靜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bình yên — 平靜",
+    "zh": "an lành — 安穩",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "an lành — 安穩",
+    "zh": "gắn bó — 緊密",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gắn bó — 緊密",
+    "zh": "bền vững — 長久",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bền vững — 長久",
+    "zh": "lâu bền — 持久",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lâu bền — 持久",
+    "zh": "tình yêu chín chắn — 成熟的愛",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tình yêu chín chắn — 成熟的愛",
+    "zh": "🗓 Day 41 – 關係狀態",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 41 – 關係狀態",
+    "zh": "độc thân — 單身",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "độc thân — 單身",
+    "zh": "có người yêu — 有對象",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "có người yêu — 有對象",
+    "zh": "đang quen — 正在交往",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đang quen — 正在交往",
+    "zh": "yêu xa — 遠距離戀愛",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "yêu xa — 遠距離戀愛",
+    "zh": "gắn bó — 緊密",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gắn bó — 緊密",
+    "zh": "xa nhau — 分開",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xa nhau — 分開",
+    "zh": "ở gần nhau — 在附近",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "ở gần nhau — 在附近",
+    "zh": "ở xa nhau — 在遠方",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "ở xa nhau — 在遠方",
+    "zh": "liên lạc — 聯絡",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "liên lạc — 聯絡",
+    "zh": "kết nối — 連結",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kết nối — 連結",
+    "zh": "giữ liên lạc — 保持聯絡",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ liên lạc — 保持聯絡",
+    "zh": "mất liên lạc — 失聯",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mất liên lạc — 失聯",
+    "zh": "tin tức — 消息",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tin tức — 消息",
+    "zh": "hỏi thăm — 問候",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hỏi thăm — 問候",
+    "zh": "quan hệ — 關係",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 42 – 表達需求",
+    "zh": "cần — 需要",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cần — 需要",
+    "zh": "muốn — 想要",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "muốn — 想要",
+    "zh": "mong — 期望",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mong — 期望",
+    "zh": "ước — 希望",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ước — 希望",
+    "zh": "đề nghị — 提議",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đề nghị — 提議",
+    "zh": "yêu cầu — 要求",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "yêu cầu — 要求",
+    "zh": "nhờ — 拜託",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhờ — 拜託",
+    "zh": "giúp — 幫忙",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giúp — 幫忙",
+    "zh": "hỗ trợ — 支援",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hỗ trợ — 支援",
+    "zh": "đồng ý — 同意",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đồng ý — 同意",
+    "zh": "từ chối — 拒絕",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "từ chối — 拒絕",
+    "zh": "chấp nhận — 接受",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chấp nhận — 接受",
+    "zh": "phàn nàn — 抱怨",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "phàn nàn — 抱怨",
+    "zh": "thỏa thuận — 協議",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thỏa thuận — 協議",
+    "zh": "quy ước — 約定",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 43 – 承擔與責任",
+    "zh": "trách nhiệm — 責任",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trách nhiệm — 責任",
+    "zh": "gánh vác — 承擔",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gánh vác — 承擔",
+    "zh": "chủ động — 主動",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chủ động — 主動",
+    "zh": "bị động — 被動",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bị động — 被動",
+    "zh": "cố gắng — 努力",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cố gắng — 努力",
+    "zh": "chịu trách nhiệm — 負責",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chịu trách nhiệm — 負責",
+    "zh": "giữ lời hứa — 守承諾",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ lời hứa — 守承諾",
+    "zh": "làm tới — 做到底",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "làm tới — 做到底",
+    "zh": "đứng ra — 出面",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đứng ra — 出面",
+    "zh": "lo liệu — 打理",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lo liệu — 打理",
+    "zh": "xử lý — 處理",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xử lý — 處理",
+    "zh": "giải quyết — 解決",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giải quyết — 解決",
+    "zh": "ổn thỏa — 妥善",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ổn thỏa — 妥善",
+    "zh": "đáng tin — 值得信任",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đáng tin — 值得信任",
+    "zh": "đáng dựa — 可以依靠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 44 – 家庭責任",
+    "zh": "chăm sóc ba má — 照顧父母",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chăm sóc ba má — 照顧父母",
+    "zh": "lo cho con cái — 照顧孩子",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lo cho con cái — 照顧孩子",
+    "zh": "trụ cột — 支柱",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trụ cột — 支柱",
+    "zh": "gia đình hai bên — 雙方家庭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gia đình hai bên — 雙方家庭",
+    "zh": "hòa thuận — 和睦",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hòa thuận — 和睦",
+    "zh": "bàn bạc — 商量",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bàn bạc — 商量",
+    "zh": "phân chia — 分工",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "phân chia — 分工",
+    "zh": "đỡ đần — 分擔",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đỡ đần — 分擔",
+    "zh": "giữ hòa khí — 維持和氣",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hiếu kính — 孝敬",
+    "zh": "quan tâm đều — 兼顧",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quan tâm đều — 兼顧",
+    "zh": "đoàn kết — 團結",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đoàn kết — 團結",
+    "zh": "đầm ấm — 溫馨",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đầm ấm — 溫馨",
+    "zh": "yên ổn — 安定",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "yên ổn — 安定",
+    "zh": "thuận hòa — 和順",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 45 – 情感界線",
+    "zh": "ranh giới — 界線",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ranh giới — 界線",
+    "zh": "tôn trọng — 尊重",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tôn trọng — 尊重",
+    "zh": "riêng tư — 隱私",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "riêng tư — 隱私",
+    "zh": "thẳng thắn — 坦白",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thẳng thắn — 坦白",
+    "zh": "rõ ràng — 清楚",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "rõ ràng — 清楚",
+    "zh": "không giấu — 不隱瞞",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "không giấu — 不隱瞞",
+    "zh": "tin tưởng — 信任",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "tin tưởng — 信任",
+    "zh": "chân thật — 真實",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chân thật — 真實",
+    "zh": "trung thực — 誠實",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trung thực — 誠實",
+    "zh": "minh bạch — 透明",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "minh bạch — 透明",
+    "zh": "kiểm soát — 控制",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kiểm soát — 控制",
+    "zh": "buông bỏ — 放下",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "buông bỏ — 放下",
+    "zh": "nhường nhịn — 退讓",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhường nhịn — 退讓",
+    "zh": "điều chỉnh — 調整",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "điều chỉnh — 調整",
+    "zh": "cân bằng — 平衡",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 46 – 見父母・長輩",
+    "zh": "thưa ba má — 跟爸媽說",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thưa ba má — 跟爸媽說",
+    "zh": "chào hỏi — 問候",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chào hỏi — 問候",
+    "zh": "kính trọng — 尊敬",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kính trọng — 尊敬",
+    "zh": "lễ phép — 有禮貌",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lễ phép — 有禮貌",
+    "zh": "trình bày — 說明",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trình bày — 說明",
+    "zh": "xin phép — 請示",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xin phép — 請示",
+    "zh": "dạ vâng — 是的（敬語）",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dạ vâng — 是的（敬語）",
+    "zh": "biếu quà — 送禮",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "biếu quà — 送禮",
+    "zh": "thăm hỏi — 探望",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thăm hỏi — 探望",
+    "zh": "ở lại chơi — 留下來坐坐",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở lại chơi — 留下來坐坐",
+    "zh": "ăn cơm chung — 一起吃飯",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ăn cơm chung — 一起吃飯",
+    "zh": "giúp việc nhà — 幫家事",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giúp việc nhà — 幫家事",
+    "zh": "ghi điểm — 加分",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ghi điểm — 加分",
+    "zh": "tạo thiện cảm — 留好印象",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tạo thiện cảm — 留好印象",
+    "zh": "được lòng — 討喜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 47 – 共同生活",
+    "zh": "ở chung — 同住",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở chung — 同住",
+    "zh": "chia tiền — 分攤費用",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chia tiền — 分攤費用",
+    "zh": "chia việc — 分工",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chia việc — 分工",
+    "zh": "sắp xếp — 安排",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sắp xếp — 安排",
+    "zh": "lịch sinh hoạt — 作息",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lịch sinh hoạt — 作息",
+    "zh": "quy tắc — 規則",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quy tắc — 規則",
+    "zh": "thỏa thuận chung — 共同約定",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thỏa thuận chung — 共同約定",
+    "zh": "thói quen — 習慣",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thói quen — 習慣",
+    "zh": "thích nghi — 適應",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thích nghi — 適應",
+    "zh": "nhường nhịn nhau — 互相退讓",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhường nhịn nhau — 互相退讓",
+    "zh": "hỗ trợ nhau — 互相幫忙",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "hỗ trợ nhau — 互相幫忙",
+    "zh": "chung tay — 同心協力",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "chung tay — 同心協力",
+    "zh": "xây dựng tổ ấm — 建立家庭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xây dựng tổ ấm — 建立家庭",
+    "zh": "giữ nếp nhà — 維持家風",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ nếp nhà — 維持家風",
+    "zh": "sống hòa hợp — 和諧生活",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 48 – 衝突處理",
+    "zh": "mâu thuẫn — 衝突",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mâu thuẫn — 衝突",
+    "zh": "xung đột — 對立",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xung đột — 對立",
+    "zh": "căng thẳng — 緊張",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "căng thẳng — 緊張",
+    "zh": "bình tĩnh lại — 冷靜下來",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bình tĩnh lại — 冷靜下來",
+    "zh": "hạ giọng — 放低音量",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hạ giọng — 放低音量",
+    "zh": "lắng nghe — 聽對方說",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lắng nghe — 聽對方說",
+    "zh": "thấu hiểu — 理解",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thấu hiểu — 理解",
+    "zh": "thông cảm — 體諒",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thông cảm — 體諒",
+    "zh": "giải tỏa — 釋放",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "giải tỏa — 釋放",
+    "zh": "nói chuyện rõ ràng — 講清楚",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nói chuyện rõ ràng — 講清楚",
+    "zh": "tìm cách — 想辦法",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tìm cách — 想辦法",
+    "zh": "giải pháp — 解決方法",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giải pháp — 解決方法",
+    "zh": "dung hòa — 折衷",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kết thúc êm đẹp — 圓滿結束",
+    "zh": "giữ hòa khí — 保持和氣",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 49 – 心理成熟",
+    "zh": "tự tin — 自信",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tự tin — 自信",
+    "zh": "tự trọng — 自尊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tự trọng — 自尊",
+    "zh": "tự lập — 獨立",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tự lập — 獨立",
+    "zh": "vững tâm — 心定",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vững tâm — 心定",
+    "zh": "điềm tĩnh — 冷靜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "điềm tĩnh — 冷靜",
+    "zh": "chín chắn — 成熟",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chín chắn — 成熟",
+    "zh": "thực tế — 務實",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thực tế — 務實",
+    "zh": "suy xét — 思考",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "suy xét — 思考",
+    "zh": "nhìn xa — 看遠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhìn xa — 看遠",
+    "zh": "bao dung — 包容",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bao dung — 包容",
+    "zh": "khoan dung — 寬容",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "khoan dung — 寬容",
+    "zh": "tha thứ — 原諒",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tha thứ — 原諒",
+    "zh": "chấp nhận — 接受",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chấp nhận — 接受",
+    "zh": "buông xả — 放下",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "buông xả — 放下",
+    "zh": "bình an nội tâm — 內心平靜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 50 – 長久相伴",
+    "zh": "đi cùng nhau — 一起走",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi cùng nhau — 一起走",
+    "zh": "đồng hành lâu dài — 長久陪伴",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "đồng hành lâu dài — 長久陪伴",
+    "zh": "bên nhau trọn đời — 一輩子在一起",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bên nhau trọn đời — 一輩子在一起",
+    "zh": "chung sống — 共同生活",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "chung sống — 共同生活",
+    "zh": "chia sẻ mọi thứ — 分享一切",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chia sẻ mọi thứ — 分享一切",
+    "zh": "tin nhau tuyệt đối — 完全信任",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tin nhau tuyệt đối — 完全信任",
+    "zh": "giữ lửa — 維持感情",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "giữ lửa — 維持感情",
+    "zh": "vun đắp — 經營",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vun đắp — 經營",
+    "zh": "bền chặt — 穩固",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bền chặt — 穩固",
+    "zh": "gắn kết — 連結",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gắn kết — 連結",
+    "zh": "đồng lòng — 同心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đồng lòng — 同心",
+    "zh": "song hành — 並肩",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "song hành — 並肩",
+    "zh": "một lòng — 一心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "một lòng — 一心",
+    "zh": "đến cuối đời — 到老",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đến cuối đời — 到老",
+    "zh": "tình nghĩa vợ chồng — 夫妻情分",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tình nghĩa vợ chồng — 夫妻情分",
+    "zh": "🗓 Day 51 – 人生態度",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 51 – 人生態度",
+    "zh": "cuộc sống — 生活",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cuộc sống — 生活",
+    "zh": "cuộc đời — 人生",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cuộc đời — 人生",
+    "zh": "sống tốt — 好好生活",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sống tốt — 好好生活",
+    "zh": "sống thật — 活得真實",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sống thật — 活得真實",
+    "zh": "sống tử tế — 活得善良",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sống tử tế — 活得善良",
+    "zh": "biết ơn — 感恩",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "biết ơn — 感恩",
+    "zh": "trân quý — 珍惜",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trân quý — 珍惜",
+    "zh": "hài lòng — 滿足",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hài lòng — 滿足",
+    "zh": "bằng lòng — 接受",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bằng lòng — 接受",
+    "zh": "tích cực — 正向",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tích cực — 正向",
+    "zh": "lạc quan — 樂觀",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lạc quan — 樂觀",
+    "zh": "kiên cường — 堅強",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kiên cường — 堅強",
+    "zh": "bền bỉ — 堅持",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bền bỉ — 堅持",
+    "zh": "vượt qua — 克服",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vượt qua — 克服",
+    "zh": "đi tiếp — 繼續走",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 52 – 支持與陪伴",
+    "zh": "ủng hộ — 支持",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ủng hộ — 支持",
+    "zh": "động viên — 鼓勵",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "động viên — 鼓勵",
+    "zh": "an ủi — 安慰",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "an ủi — 安慰",
+    "zh": "ở bên cạnh — 陪在身邊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở bên cạnh — 陪在身邊",
+    "zh": "luôn bên nhau — 一直在一起",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "luôn bên nhau — 一直在一起",
+    "zh": "che chở — 保護",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "che chở — 保護",
+    "zh": "bảo vệ — 守護",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bảo vệ — 守護",
+    "zh": "tin vào — 相信",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tin vào — 相信",
+    "zh": "đặt niềm tin — 放心信任",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đặt niềm tin — 放心信任",
+    "zh": "dựa vào — 依靠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dựa vào — 依靠",
+    "zh": "nâng đỡ — 扶持",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nâng đỡ — 扶持",
+    "zh": "chia sẻ gánh nặng — 分擔重擔",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chia sẻ gánh nặng — 分擔重擔",
+    "zh": "không bỏ rơi — 不拋下",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "không bỏ rơi — 不拋下",
+    "zh": "cùng chịu — 一起承擔",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "cùng chịu — 一起承擔",
+    "zh": "đi qua cùng nhau — 一起走過",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hôn nhân — 婚姻",
+    "zh": "vợ chồng — 夫妻",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "vợ chồng — 夫妻",
+    "zh": "trách nhiệm chung — 共同責任",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trách nhiệm chung — 共同責任",
+    "zh": "chia vai trò — 分工角色",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chia vai trò — 分工角色",
+    "zh": "kinh tế gia đình — 家庭經濟",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "kinh tế gia đình — 家庭經濟",
+    "zh": "nuôi con — 養孩子",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nuôi con — 養孩子",
+    "zh": "dạy con — 教孩子",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dạy con — 教孩子",
+    "zh": "lo toan — 打理",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lo toan — 打理",
+    "zh": "chăm lo — 照顧",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chăm lo — 照顧",
+    "zh": "giữ nhà — 顧家",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ nhà — 顧家",
+    "zh": "xây dựng gia đình — 建立家庭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "xây dựng gia đình — 建立家庭",
+    "zh": "giữ hạnh phúc — 維持幸福",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ hạnh phúc — 維持幸福",
+    "zh": "giữ hòa thuận — 保持和睦",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ hòa thuận — 保持和睦",
+    "zh": "đồng lòng — 同心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đồng lòng — 同心",
+    "zh": "bền lâu — 長久",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 54 – 信念與價值",
+    "zh": "niềm tin — 信念",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "niềm tin — 信念",
+    "zh": "giá trị — 價值",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giá trị — 價值",
+    "zh": "nguyên tắc — 原則",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nguyên tắc — 原則",
+    "zh": "đạo đức — 道德",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đạo đức — 道德",
+    "zh": "lương tâm — 良心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lương tâm — 良心",
+    "zh": "tôn nghiêm — 尊嚴",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tôn nghiêm — 尊嚴",
+    "zh": "trách nhiệm — 責任",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trách nhiệm — 責任",
+    "zh": "ý nghĩa — 意義",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ý nghĩa — 意義",
+    "zh": "mục tiêu — 目標",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mục tiêu — 目標",
+    "zh": "lý tưởng — 理想",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lý tưởng — 理想",
+    "zh": "định hướng — 方向",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "định hướng — 方向",
+    "zh": "niềm tự hào — 驕傲",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "niềm tự hào — 驕傲",
+    "zh": "chính trực — 正直",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chính trực — 正直",
+    "zh": "đáng giá — 有價值",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đáng giá — 有價值",
+    "zh": "xứng đáng — 值得",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 55 – 生活平衡",
+    "zh": "cân bằng — 平衡",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cân bằng — 平衡",
+    "zh": "nghỉ ngơi — 休息",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nghỉ ngơi — 休息",
+    "zh": "thư giãn — 放鬆",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thư giãn — 放鬆",
+    "zh": "giải trí — 娛樂",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giải trí — 娛樂",
+    "zh": "tận hưởng — 享受",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tận hưởng — 享受",
+    "zh": "điều chỉnh — 調整",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "điều chỉnh — 調整",
+    "zh": "sắp xếp lại — 重新安排",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sắp xếp lại — 重新安排",
+    "zh": "ưu tiên — 優先",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ưu tiên — 優先",
+    "zh": "bớt áp lực — 減壓",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bớt áp lực — 減壓",
+    "zh": "giữ nhịp sống — 維持生活節奏",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ nhịp sống — 維持生活節奏",
+    "zh": "chăm sóc bản thân — 照顧自己",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chăm sóc bản thân — 照顧自己",
+    "zh": "quan tâm lẫn nhau — 互相關心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "quan tâm lẫn nhau — 互相關心",
+    "zh": "dành thời gian — 花時間",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "dành thời gian — 花時間",
+    "zh": "ở chậm lại — 慢下來",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở chậm lại — 慢下來",
+    "zh": "sống điều độ — 規律生活",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 56 – 變化與成長",
+    "zh": "thay đổi — 改變",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thay đổi — 改變",
+    "zh": "thích nghi — 適應",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thích nghi — 適應",
+    "zh": "học cách — 學會",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "học cách — 學會",
+    "zh": "trải nghiệm — 經歷",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trải nghiệm — 經歷",
+    "zh": "va vấp — 挫折",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "va vấp — 挫折",
+    "zh": "rút kinh nghiệm — 吸取經驗",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "rút kinh nghiệm — 吸取經驗",
+    "zh": "lớn lên — 成長",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "lớn lên — 成長",
+    "zh": "trưởng thành hơn — 更成熟",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trưởng thành hơn — 更成熟",
+    "zh": "mạnh mẽ hơn — 更堅強",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mạnh mẽ hơn — 更堅強",
+    "zh": "hiểu sâu hơn — 更了解",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hiểu sâu hơn — 更了解",
+    "zh": "thấu đáo — 透徹",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thấu đáo — 透徹",
+    "zh": "nhìn lại — 回顧",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhìn lại — 回顧",
+    "zh": "tiến lên — 前進",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tiến lên — 前進",
+    "zh": "bước tiếp — 下一步",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bước tiếp — 下一步",
+    "zh": "vượt bậc — 跨越",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 57 – 家庭未來",
+    "zh": "tổ ấm — 溫暖的家",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tổ ấm — 溫暖的家",
+    "zh": "mái ấm — 家",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "mái ấm — 家",
+    "zh": "nhà cửa — 房子",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhà cửa — 房子",
+    "zh": "con cái — 孩子",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thế hệ sau — 下一代",
+    "zh": "truyền thống — 傳統",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "truyền thống — 傳統",
+    "zh": "giáo dục — 教育",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giáo dục — 教育",
+    "zh": "nếp sống — 生活方式",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nếp sống — 生活方式",
+    "zh": "gia phong — 家風",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gia phong — 家風",
+    "zh": "đầm ấm — 溫馨",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đầm ấm — 溫馨",
+    "zh": "ổn định lâu dài — 長期穩定",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ổn định lâu dài — 長期穩定",
+    "zh": "hạnh phúc trọn vẹn — 完整幸福",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "hạnh phúc trọn vẹn — 完整幸福",
+    "zh": "gia đình yên vui — 快樂家庭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gia đình yên vui — 快樂家庭",
+    "zh": "sum vầy — 團聚",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sum vầy — 團聚",
+    "zh": "bền vững — 永續",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 58 – 情感深層",
+    "zh": "tình nghĩa — 情義",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "tình nghĩa — 情義",
+    "zh": "ân tình — 恩情",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ân tình — 恩情",
+    "zh": "thủy chung — 專一",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thủy chung — 專一",
+    "zh": "son sắt — 堅定不移",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "son sắt — 堅定不移",
+    "zh": "sâu đậm — 深厚",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sâu đậm — 深厚",
+    "zh": "chân tình — 真情",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chân tình — 真情",
+    "zh": "nồng ấm — 溫暖",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nồng ấm — 溫暖",
+    "zh": "dịu dàng — 溫柔",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "dịu dàng — 溫柔",
+    "zh": "bao bọc — 包容",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bao bọc — 包容",
+    "zh": "chở che — 庇護",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chở che — 庇護",
+    "zh": "thấu hiểu nhau — 彼此理解",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "thấu hiểu nhau — 彼此理解",
+    "zh": "cảm thông nhau — 彼此體諒",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "cảm thông nhau — 彼此體諒",
+    "zh": "gắn bó lâu dài — 長久相依",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "gắn bó lâu dài — 長久相依",
+    "zh": "không phai — 不變",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "không phai — 不變",
+    "zh": "trọn vẹn — 圓滿",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "🗓 Day 59 – 一起到老",
+    "zh": "đi đến cuối đời — 走到老",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi đến cuối đời — 走到老",
+    "zh": "bên nhau đến già — 相伴到老",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bên nhau đến già — 相伴到老",
+    "zh": "sống trọn đời — 一輩子生活",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "sống trọn đời — 一輩子生活",
+    "zh": "không rời nửa bước — 不離不棄",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "không rời nửa bước — 不離不棄",
+    "zh": "đồng cam cộng khổ — 同甘共苦",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "đồng cam cộng khổ — 同甘共苦",
+    "zh": "chia ngọt sẻ bùi — 有福同享",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chia ngọt sẻ bùi — 有福同享",
+    "zh": "nắm tay suốt đời — 牽手一生",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nắm tay suốt đời — 牽手一生",
+    "zh": "ở bên khi khó khăn — 困難時陪伴",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở bên khi khó khăn — 困難時陪伴",
+    "zh": "giữ lời thề — 守誓言",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "giữ lời thề — 守誓言",
+    "zh": "không thay lòng — 不變心",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "không thay lòng — 不變心",
+    "zh": "cùng già — 一起老",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "cùng già — 一起老",
+    "zh": "cùng nhìn lại — 一起回顧",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cùng nhìn lại — 一起回顧",
+    "zh": "đủ đầy — 圓滿",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đủ đầy — 圓滿",
+    "zh": "viên mãn — 完美",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "viên mãn — 完美",
+    "zh": "mãi mãi — 永遠",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "🗓 Day 60 – 圓滿與感謝",
+    "zh": "biết ơn cuộc đời — 感謝人生",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "biết ơn cuộc đời — 感謝人生",
+    "zh": "cảm ơn vì đã đến — 謝謝你出現",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "cảm ơn vì đã đến — 謝謝你出現",
+    "zh": "trân trọng hiện tại — 珍惜當下",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trân trọng hiện tại — 珍惜當下",
+    "zh": "nhìn về phía trước — 展望未來",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhìn về phía trước — 展望未來",
+    "zh": "bình yên bên nhau — 平靜相伴",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "bình yên bên nhau — 平靜相伴",
+    "zh": "hạnh phúc giản đơn — 簡單幸福",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "hạnh phúc giản đơn — 簡單幸福",
+    "zh": "đủ là hạnh phúc — 足夠就是幸福",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đủ là hạnh phúc — 足夠就是幸福",
+    "zh": "ở bên đúng người — 在對的人身邊",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "ở bên đúng người — 在對的人身邊",
+    "zh": "chọn đúng người — 選對人",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "chọn đúng người — 選對人",
+    "zh": "đi đúng đường — 走對路",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "đi đúng đường — 走對路",
+    "zh": "yêu đúng cách — 正確地愛",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "yêu đúng cách — 正確地愛",
+    "zh": "sống không hối tiếc — 不留遺憾",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "sống không hối tiếc — 不留遺憾",
+    "zh": "viên mãn cuộc sống — 圓滿人生",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "viên mãn cuộc sống — 圓滿人生",
+    "zh": "gia đình trọn vẹn — 完整家庭",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "gia đình trọn vẹn — 完整家庭",
+    "zh": "hạnh phúc mãi về sau — 永遠幸福",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "nhưng / mà",
+    "zh": "「mà」超口語，很常用",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "「mà」超口語，很常用",
+    "zh": "因為",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "vì",
+    "zh": "最基本",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nên",
+    "zh": "常和「vì」一起用",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "常和「vì」一起用",
+    "zh": "然後",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rồi",
+    "zh": "口語超常見",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rồi sao / rồi thì 問後續",
+    "zh": "而且",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "với lại / còn",
+    "zh": "南越很常講「với lại」",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "南越很常講「với lại」",
+    "zh": "或者",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "hoặc / hay",
+    "zh": "「hay」口語較多",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "「hay」口語較多",
+    "zh": "如果",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nếu",
+    "zh": "基本",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "tuy",
+    "zh": "常配「nhưng」",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "常配「nhưng」",
+    "zh": "不過",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mà / nhưng mà 很口語",
+    "zh": "因此",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "nên / vì vậy",
+    "zh": "正式一點",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "còn / với lại",
+    "zh": "補充事情",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "còn nữa",
+    "zh": "加強",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mà khoan",
+    "zh": "南越口語感強",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "thật ra",
+    "zh": "很常用",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nói chung",
+    "zh": "日常常見",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ví dụ như",
+    "zh": "舉例",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "không thì",
+    "zh": "威脅感(?)很常出現",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "mới",
+    "zh": "表示「才剛」",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đã",
+    "zh": "基本必學",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chưa",
+    "zh": "超常用",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "vừa... vừa...",
+    "zh": "同時做事",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Nhưng mà em thấy…",
+    "zh": "（但是我覺得…）",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Tại vì…",
+    "zh": "（因為…）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Xong rồi…",
+    "zh": "（然後就…）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Với lại…",
+    "zh": "（而且／還有）",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Không thì…",
+    "zh": "（不然的話…）",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Mà…",
+    "zh": "這個超萬用，可以翻：",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "o 但是",
+    "zh": "o 啊",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "o 啊",
+    "zh": "o 可是",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "o 可是",
+    "zh": "o 誒",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "o 用來撒嬌轉折",
+    "zh": "例如：",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Anh hứa mà!",
+    "zh": "（你明明答應了耶！）",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Em nói rồi mà.",
+    "zh": "（我不是說過了嘛。）",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Em muốn đi mà…",
+    "zh": "（人家想去嘛…）",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "nha",
+    "zh": "喔／啦／好嗎",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "nè",
+    "zh": "欸／你看",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "á",
+    "zh": "啊？真的假的",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đó",
+    "zh": "那個啊／耶",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mà",
+    "zh": "嘛／耶／可是",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "luôn",
+    "zh": "直接／超級",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "rồi",
+    "zh": "了／然後",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ha",
+    "zh": "好嗎／對吧",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chứ",
+    "zh": "當然啊／不是嗎 反問",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thôi",
+    "zh": "算了／而已",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ghê",
+    "zh": "很厲害耶",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "dữ vậy 太誇張了吧",
+    "zh": "南越超常聽到",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "trời ơi 天啊",
+    "zh": "超級常見",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Em nhớ anh quá.",
+    "zh": "我好想你。",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Anh đang làm gì đó?",
+    "zh": "你在幹嘛呀？",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Em buồn đó.",
+    "zh": "我不開心耶。",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Anh hứa mà.",
+    "zh": "你明明答應了。",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Em nói thiệt á.",
+    "zh": "我是認真的啦。",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Dễ thương ghê.",
+    "zh": "好可愛喔。",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Giận luôn á.",
+    "zh": "我要生氣了喔。",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Xạo quá.",
+    "zh": "太唬爛了啦。",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Thiệt hả?",
+    "zh": "真的嗎？",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Sao kỳ vậy trời.",
+    "zh": "怎麼這麼奇怪啦。",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Tại vì...",
+    "zh": "= 因為...",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "比課本「vì」自然很多。",
+    "zh": "例如：",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Tại vì em nhớ anh.",
+    "zh": "（因為我想你。）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Với lại...",
+    "zh": "= 而且／還有",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Với lại hôm nay em mệt nữa.",
+    "zh": "（而且我今天又很累。）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Xong rồi...",
+    "zh": "= 然後就…",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Đi ăn xong rồi đi cà phê.",
+    "zh": "（吃完飯再去咖啡廳。）",
+    "category": "食物",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Không thì...",
+    "zh": "= 不然的話",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Ngủ sớm đi, không thì mai mệt đó.",
+    "zh": "（早點睡，不然明天會很累。）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "～ mà",
+    "zh": "撒嬌感很強。",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Em muốn gặp anh mà…",
+    "zh": "（人家想見你嘛…）",
+    "category": "南越口語",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Anh không thương em nữa mà.",
+    "zh": "（你都不疼我了啦。）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "～ luôn",
+    "zh": "表示「直接、超級」。",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Nhớ anh luôn.",
+    "zh": "（超想你。）",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Mắc cười luôn á.",
+    "zh": "（笑死我了。）",
+    "category": "日常",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "～ dữ vậy",
+    "zh": "南越特色口語。",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Đẹp dữ vậy?",
+    "zh": "（怎麼這麼漂亮？）",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Nhớ em dữ vậy luôn hả?",
+    "zh": "（有這麼想我喔？）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "không vậy hông zậy",
+    "zh": "例如：",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Đi hông?",
+    "zh": "= 要不要去？",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Làm gì dị?",
+    "zh": "= 在幹嘛？",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Thiệt hông?",
+    "zh": "= 真的假的？",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "hihi",
+    "zh": "嘻嘻",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "trời ơi",
+    "zh": "天啊",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "kỳ ghê",
+    "zh": "很奇怪耶",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "đáng ghét",
+    "zh": "討厭啦",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "thương ghê",
+    "zh": "好疼人喔",
+    "category": "感情",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "mê quá",
+    "zh": "太喜歡了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "từ từ",
+    "zh": "慢慢來",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "chút xíu",
+    "zh": "一點點",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "sắp rồi",
+    "zh": "快好了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đợi em xíu",
+    "zh": "等我一下",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "có gì đâu",
+    "zh": "沒什麼啦",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "mệt quá",
+    "zh": "累死了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ăn chưa",
+    "zh": "吃了沒",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đi nha",
+    "zh": "我走囉",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "ngủ ngon nha",
+    "zh": "晚安喔",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh.",
+    "zh": "（我想你。）",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "Em nhớ anh quá…",
+    "zh": "（超想你）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Nhớ anh luôn á.",
+    "zh": "（真的超想）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "Em nhớ anh mà…",
+    "zh": "（撒嬌感）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": true
+  },
+  {
+    "vn": "Nhớ muốn chết luôn.",
+    "zh": "（想死你了）",
+    "category": "感情",
+    "type": "sentence",
+    "southern": false
+  },
+  {
+    "vn": "trời đất ơi",
+    "zh": "我的天啊",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "giỡn hoài",
+    "zh": "一直鬧",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "đừng có mà",
+    "zh": "不要這樣啦",
+    "category": "南越口語",
+    "type": "word",
+    "southern": true
+  },
+  {
+    "vn": "đi đâu đó",
+    "zh": "去哪呀",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "ăn gì chưa",
+    "zh": "吃東西了嗎",
+    "category": "食物",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "nhớ chết luôn",
+    "zh": "想死你了",
+    "category": "感情",
+    "type": "word",
+    "southern": false
+  },
+  {
+    "vn": "buồn muốn chết",
+    "zh": "難過死了",
+    "category": "日常",
+    "type": "word",
+    "southern": false
+  }
+]

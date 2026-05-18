@@ -1,0 +1,62 @@
+[
+  {
+    "vn": "Em nhớ anh quá",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông?",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  }
+]
