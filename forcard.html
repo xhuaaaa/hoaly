@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>520 Aurora Temple</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    background:#050505;
+    width:100vw;
+    height:100vh;
+    font-family:"Segoe UI",sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+/* ===== 紅色極光 ===== */
+.aurora-bg{
+    position:fixed;
+    inset:-20%;
+    z-index:-5;
+    background:
+        radial-gradient(circle at 30% 40%, rgba(255,0,60,.35), transparent 30%),
+        radial-gradient(circle at 70% 60%, rgba(255,50,100,.25), transparent 35%),
+        radial-gradient(circle at 50% 50%, rgba(255,0,0,.2), transparent 40%),
+        linear-gradient(120deg,
+            #050505 0%,
+            #120006 20%,
+            #2a000f 40%,
+            #120006 60%,
+            #050505 100%);
+    filter: blur(40px) saturate(160%);
+    animation: auroraMove 14s ease-in-out infinite alternate;
+}
+
+@keyframes auroraMove{
+    0%{
+        transform:scale(1) rotate(0deg);
+    }
+    100%{
+        transform:scale(1.15) rotate(6deg);
+    }
+}
+
+/* ===== 中央神殿 ===== */
+.temple-container{
+    position:relative;
+    z-index:5;
+    text-align:center;
+}
+
+/* ===== 中央紅水晶 ===== */
+.energy-core{
+    position:relative;
+    width:240px;
+    height:240px;
+    margin:auto;
+    border-radius:50%;
+    background:
+        radial-gradient(circle at 30% 30%,
+            rgba(255,255,255,.9),
+            rgba(255,120,120,.6) 15%,
+            rgba(255,0,80,.95) 40%,
+            rgba(120,0,40,.9) 70%,
+            transparent 100%);
+    box-shadow:
+        0 0 40px rgba(255,0,60,.9),
+        0 0 80px rgba(255,0,60,.7),
+        0 0 160px rgba(255,0,60,.45),
+        inset 0 0 50px rgba(255,255,255,.3);
+
+    animation:
+        pulseCrystal 3s ease-in-out infinite,
+        rotateCore 18s linear infinite;
+}
+
+/* ===== 外圈能量 ===== */
+.energy-core::before{
+    content:"";
+    position:absolute;
+    inset:-30px;
+    border-radius:50%;
+    background:
+        conic-gradient(
+            from 0deg,
+            transparent,
+            rgba(255,255,255,.9),
+            rgba(255,0,60,.9),
+            transparent,
+            rgba(255,120,120,.8),
+            transparent
+        );
+
+    animation: spinRing 5s linear infinite;
+    filter: blur(10px);
+    opacity:.8;
+}
+
+/* ===== 第二圈 ===== */
+.energy-core::after{
+    content:"";
+    position:absolute;
+    inset:-60px;
+    border-radius:50%;
+    border:2px solid rgba(255,255,255,.08);
+    box-shadow:
+        0 0 30px rgba(255,0,60,.5),
+        inset 0 0 30px rgba(255,0,60,.4);
+
+    animation:
+        spinReverse 12s linear infinite;
+}
+
+/* ===== 文字 ===== */
+.title{
+    margin-top:90px;
+    font-size:42px;
+    letter-spacing:6px;
+    text-shadow:
+        0 0 10px rgba(255,255,255,.8),
+        0 0 25px rgba(255,0,80,.8),
+        0 0 50px rgba(255,0,80,.6);
+    animation: glowText 3s ease-in-out infinite;
+}
+
+.subtitle{
+    margin-top:18px;
+    font-size:18px;
+    color:rgba(255,255,255,.8);
+    letter-spacing:3px;
+}
+
+/* ===== 漂浮符文 ===== */
+.magic-runes{
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    overflow:hidden;
+}
+
+.magic-runes::before,
+.magic-runes::after{
+    content:"✦ ✧ ✦ ✧ ✦ ✧";
+    position:absolute;
+    width:100%;
+    text-align:center;
+    color:rgba(255,255,255,.18);
+    font-size:28px;
+    letter-spacing:25px;
+    animation: runeFloat 16s linear infinite;
+}
+
+.magic-runes::after{
+    top:65%;
+    animation-duration:22s;
+    opacity:.5;
+}
+
+@keyframes runeFloat{
+    0%{
+        transform:translateY(100vh) rotate(0deg);
+    }
+    100%{
+        transform:translateY(-120vh) rotate(360deg);
+    }
+}
+
+/* ===== 動畫 ===== */
+@keyframes pulseCrystal{
+    0%,100%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.08);
+    }
+}
+
+@keyframes rotateCore{
+    from{
+        filter:hue-rotate(0deg);
+    }
+    to{
+        filter:hue-rotate(15deg);
+    }
+}
+
+@keyframes spinRing{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes spinReverse{
+    from{
+        transform:rotate(360deg);
+    }
+    to{
+        transform:rotate(0deg);
+    }
+}
+
+@keyframes glowText{
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:.7;
+    }
+}
+
+/* ===== 手機版 ===== */
+@media(max-width:768px){
+
+    .energy-core{
+        width:180px;
+        height:180px;
+    }
+
+    .title{
+        font-size:30px;
+        margin-top:70px;
+    }
+
+    .subtitle{
+        font-size:15px;
+        padding:0 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="aurora-bg"></div>
+<div class="magic-runes"></div>
+
+<div class="temple-container">
+    <div class="energy-core"></div>
+
+    <div class="title">
+        520 LOVE TEMPLE
+    </div>
+
+    <div class="subtitle">
+        Welcome To Our Secret World ❤️
+    </div>
+</div>
+
+
+<script>
+setTimeout(()=>{
+    window.location.href = "card.html";
+},3000);
+</script>
+
+</body>
+</html>
