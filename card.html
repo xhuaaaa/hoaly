@@ -15,29 +15,38 @@ box-sizing:border-box;
 }
 
 body{
-overflow:hidden;
-height:100vh;
+overflow-x:hidden !important;
+overflow-y:auto !important;
+overflow-x:hidden;
+overflow-y:auto;
+min-height:100vh;
 font-family:Segoe UI,sans-serif;
 display:flex;
-justify-content:center;
+justify-content:flex-start;
 align-items:center;
 flex-direction:column;
-background: radial-gradient(circle at top,#1a0005 0%,#050002 60%,#000 100%);
 color:white;
-padding-bottom: 90px; /* 預留底部導覽列的空間，防止行動裝置卡片重疊 */
+padding-bottom: 260px; /* 預留底部導覽列的空間，防止行動裝置卡片重疊 */
+
+/* =========================================================
+   🖼️ 最終修復：徹底清除原廠 background 遮擋，精準指向 img 資料夾
+   ========================================================= */
+background-image: url('img/mflower.png') !important;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 
-/* 宇宙星空背景 */
+/* 🛠️ 隱藏原廠的黑紫色宇宙星空，不讓它跑出來擋住妳的花朵圖片 */
 .bg{
 position:fixed;
-inset:-20%;
+inset:0;
 background:
-radial-gradient(circle at 25% 35%, rgba(255, 0, 50, 0.15), transparent 40%),
-radial-gradient(circle at 75% 65%, rgba(150, 0, 255, 0.15), transparent 45%),
-radial-gradient(circle at 50% 50%, rgba(255, 0, 100, 0.12), transparent 40%);
-filter:blur(70px);
-animation:bgMove 16s ease-in-out infinite alternate;
-z-index: 1;
+linear-gradient(to bottom,
+rgba(0,0,0,0.18),
+rgba(0,0,0,0.42));
+z-index:0;
+pointer-events:none;
 }
 
 @keyframes bgMove{
@@ -45,61 +54,129 @@ from{transform:scale(1) rotate(0deg);}
 to{transform:scale(1.15) rotate(3deg);}
 }
 
-/* 標題 */
+/* ===== 🛠️ 核心修復：扶正網頁標題，移除 absolute，在手機上絕不與卡片重疊 🛠️ ===== */
 .title{
-position:absolute;
-top:35px;
 text-align:center;
 z-index: 20;
-transition: opacity 0.5s;
+width: 100%;
+padding: 0 10px;
+margin-top: 25px;
+margin-bottom: 10px; /* 透過下邊距將卡片溫柔推開，防止任何手機重疊 */
+position: relative;  /* 改為相對定位，拒絕重疊 */
+transition: opacity 0.5s; /* */
 }
-.title.hide { opacity: 0; pointer-events: none; }
+.title.hide { opacity: 0; pointer-events: none; } /* */
+
+
+
 
 .title h1{
-font-size:42px;
-letter-spacing:10px;
-font-family: 'Times New Roman', serif;
-background: linear-gradient(to bottom, #ffffff 30%, #ff3b30 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-shadow: 0 0 30px rgba(255, 59, 48, 0.4);
+font-size:38px;
+letter-spacing:6px;
+font-family:'Times New Roman',serif;
+
+background:linear-gradient(
+180deg,
+#ffffff 0%,
+#ffe6e6 18%,
+#ffd2d2 35%,
+#ff8a8a 60%,
+#ff2b2b 100%
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+font-weight:900;
+
+text-shadow:
+0 2px 0 rgba(0,0,0,1),
+0 0 10px rgba(255,255,255,0.7),
+0 0 24px rgba(255,120,120,0.75),
+0 0 42px rgba(255,0,0,0.6);
+
+position:relative;
 }
 
-.title p{
-margin-top:12px;
-letter-spacing:3px;
-color:rgba(255,255,255,.6);
-font-size: 14px;
+.title h1::after{
+content:'';
+position:absolute;
+left:50%;
+bottom:-10px;
+transform:translateX(-50%);
+width:140px;
+height:2px;
+
+background:linear-gradient(
+90deg,
+transparent,
+rgba(255,255,255,0.9),
+rgba(255,80,80,1),
+rgba(255,255,255,0.9),
+transparent
+);
+
+box-shadow:
+0 0 12px rgba(255,0,0,0.9);
 }
+
+
+
+
+
+
+.title p{
+margin-top:18px;
+letter-spacing:3px;
+color:#ffffff;
+font-size:15px;
+font-weight:700;
+
+text-shadow:
+0 2px 5px rgba(0,0,0,1),
+0 0 12px rgba(255,255,255,0.35);
+}
+
+
 
 /* 卡片區 */
 .cards{
+overflow:visible !important;
+overflow-x:visible !important;
+overflow-y:visible !important;
 display:flex;
-gap:24px;
+gap:20px;
 justify-content:center;
+align-items:center;
 flex-wrap:wrap;
 padding:20px;
 z-index:10;
-width: 100%;
-max-width: 1200px;
+width:100%;
+max-width:1200px;
+position:relative;
+min-height:420px;
+margin-top:20px;
 }
 
 /* 卡片基礎 */
 .card{
-width:185px;
-height:300px;
+overflow:visible !important;
+overflow-x:visible !important;
+overflow-y:visible !important;
+width:135px;
+height:220px;
 position:relative;
 cursor:pointer;
 perspective:2500px;
 animation:floatCard 5s ease-in-out infinite;
-transition:.6s cubic-bezier(.34, 1.56, 0.64, 1);
+transition:.6s cubic-bezier(.34, 1.56, 0.64, 1); /* */
 }
 
-.card:nth-child(1){animation-delay:0s;}
-.card:nth-child(2){animation-delay:.3s;}
-.card:nth-child(3){animation-delay:.6s;}
-.card:nth-child(4){animation-delay:.9s;}
-.card:nth-child(5){animation-delay:1.2s;}
+.card:nth-child(1){animation-delay:0s;} /* */
+.card:nth-child(2){animation-delay:.3s;} /* */
+.card:nth-child(3){animation-delay:.6s;} /* */
+.card:nth-child(4){animation-delay:.9s;} /* */
+.card:nth-child(5){animation-delay:1.2s;} /* */
 
 @keyframes floatCard{
 0%,100%{ transform:translateY(0px); }
@@ -129,7 +206,14 @@ pointer-events: none;
 .card.active{
 z-index: 999;
 animation: none;
-transform: translateY(-20px) scale(1.4);
+position: fixed !important;
+left: 50% !important;
+top: 50% !important;
+width:320px !important;
+height:520px !important;
+transform: translate(-50%, -50%) scale(1);
+
+z-index: 99999;
 }
 
 /* 內層翻轉 */
@@ -138,23 +222,26 @@ position:relative;
 width:100%;
 height:100%;
 transform-style:preserve-3d;
-transition: transform 1.5s cubic-bezier(.15, .95, .2, 1);
+transition: transform 1.5s cubic-bezier(.15, .95, .2, 1); /* */
 }
 
 /* 翻開時轉 540 度顯示背面內容 */
 .card.active .inner{
-transform: rotateY(540deg) rotateZ(6deg); 
+transform: rotateY(540deg) rotateZ(6deg);  /* */
 }
 
 .front, .back{
+overflow:hidden !important;
 position:absolute;
 width:100%;
 height:100%;
 border-radius:24px;
-overflow:hidden;
+overflow-x:hidden;
+overflow-y:auto;
 backface-visibility:hidden;
 -webkit-backface-visibility:hidden;
 box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+outline:none; /* */
 }
 
 /* ===== 卡片正面 ===== */
@@ -164,7 +251,7 @@ justify-content:center;
 align-items:center;
 border: 2px solid var(--theme-color);
 background-color: #080305;
-background-image: radial-gradient(circle at 50% 50%, transparent 40%, rgba(0,0,0,0.9));
+background-image: radial-gradient(circle at 50% 50%, transparent 40%, rgba(0,0,0,0.9)); /* */
 }
 
 .card.r { --theme-color: #a855f7; --glow: rgba(168,85,247,0.3); }
@@ -178,7 +265,7 @@ background-image: radial-gradient(circle at 50% 50%, transparent 40%, rgba(0,0,0
 .vines::before, .vines::after, .vines-extra::before, .vines-extra::after {
   content: ""; position: absolute; width: 32px; height: 32px;
   border: 2px double var(--theme-color); opacity: 0.6;
-  filter: drop-shadow(0 0 5px var(--glow));
+  filter: drop-shadow(0 0 5px var(--glow)); /* */
 }
 .vines::before { top: 10px; left: 10px; border-right: none; border-bottom: none; border-radius: 14px 0 0 0; }
 .vines::after { bottom: 10px; right: 10px; border-left: none; border-top: none; border-radius: 0 0 14px 0; }
@@ -187,13 +274,13 @@ background-image: radial-gradient(circle at 50% 50%, transparent 40%, rgba(0,0,0
 
 .ornament {
   position: absolute; inset: 6px;
-  border: 1px solid rgba(255,255,255,0.02); border-radius: 18px; pointer-events: none;
+  border: 1px solid rgba(255,255,255,0.02); border-radius: 18px; pointer-events: none; /* */
 }
-.ornament::before { content: ""; position: absolute; inset: 6px; border: 1px solid var(--theme-color); opacity: 0.2; border-radius: 14px; }
+.ornament::before { content: ""; position: absolute; inset: 6px; border: 1px solid var(--theme-color); opacity: 0.2; border-radius: 14px; } /* */
 
 /* 中央星盤 */
 .center{
-position:absolute; width:130px; height:130px; border-radius:50%;
+position:absolute; width:82px; height:82px; border-radius:50%;
 display:flex; justify-content:center; align-items:center; z-index: 2;
 }
 
@@ -202,21 +289,21 @@ display:flex; justify-content:center; align-items:center; z-index: 2;
   border: 1px solid var(--theme-color); opacity: 0.35;
   filter: drop-shadow(0 0 6px var(--theme-color));
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='none' stroke='white' stroke-width='0.6' stroke-opacity='0.4'/%3E%3Ccircle cx='50' cy='50' r='38' fill='none' stroke='white' stroke-width='0.3' stroke-dasharray='1,2' stroke-opacity='0.3'/%3E%3Cpath d='M50,2 L50,98 M2,50 L98,50' stroke='white' stroke-width='0.3' stroke-opacity='0.2'/%3E%3C/svg%3E");
-  animation: spinRing 25s linear infinite;
+  animation: spinRing 25s linear infinite; /* */
 }
 
 @keyframes spinRing { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 
 .symbol{
-font-size:46px; color: var(--theme-color);
+font-size:30px; color: var(--theme-color);
 text-shadow: 0 0 10px var(--theme-color), 0 0 35px var(--theme-color);
-animation:pulse 2.5s infinite ease-in-out; z-index: 3;
+animation:pulse 2.5s infinite ease-in-out; z-index: 3; /* */
 }
 
 .shine{
 position:absolute; inset:-100%;
 background: linear-gradient(110deg, transparent 43%, rgba(255,255,255,0.2) 50%, transparent 57%);
-transform: rotate(35deg); animation:shine 5s linear infinite; z-index: 4;
+transform: rotate(35deg); animation:shine 5s linear infinite; z-index: 4; /* */
 }
 
 /* ===== 🔴 紅色雷電能量球 Canvas 圖層 🔴 ===== */
@@ -243,7 +330,15 @@ background-image:
   radial-gradient(circle at 50% 15%, var(--glow) 0%, transparent 75%),
   url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='none'/%3E%3Cpath d='M8,8 L177,8 L177,292 L8,292 Z' fill='none' stroke='rgba(255,255,255,0.06)' stroke-width='1'/%3E%3C/svg%3E");
 border: 2px solid var(--theme-color);
-display:flex; justify-content:center; align-items:center; flex-direction:column; text-align:center; padding:24px;
+display:flex;
+justify-content:flex-start;
+align-items:center;
+flex-direction:column;
+text-align:center;
+padding:22px 18px;
+gap:10px;
+overflow-y:auto;
+overflow-x:hidden;
 }
 
 .card.r .back { box-shadow: 0 0 50px rgba(168,85,247,0.5); }
@@ -253,29 +348,48 @@ display:flex; justify-content:center; align-items:center; flex-direction:column;
 .card.red-glow .back { box-shadow: 0 0 100px rgba(255,59,48,0.7), inset 0 0 30px rgba(255,59,48,0.2); }
 
 .rarity{
-font-size:18px; font-weight: bold; margin-bottom:20px; letter-spacing: 2px;
-text-shadow: 0 0 10px currentColor;
+font-size:18px;
+font-weight:bold;
+margin-bottom:12px;
+letter-spacing:2px;
+text-shadow:0 0 10px currentColor;
+line-height:1.4;
 }
 
 .reward{
-font-size:15px; line-height:1.9; color: #e2e8f0; letter-spacing: 1px;
+font-size:12px;
+line-height:1.6;
+color:#e2e8f0;
+letter-spacing:0.5px;
+word-break:break-word;
+overflow-wrap:break-word;
+padding:0 6px;
+max-width:100%;
 }
 
-.glow-text{ font-weight: bold; animation:mythicGlow .8s infinite alternate; }
+@keyframes floatImg{
+0%,100%{
+transform:translateY(0px) scale(1);
+}
+50%{
+transform:translateY(-8px) scale(1.05);
+}
+}
 
-/* ===== 🔘 「收下命運」黃金按鈕 ===== */
+
+/* ===== 🔘 「收下命運」確認按鈕 ===== */
 .close-btn {
   position: fixed; bottom: -80px; left: 50%; transform: translateX(-50%);
   padding: 14px 40px; font-size: 16px; font-weight: bold; border: 2px solid #ff3b30;
   background: linear-gradient(135deg, #220005, #000000); color: #ff3b30;
   border-radius: 30px; cursor:pointer; z-index: 1000; opacity: 0;
   box-shadow: 0 0 20px rgba(255, 59, 48, 0.4), inset 0 0 10px rgba(255, 59, 48, 0.2);
-  letter-spacing: 2px; transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  letter-spacing: 2px; transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* */
 }
-.close-btn.show { bottom: 120px; opacity: 1; } /* 按鈕往上挪，防止擋到導航列 */
+.close-btn.show { bottom: 120px; opacity: 1; } /* */
 .close-btn:hover { background: #ff3b30; color: #000; box-shadow: 0 0 35px #ff3b30; }
 
-/* ===== 🌟 完美導入：原廠經典下置導航列樣式 🌟 ===== */
+/* ===== 🌟 原廠經典下置導航列 🌟 ===== */
 .bottom-nav{
 position:fixed;
 left:50%;
@@ -283,7 +397,7 @@ bottom:18px;
 transform:translateX(-50%);
 width:min(92%,520px);
 height:76px;
-background:rgba(20,10,18,.76);
+background:rgba(20,10,18,.88); /* 提高導航氣泡不透明度，在花草背景下防干擾 */
 border:1px solid rgba(255,120,160,.18);
 border-radius:30px;
 display:flex;
@@ -291,10 +405,10 @@ justify-content:space-around;
 align-items:center;
 backdrop-filter:blur(20px);
 -webkit-backdrop-filter:blur(20px);
-z-index:99999; /* 確保浮在宇宙粒子與卡片的最上層 */
-transition: opacity 0.5s;
+z-index:99999; /* */
+transition: opacity 0.5s; /* */
 }
-.bottom-nav.hide { opacity: 0.1; pointer-events: none; } /* 抽卡開牌時稍微淡化防干擾 */
+.bottom-nav.hide { opacity: 0.1; pointer-events: none; } /* */
 
 .nav-item{
 display:flex;
@@ -307,44 +421,483 @@ text-decoration:none;
 }
 
 .nav-item.active{
-color:#ff6f9f;
+color:#ff6f9f; /* */
 }
 
 .nav-icon{
-font-size:24px;
+font-size:24px; /* */
 }
 
-/* 漂浮粒子 */
-.particle{ position:fixed; width:2px; height:2px; background:white; border-radius:50%; opacity:.25; animation:floatUp linear infinite; pointer-events: none; }
+/* 漂浮微粒 */
+.particle{ position:fixed; width:2px; height:2px; background:white; border-radius:50%; opacity:.25; animation:floatUp linear infinite; pointer-events: none; } /* */
 
 /* 動畫庫 */
-@keyframes floatUp{ from{ transform:translateY(100vh) scale(0.8); opacity:0; } 10%{ opacity:.5; } to{ transform:translateY(-120vh) scale(1.3); opacity:0; } }
-@keyframes pulse{ 0%,100%{ transform:scale(1); opacity: 0.85; } 50%{ transform:scale(1.06); opacity: 1; filter: drop-shadow(0 0 12px var(--theme-color)); } }
-@keyframes shine{ 0% { transform:translateX(-140%) rotate(35deg); } 25%, 100% { transform:translateX(140%) rotate(35deg); } }
-@keyframes mythicGlow{ from{ text-shadow: 0 0 10px white, 0 0 25px currentColor; color: #fff; } to{ text-shadow: 0 0 20px white, 0 0 45px currentColor, 0 0 60px #ff3b30; color: #fffde0; } }
+@keyframes floatUp{ from{ transform:translateY(100vh) scale(0.8); opacity:0; } 10%{ opacity:.5; } to{ transform:translateY(-120vh) scale(1.3); opacity:0; } } /* */
+@keyframes pulse{ 0%,100%{ transform:scale(1); opacity: 0.85; } 50%{ transform:scale(1.06); opacity: 1; filter: drop-shadow(0 0 12px var(--theme-color)); } } /* */
+@keyframes shine{ 0% { transform:translateX(-140%) rotate(35deg); } 25%, 100% { transform:translateX(140%) rotate(35deg); } } /* */
+@keyframes mythicGlow{ from{ text-shadow: 0 0 10px white, 0 0 25px currentColor; color: #fff; } to{ text-shadow: 0 0 20px white, 0 0 45px currentColor, 0 0 60px #ff3b30; color: #fffde0; } } /* */
+
+
+
+/* ===============================
+🐉 血色玫瑰龍環入場特效
+=============================== */
+
+.cards{
+position:relative;
+min-height:420px;
+margin-top:20px;
+padding-bottom:0px;
+z-index:10;
+}
+
+.cards.intro-active .card{
+position:fixed !important;
+left:50% !important;
+top:50% !important;
+margin-left:-67px !important;
+margin-top:-145px !important;
+opacity:0;
+z-index:1000;
+transform-origin:center center;
+pointer-events:none;
+}
+
+.cards.intro-active .card::after{
+content:'';
+position:absolute;
+inset:-20px;
+border-radius:30px;
+background:
+radial-gradient(circle, rgba(255,0,0,0.35), transparent 70%);
+filter:blur(18px);
+z-index:-1;
+animation:dragonAura 1.5s infinite alternate;
+}
+
+@keyframes dragonAura{
+from{
+transform:scale(0.9);
+opacity:0.6;
+}
+to{
+transform:scale(1.15);
+opacity:1;
+}
+}
+
+.dragon-core{
+position:fixed;
+display:flex;
+justify-content:center;
+align-items:center;
+left:50%;
+top:50%;
+width:220px;
+height:220px;
+transform:translate(-50%,-50%);
+pointer-events:none;
+z-index:5;
+opacity:0;
+}
+
+.dragon-core::before{
+content:'';
+position:absolute;
+inset:0;
+border-radius:50%;
+background:
+radial-gradient(circle,
+rgba(255,255,255,1) 0%,
+rgba(255,80,80,0.95) 20%,
+rgba(255,0,0,0.55) 45%,
+transparent 75%);
+filter:blur(12px);
+animation:corePulse 1.5s infinite alternate;
+}
+
+.dragon-core::after{
+content:'';
+position:absolute;
+inset:-35px;
+border-radius:50%;
+border:2px solid rgba(255,0,0,0.45);
+box-shadow:
+0 0 25px rgba(255,0,0,0.8),
+inset 0 0 25px rgba(255,0,0,0.5);
+animation:coreSpin 5s linear infinite;
+}
+
+@keyframes coreSpin{
+from{transform:rotate(0deg);}
+to{transform:rotate(360deg);}
+}
+
+@keyframes corePulse{
+from{
+transform:scale(0.92);
+filter:blur(10px);
+}
+to{
+transform:scale(1.1);
+filter:blur(18px);
+}
+}
+
+
+
+
+
+@keyframes bloodDragonOrbit{
+
+0%{
+opacity:0;
+transform:
+translate(-50%,-50%)
+rotate(0deg)
+translateX(0px)
+scale(0.2);
+filter:none;
+}
+
+15%{
+opacity:1;
+}
+
+35%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--orbit-angle) + 360deg))
+translateX(170px)
+rotate(calc((var(--orbit-angle) + 360deg) * -1))
+scale(1);
+}
+
+60%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--orbit-angle) + 720deg))
+translateX(170px)
+rotate(calc((var(--orbit-angle) + 720deg) * -1))
+scale(1);
+}
+
+85%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--orbit-angle) + 1080deg))
+translateX(170px)
+rotate(calc((var(--orbit-angle) + 1080deg) * -1))
+scale(1);
+}
+
+100%{
+opacity:1;
+transform:
+translate(
+calc(var(--final-x) * 1px),
+calc(var(--final-y) * 1px)
+);
+}
+}
+
+
+10%{
+opacity:1;
+}
+
+30%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--angle) + 360deg))
+translateX(190px)
+rotate(calc((var(--angle) + 360deg) * -1))
+scale(1);
+}
+
+55%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--angle) + 720deg))
+translateX(190px)
+rotate(calc((var(--angle) + 720deg) * -1))
+scale(1);
+}
+
+80%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--angle) + 1080deg))
+translateX(190px)
+rotate(calc((var(--angle) + 1080deg) * -1))
+scale(1);
+}
+
+100%{
+opacity:1;
+transform:
+translate(
+calc(var(--final-x) * 1px),
+calc(var(--final-y) * 1px)
+);
+}
+}
+
+
+15%{
+opacity:1;
+}
+
+35%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--angle) + 360deg))
+translateX(170px)
+rotate(calc((var(--angle) + 360deg) * -1))
+scale(1);
+filter:
+drop-shadow(0 0 22px rgba(255,0,0,0.95));
+}
+
+65%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--angle) + 720deg))
+translateX(170px)
+rotate(calc((var(--angle) + 720deg) * -1))
+scale(1);
+}
+
+85%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--angle) + 1080deg))
+translateX(170px)
+rotate(calc((var(--angle) + 1080deg) * -1))
+scale(1);
+}
+
+100%{
+opacity:1;
+transform:
+translate(
+calc(var(--final-x) * 1px),
+calc(var(--final-y) * 1px)
+);
+filter:none;
+}
+}
+
+
+15%{
+opacity:1;
+}
+
+35%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--angle) + 360deg))
+translateX(180px)
+rotate(calc((var(--angle) + 360deg) * -1))
+scale(1.02);
+filter:
+drop-shadow(0 0 28px rgba(255,0,0,0.95))
+brightness(1.2);
+}
+
+65%{
+transform:
+translate(-50%,-50%)
+rotate(calc(var(--angle) + 720deg))
+translateX(180px)
+rotate(calc((var(--angle) + 720deg) * -1))
+scale(1);
+}
+
+100%{
+opacity:1;
+transform:
+translate(
+calc(var(--final-x) * 1px),
+calc(var(--final-y) * 1px)
+);
+filter:none;
+}
+}
+
+
+15%{
+opacity:1;
+}
+
+35%{
+transform:
+rotate(calc(var(--angle) + 540deg))
+translateX(320px)
+scale(1.12)
+rotate(calc(var(--angle) * -1));
+filter:
+drop-shadow(0 0 35px rgba(255,0,0,1))
+brightness(1.5);
+}
+
+60%{
+transform:
+rotate(calc(var(--angle) + 900deg))
+translateX(320px)
+scale(1)
+rotate(calc(var(--angle) * -1));
+}
+
+85%{
+transform:
+rotate(calc(var(--angle) + 1180deg))
+translateX(320px)
+scale(1.08)
+rotate(calc(var(--angle) * -1));
+}
+
+100%{
+opacity:1;
+transform:
+translate(
+calc(var(--final-x) * 1px),
+calc(var(--final-y) * 1px)
+)
+scale(1);
+filter:none;
+}
+}
+
 
 /* RWD 優化 */
 @media(max-width:768px){
-.title h1{ font-size:32px; letter-spacing: 6px; }
-.cards{ gap:14px; padding: 10px; }
-.card{ width:135px; height:220px; }
+
+
+
+.title h1{
+font-size:32px;
+letter-spacing:6px;
+font-family:'Times New Roman',serif;
+
+background:linear-gradient(
+180deg,
+#ffffff 0%,
+#ffe6e6 18%,
+#ffd2d2 35%,
+#ff8a8a 60%,
+#ff2b2b 100%
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+font-weight:900;
+
+text-shadow:
+0 2px 0 rgba(0,0,0,1),
+0 0 10px rgba(255,255,255,0.7),
+0 0 24px rgba(255,120,120,0.75),
+0 0 42px rgba(255,0,0,0.6);
+
+position:relative;
+}
+
+.title h1::after{
+content:'';
+position:absolute;
+left:50%;
+bottom:-10px;
+transform:translateX(-50%);
+width:140px;
+height:2px;
+
+background:linear-gradient(
+90deg,
+transparent,
+rgba(255,255,255,0.9),
+rgba(255,80,80,1),
+rgba(255,255,255,0.9),
+transparent
+);
+
+box-shadow:
+0 0 12px rgba(255,0,0,0.9);
+}
+
+
+
+
+
+.title p{
+margin-top:18px;
+letter-spacing:3px;
+color:#ffffff;
+font-size:15px;
+font-weight:700;
+
+text-shadow:
+0 2px 5px rgba(0,0,0,1),
+0 0 12px rgba(255,255,255,0.35);
+}
+
+
+.cards{
+gap:14px;
+padding:10px;
+}
+.card{ width:95px; height:160px; }
+
+.card.active{
+width:280px !important;
+height:460px !important;
+transform:translate(-50%, -50%) scale(1) !important;
+}
 .center{ width:92px; height:92px; }
 .symbol{ font-size:36px; }
 .rarity { font-size: 14px; margin-bottom: 12px; }
-.reward{ font-size:12px; line-height: 1.6; }
+.reward{ font-size:11px; line-height: 1.4; }
+.reward-img{
+width:46px !important;
+height:46px !important;
+min-width:46px !important;
+min-height:46px !important;
+max-width:46px !important;
+max-height:46px !important;
+margin:6px auto;
+object-fit:contain;
+}
 .close-btn { width: 80%; text-align: center; font-size: 14px; padding: 12px 0; bottom: -80px; }
 .close-btn.show { bottom: 120px; }
 .vines::before, .vines::after, .vines-extra::before, .vines-extra::after { width: 20px; height: 20px; }
 }
+
+.card.active .reward-img,
+.back .reward-img,
+.reward img,
+.reward-img{
+width:145px !important;
+height:145px !important;
+min-width:145px !important;
+min-height:145px !important;
+max-width:145px !important;
+max-height:145px !important;
+object-fit:contain !important;
+display:block !important;
+margin:12px auto 18px auto !important;
+border-radius:8px;
+}
+
 </style>
 </head>
 
 <body>
 
 <div class="bg"></div>
+<div class="dragon-core" id="dragon-core"></div>
 
 <div class="title" id="page-title">
-<h1>DESTINY GACHA</h1>
+<h1>Game rút quà may mắn</h1>
 <p>Chọn quà cho ngày đặc biệt tiếp theo 💖</p>
 </div>
 
@@ -456,13 +1009,13 @@ const bottomNav = document.getElementById("bottom-nav");
 let currentActiveCard = null; 
 let lightningAnimationId = null;
 
-// 🎁 隨機內容池
+// 🎁 獎勵內容池
 const rewardPool = [
-  { rarityText: "⭐⭐ Giải tư", rewardText: "Chọn 1 con gấu bông 🧸", isSSR: false, isSecret: false, customColor: "#a855f7" },
-  { rarityText: "⭐⭐⭐ Giải ba", rewardText: "<br>Chọn 1 món mỹ phẩm 💄", isSSR: false, isSecret: false, customColor: "#38bdf8" },
-  { rarityText: "⭐⭐⭐⭐⭐ Giải lớn", rewardText: "Chọn 1 món trang sức 💎", isSSR: true, isSecret: false, customColor: "#ffd700" },
-  { rarityText: "⭐⭐⭐⭐ Giải nhì", rewardText: "Chọn 1 cái túi dưới 7 triệu 💼", isSSR: false, isSecret: false, customColor: "#38bdf8" },
-  { rarityText: "👑 Phần thưởng nhỏ", rewardText: "Anh hôn em một cái", isSSR: false, isSecret: true, customColor: "#00ffcc" }
+  { rarityText: "⭐⭐ <br>Giải tư", rewardText: "<br>Chọn 1 con gấu bông 🧸", image:"img/naru.jpg", isSSR: false, isSecret: false, customColor: "#a855f7" },
+  { rarityText: "⭐⭐⭐ <br>Giải ba", rewardText: "<br>Chọn 1 món mỹ phẩm 💄", image:"img/clede.jpg", isSSR: false, isSecret: false, customColor: "#38bdf8" },
+  { rarityText: "⭐⭐⭐⭐⭐ <br>Giải lớn", rewardText: "<br>Chọn 1 món trang sức 💎", image:"img/ruby.jpg", isSSR: true, isSecret: false, customColor: "#ffd700" },
+  { rarityText: "⭐⭐⭐⭐ <br>Giải nhì", rewardText: "<br>Chọn 1 cái túi dưới 7 triệu 💼", image:"img/tory.jpg", isSSR: false, isSecret: false, customColor: "#38bdf8" },
+  { rarityText: "👑 <br>Phần thưởng nhỏ", rewardText: "<br>Anh hôn em một cái", image:"img/hoa.png", isSSR: false, isSecret: true, customColor: "#00ffcc" }
 ];
 
 function shuffleContents() {
@@ -471,105 +1024,61 @@ function shuffleContents() {
     const j = Math.floor(Math.random() * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
-
   cards.forEach((card, index) => {
     const data = shuffled[index];
     const rarityDiv = card.querySelector(".rarity");
     const rewardDiv = card.querySelector(".reward");
-    
     rarityDiv.innerHTML = data.rarityText;
-    rewardDiv.innerHTML = data.rewardText;
-    
-    if (card.classList.contains("red-glow")) {
-      rarityDiv.style.color = "#ff3b30";
-    } else {
-      rarityDiv.style.color = data.customColor;
-    }
-
-    if(data.isSSR) {
-      rarityDiv.style.animation = "mythicGlow .8s infinite alternate";
-      rewardDiv.className = "reward glow-text";
-    } else {
-      rarityDiv.style.animation = "none";
-      rewardDiv.className = "reward";
-    }
-    
-    if(data.isSecret && !card.classList.contains("red-glow")) {
-      rarityDiv.style.textShadow = "0 0 15px #00ffcc";
-    } else {
-      rarityDiv.style.textShadow = "0 0 10px currentColor";
-    }
+    rewardDiv.innerHTML = `<img class="reward-img" src="${data.image}">${data.rewardText}`;
+    if (card.classList.contains("red-glow")) { rarityDiv.style.color = "#ff3b30"; } else { rarityDiv.style.color = data.customColor; }
+    if(data.isSSR) { rarityDiv.style.animation = "mythicGlow .8s infinite alternate"; rewardDiv.className = "reward glow-text"; } else { rarityDiv.style.animation = "none"; rewardDiv.className = "reward"; }
+    if(data.isSecret && !card.classList.contains("red-glow")) { rarityDiv.style.textShadow = "0 0 15px #00ffcc"; } else { rarityDiv.style.textShadow = "0 0 10px currentColor"; }
   });
 }
-
 shuffleContents();
 
 // ==========================================
-// 🎮 網開箱網站級音效引擎 (Web Audio API) 🎮
+// 🎮 音效引擎 (Web Audio API) 🎮
 // ==========================================
 let audioCtx = null;
-
-function initAudio() {
-  if (!audioCtx) {
-    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  }
-}
+function initAudio() { if (!audioCtx) { audioCtx = new (window.AudioContext || window.webkitAudioContext)(); } }
 
 function playHeavyBassSound() {
   initAudio();
-  const now = audioCtx.currentTime;
-  const duration = 1.2;
-
-  const subOsc = audioCtx.createOscillator();
-  const gainNode = audioCtx.createGain();
-  const filter = audioCtx.createBiquadFilter();
-
+  const now = audioCtx.currentTime; const duration = 1.2;
+  const subOsc = audioCtx.createOscillator(); const gainNode = audioCtx.createGain(); const filter = audioCtx.createBiquadFilter();
   subOsc.type = 'sine';
-  subOsc.frequency.setValueAtTime(110, now);
-  subOsc.frequency.linearRampToValueAtTime(55, now + duration);
-
-  filter.type = 'lowpass';
-  filter.frequency.setValueAtTime(140, now);
-
-  gainNode.gain.setValueAtTime(0.01, now);
-  gainNode.gain.linearRampToValueAtTime(0.35, now + duration - 0.1);
-  gainNode.gain.exponentialRampToValueAtTime(0.001, now + duration);
-
-  subOsc.connect(filter);
-  filter.connect(gainNode);
-  gainNode.connect(audioCtx.destination);
-
-  subOsc.start(now);
-  subOsc.stop(now + duration);
+  subOsc.frequency.setValueAtTime(110, now); subOsc.frequency.linearRampToValueAtTime(55, now + duration);
+  filter.type = 'lowpass'; filter.frequency.setValueAtTime(140, now);
+  gainNode.gain.setValueAtTime(0.01, now); gainNode.gain.linearRampToValueAtTime(0.35, now + duration - 0.1); gainNode.gain.exponentialRampToValueAtTime(0.001, now + duration);
+  subOsc.connect(filter); filter.connect(gainNode); gainNode.connect(audioCtx.destination);
+  subOsc.start(now); subOsc.stop(now + duration);
 }
 
 function playDingSound() {
   initAudio();
   const now = audioCtx.currentTime;
   const crystalHarmonics = [1100, 1650, 2200, 3300];
-
   crystalHarmonics.forEach((freq, index) => {
-    const osc = audioCtx.createOscillator();
-    const gainNode = audioCtx.createGain();
-
-    osc.type = 'sine';
-    osc.frequency.setValueAtTime(freq, now);
-
+    const osc = audioCtx.createOscillator(); const gainNode = audioCtx.createGain();
+    osc.type = 'sine'; osc.frequency.setValueAtTime(freq, now);
     const vol = index === 3 ? 0.25 : 0.07;
-    gainNode.gain.setValueAtTime(vol, now);
-    gainNode.gain.exponentialRampToValueAtTime(0.00001, now + 1.4);
-
-    osc.connect(gainNode);
-    gainNode.connect(audioCtx.destination);
-    osc.start(now);
-    osc.stop(now + 1.4);
+    gainNode.gain.setValueAtTime(vol, now); gainNode.gain.exponentialRampToValueAtTime(0.00001, now + 1.4);
+    osc.connect(gainNode); gainNode.connect(audioCtx.destination);
+    osc.start(now); osc.stop(now + 1.4);
   });
 }
 
+window.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    initAudio();
+    playDingSound();
+  }, 100); 
+});
+
 // ⚡ 紅色雷電能量球 Canvas 渲染 ⚡
 function drawElectricOrb(canvas) {
-  const ctx = canvas.getContext("2d");
-  const pad = 60;
+  const ctx = canvas.getContext("2d"); const pad = 60;
   const rect = canvas.parentElement.getBoundingClientRect();
   canvas.width = rect.width + pad * 2; canvas.height = rect.height + pad * 2;
   const centerX = canvas.width / 2; const centerY = canvas.height / 2;
@@ -577,7 +1086,6 @@ function drawElectricOrb(canvas) {
   function render() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     const baseRadius = 45; const plasmaColor = "#ff1a40"; 
-    
     const grad = ctx.createRadialGradient(centerX, centerY, 5, centerX, centerY, baseRadius + 20);
     grad.addColorStop(0, '#ffffff'); grad.addColorStop(0.2, 'rgba(255, 50, 80, 0.9)');
     grad.addColorStop(0.6, 'rgba(230, 0, 30, 0.4)'); grad.addColorStop(1, 'transparent');
@@ -593,7 +1101,6 @@ function drawElectricOrb(canvas) {
       }
       ctx.stroke();
     }
-
     for (let b = 0; b < 6; b++) {
       ctx.beginPath(); ctx.strokeStyle = Math.random() > 0.4 ? "#ffffff" : plasmaColor; ctx.lineWidth = Math.random() * 2 + 0.8;
       ctx.moveTo(centerX, centerY);
@@ -610,6 +1117,81 @@ function drawElectricOrb(canvas) {
   render();
 }
 
+
+
+// ===============================
+// 🐉 血色玫瑰龍環入場動畫
+// ===============================
+
+const cardContainer = document.getElementById("card-container");
+const dragonCore = document.getElementById("dragon-core");
+
+function startBloodDragonIntro(){
+
+cardContainer.classList.add("intro-active");
+dragonCore.style.opacity = "1";
+
+const positions = [
+[-320,0],
+[-160,0],
+[0,0],
+[160,0],
+[320,0]
+];
+
+const angles = [
+0,
+72,
+144,
+216,
+288
+];
+
+cards.forEach((card,index)=>{
+
+card.style.setProperty('--final-x', positions[index][0]);
+card.style.setProperty('--final-y', positions[index][1]);
+card.style.setProperty('--orbit-angle', angles[index] + 'deg');
+
+card.style.transform = "translate(-50%,-50%) scale(1)";
+
+card.style.animation =
+`bloodDragonOrbit 4.2s cubic-bezier(.22,.61,.36,1) forwards`;
+
+card.style.animationDelay = `${index * 0.08}s`;
+
+});
+
+setTimeout(()=>{
+
+dragonCore.style.transition = "0.8s";
+dragonCore.style.opacity = "0";
+
+cardContainer.classList.remove("intro-active");
+
+cards.forEach(card=>{
+card.style.position = "";
+card.style.left = "";
+card.style.top = "";
+card.style.marginLeft = "";
+card.style.marginTop = "";
+card.style.transform = "";
+card.style.opacity = "1";
+card.style.filter = "";
+card.style.animationDelay = "";
+card.style.animation = "";
+});
+
+},4700);
+
+}
+
+window.addEventListener("load",()=>{
+setTimeout(startBloodDragonIntro,400);
+});
+
+
+
 cards.forEach(card=>{
 card.addEventListener("click",()=>{
 if(card.classList.contains("active") || card.classList.contains("charging") || currentActiveCard) return;
@@ -617,7 +1199,7 @@ if(card.classList.contains("active") || card.classList.contains("charging") || c
 playHeavyBassSound();
 
 pageTitle.classList.add("hide");
-bottomNav.classList.add("hide"); // 抽卡時將下方導覽列半透明淡出，視覺更乾淨
+bottomNav.classList.add("hide"); 
 cards.forEach(c=>{ if(c !== card) c.classList.add("fade"); });
 
 card.classList.add("charging");
@@ -626,7 +1208,7 @@ drawElectricOrb(canvas);
 
 navigator.vibrate?.([60, 40, 60, 40, 120]);
 
-setTimeout(()=>{
+setTimeout(() => {
   cancelAnimationFrame(lightningAnimationId); 
   const ctx = canvas.getContext("2d"); ctx.clearRect(0, 0, canvas.width, canvas.height); 
   
@@ -645,18 +1227,19 @@ setTimeout(()=>{
 closeBtn.addEventListener("click", () => {
   if (!currentActiveCard) return;
   closeBtn.classList.remove("show");
+  currentActiveCard.style.transition = "all .5s ease";
   currentActiveCard.classList.remove("active"); 
   
   setTimeout(() => {
     pageTitle.classList.remove("hide");
-    bottomNav.classList.remove("hide"); // 重新顯示底部導覽列
+    bottomNav.classList.remove("hide"); 
     cards.forEach(c => { c.classList.remove("fade"); });
     currentActiveCard = null; 
     setTimeout(() => { shuffleContents(); }, 150);
   }, 400);
 });
 
-/* 背景星空微粒 */
+/* 繁星雨粒子產生器 */
 for(let i=0;i<110;i++){
 const p = document.createElement("div"); p.className = "particle"; p.style.left = Math.random()*100 + "vw";
 const size = Math.random()*3 + 1; p.style.width = size + "px"; p.style.height = size + "px";
@@ -667,3 +1250,14 @@ document.body.appendChild(p);
 
 </body>
 </html>
+
+<style>
+.card::-webkit-scrollbar,
+.cards::-webkit-scrollbar,
+.front::-webkit-scrollbar,
+.back::-webkit-scrollbar{
+display:none !important;
+width:0 !important;
+height:0 !important;
+}
+</style>
