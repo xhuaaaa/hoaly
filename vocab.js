@@ -5,7 +5,7 @@ fetch('complete_vietnamese_database.json')
 .then(r=>r.json())
 .then(data=>{
 allWords=data;
-generateWords(10);
+render(allWords);
 });
 
 function speak(text){
@@ -17,7 +17,7 @@ speechSynthesis.speak(utter);
 
 function render(words){
 
-const list=document.getElementById('wordList');
+const list=document.getElementById('allWords');
 list.innerHTML='';
 
 words.forEach((item,index)=>{
@@ -42,17 +42,9 @@ list.appendChild(div);
 
 }
 
-function generateWords(count){
-const shuffled=[...allWords].sort(()=>0.5-Math.random());
-render(shuffled.slice(0,count));
-}
-
-function showSouthern(){
-render(allWords.filter(x=>x.southern).slice(0,20));
-}
-
 document.getElementById('search')
 .addEventListener('input',e=>{
+
 const v=e.target.value.toLowerCase();
 
 render(
@@ -60,7 +52,7 @@ allWords.filter(x=>
 x.vn.toLowerCase().includes(v)
 ||
 x.zh.includes(v)
-).slice(0,50)
+)
 );
 
 });

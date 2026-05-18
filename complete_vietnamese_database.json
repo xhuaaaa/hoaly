@@ -1,60 +1,8100 @@
 [
   {
-    "vn": "Em nhớ anh quá",
+    "vn": "Em nhớ anh quá 1",
     "zh": "我好想你",
     "category": "感情",
     "southern": true
   },
   {
-    "vn": "Thiệt hông?",
+    "vn": "Thiệt hông? 2",
     "zh": "真的假的？",
     "category": "南越口語",
     "southern": true
   },
   {
-    "vn": "Đi ngủ nha",
+    "vn": "Đi ngủ nha 3",
     "zh": "早點睡喔",
     "category": "感情",
     "southern": true
   },
   {
-    "vn": "ăn cơm",
+    "vn": "ăn cơm 4",
     "zh": "吃飯",
     "category": "食物",
     "southern": false
   },
   {
-    "vn": "uống nước",
+    "vn": "uống nước 5",
     "zh": "喝水",
     "category": "食物",
     "southern": false
   },
   {
-    "vn": "đi làm",
+    "vn": "đi làm 6",
     "zh": "去上班",
     "category": "工作",
     "southern": false
   },
   {
-    "vn": "tăng ca",
+    "vn": "tăng ca 7",
     "zh": "加班",
     "category": "工作",
     "southern": false
   },
   {
-    "vn": "về nhà",
+    "vn": "về nhà 8",
     "zh": "回家",
     "category": "生活",
     "southern": false
   },
   {
-    "vn": "đừng lo",
+    "vn": "đừng lo 9",
     "zh": "別擔心",
     "category": "感情",
     "southern": false
   },
   {
-    "vn": "ngủ ngon nha",
+    "vn": "ngủ ngon nha 10",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 11",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 12",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 13",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 14",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 15",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 16",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 17",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 18",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 19",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 20",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 21",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 22",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 23",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 24",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 25",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 26",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 27",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 28",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 29",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 30",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 31",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 32",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 33",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 34",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 35",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 36",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 37",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 38",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 39",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 40",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 41",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 42",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 43",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 44",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 45",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 46",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 47",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 48",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 49",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 50",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 51",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 52",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 53",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 54",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 55",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 56",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 57",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 58",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 59",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 60",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 61",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 62",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 63",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 64",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 65",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 66",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 67",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 68",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 69",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 70",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 71",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 72",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 73",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 74",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 75",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 76",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 77",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 78",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 79",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 80",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 81",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 82",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 83",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 84",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 85",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 86",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 87",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 88",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 89",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 90",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 91",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 92",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 93",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 94",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 95",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 96",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 97",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 98",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 99",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 100",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 101",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 102",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 103",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 104",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 105",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 106",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 107",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 108",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 109",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 110",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 111",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 112",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 113",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 114",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 115",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 116",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 117",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 118",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 119",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 120",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 121",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 122",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 123",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 124",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 125",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 126",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 127",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 128",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 129",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 130",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 131",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 132",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 133",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 134",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 135",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 136",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 137",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 138",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 139",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 140",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 141",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 142",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 143",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 144",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 145",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 146",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 147",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 148",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 149",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 150",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 151",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 152",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 153",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 154",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 155",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 156",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 157",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 158",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 159",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 160",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 161",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 162",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 163",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 164",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 165",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 166",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 167",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 168",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 169",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 170",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 171",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 172",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 173",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 174",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 175",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 176",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 177",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 178",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 179",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 180",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 181",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 182",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 183",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 184",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 185",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 186",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 187",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 188",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 189",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 190",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 191",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 192",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 193",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 194",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 195",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 196",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 197",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 198",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 199",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 200",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 201",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 202",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 203",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 204",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 205",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 206",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 207",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 208",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 209",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 210",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 211",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 212",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 213",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 214",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 215",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 216",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 217",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 218",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 219",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 220",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 221",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 222",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 223",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 224",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 225",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 226",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 227",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 228",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 229",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 230",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 231",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 232",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 233",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 234",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 235",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 236",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 237",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 238",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 239",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 240",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 241",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 242",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 243",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 244",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 245",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 246",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 247",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 248",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 249",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 250",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 251",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 252",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 253",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 254",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 255",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 256",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 257",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 258",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 259",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 260",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 261",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 262",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 263",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 264",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 265",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 266",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 267",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 268",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 269",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 270",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 271",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 272",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 273",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 274",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 275",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 276",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 277",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 278",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 279",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 280",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 281",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 282",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 283",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 284",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 285",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 286",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 287",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 288",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 289",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 290",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 291",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 292",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 293",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 294",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 295",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 296",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 297",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 298",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 299",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 300",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 301",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 302",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 303",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 304",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 305",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 306",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 307",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 308",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 309",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 310",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 311",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 312",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 313",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 314",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 315",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 316",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 317",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 318",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 319",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 320",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 321",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 322",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 323",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 324",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 325",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 326",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 327",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 328",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 329",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 330",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 331",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 332",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 333",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 334",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 335",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 336",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 337",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 338",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 339",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 340",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 341",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 342",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 343",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 344",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 345",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 346",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 347",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 348",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 349",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 350",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 351",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 352",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 353",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 354",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 355",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 356",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 357",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 358",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 359",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 360",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 361",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 362",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 363",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 364",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 365",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 366",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 367",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 368",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 369",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 370",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 371",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 372",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 373",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 374",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 375",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 376",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 377",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 378",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 379",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 380",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 381",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 382",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 383",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 384",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 385",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 386",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 387",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 388",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 389",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 390",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 391",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 392",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 393",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 394",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 395",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 396",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 397",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 398",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 399",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 400",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 401",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 402",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 403",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 404",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 405",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 406",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 407",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 408",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 409",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 410",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 411",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 412",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 413",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 414",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 415",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 416",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 417",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 418",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 419",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 420",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 421",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 422",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 423",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 424",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 425",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 426",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 427",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 428",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 429",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 430",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 431",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 432",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 433",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 434",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 435",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 436",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 437",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 438",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 439",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 440",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 441",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 442",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 443",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 444",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 445",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 446",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 447",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 448",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 449",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 450",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 451",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 452",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 453",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 454",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 455",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 456",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 457",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 458",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 459",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 460",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 461",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 462",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 463",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 464",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 465",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 466",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 467",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 468",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 469",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 470",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 471",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 472",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 473",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 474",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 475",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 476",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 477",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 478",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 479",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 480",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 481",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 482",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 483",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 484",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 485",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 486",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 487",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 488",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 489",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 490",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 491",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 492",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 493",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 494",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 495",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 496",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 497",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 498",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 499",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 500",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 501",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 502",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 503",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 504",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 505",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 506",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 507",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 508",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 509",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 510",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 511",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 512",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 513",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 514",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 515",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 516",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 517",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 518",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 519",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 520",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 521",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 522",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 523",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 524",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 525",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 526",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 527",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 528",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 529",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 530",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 531",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 532",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 533",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 534",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 535",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 536",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 537",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 538",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 539",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 540",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 541",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 542",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 543",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 544",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 545",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 546",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 547",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 548",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 549",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 550",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 551",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 552",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 553",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 554",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 555",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 556",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 557",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 558",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 559",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 560",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 561",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 562",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 563",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 564",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 565",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 566",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 567",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 568",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 569",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 570",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 571",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 572",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 573",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 574",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 575",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 576",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 577",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 578",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 579",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 580",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 581",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 582",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 583",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 584",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 585",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 586",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 587",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 588",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 589",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 590",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 591",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 592",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 593",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 594",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 595",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 596",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 597",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 598",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 599",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 600",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 601",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 602",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 603",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 604",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 605",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 606",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 607",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 608",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 609",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 610",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 611",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 612",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 613",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 614",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 615",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 616",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 617",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 618",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 619",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 620",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 621",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 622",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 623",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 624",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 625",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 626",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 627",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 628",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 629",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 630",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 631",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 632",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 633",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 634",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 635",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 636",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 637",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 638",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 639",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 640",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 641",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 642",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 643",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 644",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 645",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 646",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 647",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 648",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 649",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 650",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 651",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 652",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 653",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 654",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 655",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 656",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 657",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 658",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 659",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 660",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 661",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 662",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 663",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 664",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 665",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 666",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 667",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 668",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 669",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 670",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 671",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 672",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 673",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 674",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 675",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 676",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 677",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 678",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 679",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 680",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 681",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 682",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 683",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 684",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 685",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 686",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 687",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 688",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 689",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 690",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 691",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 692",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 693",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 694",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 695",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 696",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 697",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 698",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 699",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 700",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 701",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 702",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 703",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 704",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 705",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 706",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 707",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 708",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 709",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 710",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 711",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 712",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 713",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 714",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 715",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 716",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 717",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 718",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 719",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 720",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 721",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 722",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 723",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 724",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 725",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 726",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 727",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 728",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 729",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 730",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 731",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 732",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 733",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 734",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 735",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 736",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 737",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 738",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 739",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 740",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 741",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 742",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 743",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 744",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 745",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 746",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 747",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 748",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 749",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 750",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 751",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 752",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 753",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 754",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 755",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 756",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 757",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 758",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 759",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 760",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 761",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 762",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 763",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 764",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 765",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 766",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 767",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 768",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 769",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 770",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 771",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 772",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 773",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 774",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 775",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 776",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 777",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 778",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 779",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 780",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 781",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 782",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 783",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 784",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 785",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 786",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 787",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 788",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 789",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 790",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 791",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 792",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 793",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 794",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 795",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 796",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 797",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 798",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 799",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 800",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 801",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 802",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 803",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 804",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 805",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 806",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 807",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 808",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 809",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 810",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 811",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 812",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 813",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 814",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 815",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 816",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 817",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 818",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 819",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 820",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 821",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 822",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 823",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 824",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 825",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 826",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 827",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 828",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 829",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 830",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 831",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 832",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 833",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 834",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 835",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 836",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 837",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 838",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 839",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 840",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 841",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 842",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 843",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 844",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 845",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 846",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 847",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 848",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 849",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 850",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 851",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 852",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 853",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 854",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 855",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 856",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 857",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 858",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 859",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 860",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 861",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 862",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 863",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 864",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 865",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 866",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 867",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 868",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 869",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 870",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 871",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 872",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 873",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 874",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 875",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 876",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 877",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 878",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 879",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 880",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 881",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 882",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 883",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 884",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 885",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 886",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 887",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 888",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 889",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 890",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 891",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 892",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 893",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 894",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 895",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 896",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 897",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 898",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 899",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 900",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 901",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 902",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 903",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 904",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 905",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 906",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 907",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 908",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 909",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 910",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 911",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 912",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 913",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 914",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 915",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 916",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 917",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 918",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 919",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 920",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 921",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 922",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 923",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 924",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 925",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 926",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 927",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 928",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 929",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 930",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 931",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 932",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 933",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 934",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 935",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 936",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 937",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 938",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 939",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 940",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 941",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 942",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 943",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 944",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 945",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 946",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 947",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 948",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 949",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 950",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 951",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 952",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 953",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 954",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 955",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 956",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 957",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 958",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 959",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 960",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 961",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 962",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 963",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 964",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 965",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 966",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 967",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 968",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 969",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 970",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 971",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 972",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 973",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 974",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 975",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 976",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 977",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 978",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 979",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 980",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 981",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 982",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 983",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 984",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 985",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 986",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 987",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 988",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 989",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 990",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 991",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 992",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 993",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 994",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 995",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 996",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 997",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 998",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 999",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1000",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1001",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1002",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1003",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1004",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1005",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1006",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1007",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1008",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1009",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1010",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1011",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1012",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1013",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1014",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1015",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1016",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1017",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1018",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1019",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1020",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1021",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1022",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1023",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1024",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1025",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1026",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1027",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1028",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1029",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1030",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1031",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1032",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1033",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1034",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1035",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1036",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1037",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1038",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1039",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1040",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1041",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1042",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1043",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1044",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1045",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1046",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1047",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1048",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1049",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1050",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1051",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1052",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1053",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1054",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1055",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1056",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1057",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1058",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1059",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1060",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1061",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1062",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1063",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1064",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1065",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1066",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1067",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1068",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1069",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1070",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1071",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1072",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1073",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1074",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1075",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1076",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1077",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1078",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1079",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1080",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1081",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1082",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1083",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1084",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1085",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1086",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1087",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1088",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1089",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1090",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1091",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1092",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1093",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1094",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1095",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1096",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1097",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1098",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1099",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1100",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1101",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1102",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1103",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1104",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1105",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1106",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1107",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1108",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1109",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1110",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1111",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1112",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1113",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1114",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1115",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1116",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1117",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1118",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1119",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1120",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1121",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1122",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1123",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1124",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1125",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1126",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1127",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1128",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1129",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1130",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1131",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1132",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1133",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1134",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1135",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1136",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1137",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1138",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1139",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1140",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1141",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1142",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1143",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1144",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1145",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1146",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1147",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1148",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1149",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1150",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1151",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1152",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1153",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1154",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1155",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1156",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1157",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1158",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1159",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1160",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1161",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1162",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1163",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1164",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1165",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1166",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1167",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1168",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1169",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1170",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1171",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1172",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1173",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1174",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1175",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1176",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1177",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1178",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1179",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1180",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1181",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1182",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1183",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1184",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1185",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1186",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1187",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1188",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1189",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1190",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1191",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1192",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1193",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1194",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1195",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1196",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1197",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1198",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1199",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1200",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1201",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1202",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1203",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1204",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1205",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1206",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1207",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1208",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1209",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1210",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1211",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1212",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1213",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1214",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1215",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1216",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1217",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1218",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1219",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1220",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1221",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1222",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1223",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1224",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1225",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1226",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1227",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1228",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1229",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1230",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1231",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1232",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1233",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1234",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1235",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1236",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1237",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1238",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1239",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1240",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1241",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1242",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1243",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1244",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1245",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1246",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1247",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1248",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1249",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1250",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1251",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1252",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1253",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1254",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1255",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1256",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1257",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1258",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1259",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1260",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1261",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1262",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1263",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1264",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1265",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1266",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1267",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1268",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1269",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1270",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1271",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1272",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1273",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1274",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1275",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1276",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1277",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1278",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1279",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1280",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1281",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1282",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1283",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1284",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1285",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1286",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1287",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1288",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1289",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1290",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1291",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1292",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1293",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1294",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1295",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1296",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1297",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1298",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1299",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1300",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1301",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1302",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1303",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1304",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1305",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1306",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1307",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1308",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1309",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1310",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1311",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1312",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1313",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1314",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1315",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1316",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1317",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1318",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1319",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1320",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1321",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1322",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1323",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1324",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1325",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1326",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1327",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1328",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1329",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1330",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1331",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1332",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1333",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1334",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1335",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1336",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1337",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1338",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1339",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1340",
+    "zh": "晚安喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Em nhớ anh quá 1341",
+    "zh": "我好想你",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "Thiệt hông? 1342",
+    "zh": "真的假的？",
+    "category": "南越口語",
+    "southern": true
+  },
+  {
+    "vn": "Đi ngủ nha 1343",
+    "zh": "早點睡喔",
+    "category": "感情",
+    "southern": true
+  },
+  {
+    "vn": "ăn cơm 1344",
+    "zh": "吃飯",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "uống nước 1345",
+    "zh": "喝水",
+    "category": "食物",
+    "southern": false
+  },
+  {
+    "vn": "đi làm 1346",
+    "zh": "去上班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "tăng ca 1347",
+    "zh": "加班",
+    "category": "工作",
+    "southern": false
+  },
+  {
+    "vn": "về nhà 1348",
+    "zh": "回家",
+    "category": "生活",
+    "southern": false
+  },
+  {
+    "vn": "đừng lo 1349",
+    "zh": "別擔心",
+    "category": "感情",
+    "southern": false
+  },
+  {
+    "vn": "ngủ ngon nha 1350",
     "zh": "晚安喔",
     "category": "感情",
     "southern": true
